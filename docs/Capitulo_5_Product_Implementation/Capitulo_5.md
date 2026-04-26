@@ -26,6 +26,63 @@ Para la validación de los criterios de aceptación del proyecto Energix, utiliz
 
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+En el proyecto Energix, hemos implementado una serie de guías de estilo y convenciones con el objetivo de asegurar que todos los integrantes del equipo de desarrollo sigan una estructura consistente y clara a lo largo de todo el proyecto, facilitando la legibilidad del código, mejorando la colaboración y garantizando que el código sea mantenible a largo plazo.
+
+**Nomenclatura General**
+
+Para asegurar la coherencia en todo el código, seguimos las siguientes directrices:
+
+- Los nombres de variables, funciones y métodos utilizan camelCase.
+- Los nombres de clases y componentes siguen la convención PascalCase.
+- Para archivos y carpetas, se emplea la convención kebab-case.
+- El uso de inglés es obligatorio para todos los identificadores, con el fin de asegurar la comprensión entre los miembros del equipo y seguir las buenas prácticas de la industria.
+
+**HTML/CSS Conventions**
+
+Para el desarrollo del landing page y las vistas de la aplicación web, seguimos las convenciones establecidas por el estándar HTML5 y las guías de estilo de Google para HTML y CSS:
+
+- Los atributos de los elementos HTML se escriben en minúsculas.
+- Las clases CSS siguen la convención kebab-case.
+- Se evita el uso de estilos en línea; los estilos se definen en archivos .css o .scss separados.
+
+**JavaScript/TypeScript Conventions**
+
+Para el desarrollo con JavaScript y TypeScript, seguimos las guías de estilo de Airbnb y las recomendaciones oficiales de TypeScript:
+
+- Se usa const y let en lugar de var.
+- Se declaran los tipos explícitamente en TypeScript para mejorar la legibilidad y evitar errores en tiempo de compilación.
+- Se evita el uso de any; en su lugar, se definen interfaces o tipos específicos.
+
+**Angular Conventions**
+
+Para el desarrollo del frontend con Angular, seguimos la Angular Style Guide oficial:
+
+- Los componentes se nombran en PascalCase con el sufijo Component.
+- Los servicios llevan el sufijo Service.
+- Cada componente tiene su propio directorio con sus archivos .ts, .html y .css correspondientes.
+
+**Spring Boot/Java Conventions**
+
+Para el desarrollo del backend con Spring Boot, seguimos las convenciones estándar de Java y las recomendaciones de Spring:
+
+- Los nombres de paquetes se escriben en minúsculas y de forma jerárquica.
+- Las clases de controlador llevan el sufijo Controller.
+- Las clases de servicio llevan el sufijo Service.
+- Los repositorios llevan el sufijo Repository.
+- Se aplican los principios RESTful para el diseño de endpoints, usando sustantivos en plural (ej. /api/v1/users, /api/v1/energy-records).
+
+**Commits Convencionales**
+
+Los tipos utilizados son:
+
+- feat: para nuevas funcionalidades.
+- fix: para corrección de errores.
+- docs: para cambios en la documentación.
+- style: para cambios de formato que no afectan la lógica.
+- refactor: para reestructuración de código sin cambio de funcionalidad.
+- test: para adición o modificación de pruebas.
+
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Product Implementation & Deployment.
