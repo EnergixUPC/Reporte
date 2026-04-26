@@ -409,7 +409,136 @@ La "User Person" de Jane Smith representa a propietarios de vivienda que desean 
 
 Para el desarrollo del proyecto, se ha compilado un User Task Matrix, el cual resume las actividades esenciales de los dos grupos de personas investigados. Este recurso sirve para identificar las acciones principales de cada tipo de usuario, además de evaluar la periodicidad y la importancia que cada uno le atribuye. El conocimiento extraído de este análisis es crucial para definir las prioridades en el diseño de la herramienta digital, lo que asegura que su concepción esté alineada con las exigencias auténticas de los usuarios.
 
-![User-Task-Matrix.JPG](../../assets/capitulo-2/User-Task-Matrix.JPG)
+<table border="1">
+    <thead>
+        <tr>
+            <th rowspan="2">N°</th>
+            <th rowspan="2">Task Matrix</th>
+            <th colspan="2">Jane Smith</th>
+            <th colspan="2">Mario Núñez</th>
+        </tr>
+        <tr>
+            <th>Frequency</th>
+            <th>Importance</th>
+            <th>Frequency</th>
+            <th>Importance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Registrarse y configurar cuenta</td>
+            <td>Once</td>
+            <td>High</td>
+            <td>Once</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Conectar dispositivos</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Revisar consumo en tiempo real</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Recibir alertas de consumo elevado</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Apagar dispositivos a distancia</td>
+            <td>Sometimes</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Consultar reportes semanales</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Establecer metas de ahorro</td>
+            <td>Sometimes</td>
+            <td>High</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Comparar consumo entre periodos</td>
+            <td>Sometimes</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Seguir recomendaciones personalizadas</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Compartir resultados</td>
+            <td>Rarely</td>
+            <td>Medium</td>
+            <td>Rarely</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Programar encendido/apagado automático de dispositivos</td>
+            <td>Sometimes</td>
+            <td>High</td>
+            <td>Rarely</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Acceder desde diferentes dispositivos</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Acceder a asesoría personalizada para mejorar la eficiencia energética de su hogar</td>
+            <td>Rarely</td>
+            <td>High</td>
+            <td>Rarely</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Recibir proyecciones de la factura mensual con base en consumo actual</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+    </tbody>
+</table>
 
 El análisis del User Task Matrix revela tareas que resultan altamente frecuentes y relevantes para cada segmento objetivo:
 
@@ -470,7 +599,7 @@ El uso de UXPressia facilitó plasmar de manera visual y ordenada estas experien
 ### 2.3.4. Empathy Mapping.
 
 En esta sección, se desarrollaron los Empathy Maps de cada segmento objetivo. Se utilizó una plantilla 
-de EXPressia que contiene los apartados que debe tener el Empathy Map junto a preguntas que se 
+de UXPressia que contiene los apartados que debe tener el Empathy Map junto a preguntas que se 
 respondieron conforme a lo identificado de nuestro segmento objetivo para desarrollar este artefacto.
 
 **Segmento objetivo #1: Propietarios de Vivienda**
