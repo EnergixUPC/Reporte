@@ -459,15 +459,130 @@ Cada Journey Map contempla:
 
 El uso de UXPressia facilitó plasmar de manera visual y ordenada estas experiencias, aportando una mirada empática que enriquece la toma de decisiones. Gracias a este ejercicio, se pudo comprender mejor las diferencias entre estudiantes y propietarios, y orientar el diseño de soluciones más útiles, accesibles y alineadas con sus necesidades reales.
 
-Segmento objetivo #1: Propietarios de Vivienda
+**Segmento objetivo #1: Propietarios de Vivienda**
 
 ![User-Journey-Mapping-1.png](../../assets/capitulo-2/User-Journey-Mapping-1.png)
 
-Segmento objetivo #2: Estudiantes que alquilan
+**Segmento objetivo #2: Estudiantes que alquilan**
 
 ![User-Journey-Mapping-2.png](../../assets/capitulo-2/User-Journey-Mapping-2.png)
 
 ### 2.3.4. Empathy Mapping.
+
+En esta sección, se desarrollaron los Empathy Maps de cada segmento objetivo. Se utilizó una plantilla 
+de EXPressia que contiene los apartados que debe tener el Empathy Map junto a preguntas que se 
+respondieron conforme a lo identificado de nuestro segmento objetivo para desarrollar este artefacto.
+
+**Segmento objetivo #1: Propietarios de Vivienda**
+
+![Empathy-Map-1.png](../../assets/capitulo-2/Empathy-map-1.png)
+
+**Segmento objetivo #2: Estudiantes que alquilan**
+
+![Empathy-Map-2.png](../../assets/capitulo-2/Empathy-map-2.png)
+
 ### 2.3.5. As-is Scenario Mapping.
 
+**Segmento objetivo #1: Propietarios de Vivienda**
+
+<table border="1px">
+    <thead>
+        <tr>
+            <th colspan="5">As-is Scenario Mapping: Jane Smith (Gestión Familiar Tradicional)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="font-weight: bold;">Phases</td>
+            <td style="font-weight: bold;">Notar incremento del gasto (Recepción del recibo)</td>
+            <td style="font-weight: bold;">Búsqueda de culpables (Inspección)</td>
+            <td style="font-weight: bold;">Intervención manual</td>
+            <td style="font-weight: bold;">Evaluación de resultados</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Doing</td>
+            <td>Recibe el recibo de luz y nota que el monto excede el presupuesto habitual.</td>
+            <td>Hace un recorrido por toda la casa después del trabajo buscando posibles electrodomésticos causantes. Revisa si la terma se quedó encendida, si las niñas dejaron el televisor o las computadoras prendidas, e interroga a su esposo.</td>
+            <td>Comienza a desconectar manualmente electrodomésticos en stand-by. Establece reglas de la casa estrictas sobre apagar luces y limita los horarios de uso de la lavadora y la terma eléctrica.</td>
+            <td>Espera ansiosamente los 30 días para el cierre de facturación. Recibe el nuevo recibo y saca cuentas para comparar el monto ahorrado versus todo el tiempo y esfuerzo invertido en el mes.</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Thinking</td>
+            <td>"¿Por qué el monto de este mes ha subido si nuestra rutina familiar, el teletrabajo y los horarios de las niñas han sido exactamente los mismos?"</td>
+            <td>"Seguro alguien dejó la terma encendida todo el día o las computadoras del trabajo remoto están consumiendo de más. El problema es que es imposible saberlo a simple vista."</td>
+            <td>"Es agotador tener que estar detrás de toda mi familia como si fuera un policía de la energía. Ojalá este nivel de estrés y esfuerzo diario sirva para bajar la cuenta a fin de mes."</td>
+            <td>"Tanto sacrificio, tantas llamadas de atención en casa, y el ahorro final fue mínimo. Definitivamente necesito una herramienta tecnológica que automatice todo esto, no puedo seguir así."</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Feeling</td>
+            <td>Preocupación inicial, sorpresa desagradable y molestia por la alteración de su presupuesto mensual.</td>
+            <td>Frustración por no tener datos claros, incertidumbre al no saber qué aparato es el verdadero problema en la casa.</td>
+            <td>Estrés por la carga mental, cansancio por la supervisión constante y tensión por posibles discusiones familiares.</td>
+            <td>Decepción total, resignación ante un problema que parece inmanejable y sensación de haber perdido el tiempo.</td>
+        </tr>
+    </tbody>
+</table>
+
+**Segmento objetivo #2: Estudiantes que alquilan**
+
+<table border="1px">
+    <thead>
+        <tr>
+            <th colspan="5">As-is Scenario Mapping: Mario Núñez (Supervivencia Presupuestaria)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="font-weight: bold;">Phases</td>
+            <td style="font-weight: bold;">Sorpresa del mes</td>
+            <td style="font-weight: bold;">Investigación técnica</td>
+            <td style="font-weight: bold;">Prácticas extremas</td>
+            <td style="font-weight: bold;">Revisión de billetera</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Doing</td>
+            <td>Revisa la aplicación de su banco para ver sus finanzas. Se da cuenta de que el pago fraccionado de la luz junto con su compañera de cuarto es excesivamente alto y descuadra totalmente sus finanzas.</td>
+            <td>Entra a YouTube, foros de tecnología y Google buscando "cuántos watts consume una laptop encendida" o "aparatos que gastan más luz". Intenta calcular manualmente su consumo diario.</td>
+            <td>Toma medidas drásticas: deja de usar el microondas, se queda estudiando hasta tarde en la biblioteca de la universidad para no gastar luz, y desconecta absolutamente todo al salir de su cuarto.</td>
+            <td>Llega el siguiente recibo. Se sienta con su compañera de cuarto a dividir el gasto nuevamente y comprueba si los sacrificios extremos del mes valieron la pena.</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Thinking</td>
+            <td>"Esto no puede ser, si pago esta cantidad ahora me quedaré muy corto para los pasajes y los materiales de la universidad. ¿De dónde salió un cobro tan alto si casi no estamos aquí?"</td>
+            <td>"Hay demasiada información y fórmulas en internet. Ninguna me dice exactamente qué es lo que está gastando tanta luz específicamente en mi cuarto."</td>
+            <td>"Es súper incómodo y limitante vivir de esta manera, ya ni disfruto estar en mi propio cuarto, pero no tengo otra opción si no quiero gastar más a fin de mes."</td>
+            <td>"Viví a oscuras y desconectado todo el mes, sacrifiqué mi comodidad por completo y el recibo bajó poquísimo. Tiene que haber una forma de saber en tiempo real en qué estoy gastando."</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Feeling</td>
+            <td>Ansiedad inmediata, susto financiero y mucha preocupación por no llegar a fin de mes con su dinero.</td>
+            <td>Confusión por el exceso de información técnica, frustración por no hallar respuestas claras e impotencia.</td>
+            <td>Incomodidad, fastidio continuo.</td>
+            <td>Desmotivación, sensación de esfuerzo inútil y resignación forzada ante un gasto ciego.</td>
+        </tr>
+    </tbody>
+</table>
+
 ## 2.4. Ubiquitous Language.
+
+- **SEMS**: Nombre del producto compuesto por cuatros palabras en inglés: "Smart" (Inteligente), "Energy"(Energía), "Management"(Gestión), "System"(Sistema).
+
+- **Suscripción**: Un pago asociado a la funcionalidad de **SEMS** que ofrece tres planes diseñados para adaptarse a diferentes necesidades y niveles de consumo.
+
+- **Monitoreo en tiempo real**: Información actualizda instantáneamente sobre los consumos energéticos de las diferentes viviendas.
+
+- **Dashboard interactivo**: Herramienta visual de gestión de información que muestra gráficos del consumo de cada dispositivo.
+
+- **Histórico de consumo**: Un registro del total de consumo generado por el usuario, que incluye detalles como fecha, hora, dispositivos registrados y total de consumo.
+
+- **Control remoto básico**: Herramienta que permitirá al usuario poder controlar los dispositivos registrados en la base de datos.
+
+- **Backend**: Infraestuctura que aloja y gestiona los datos de la apliacación, incluyendo la disponibilidad de espacios y la información de los usuarios.
+
+- **Interfaz de usuario(UI)**: Parte visual de la aplicación con la que los usuarios interactúan para realizar monitoreos, recibir alertas y notifiaciones y controlar sus dispositivos.
+
+- **Usuario**: Persona que utiliza la aplicación para monitoerar, gestionar su consumo y controlar sus dispositivos.
+
+- **Alertas de consumo inusual**: Alertas enviadas,en tiempo real, al usuario para informarles sobre picos inusuales de consumo de energía detectados.
+
+- **Recomendaciones inteligentes**: Notificaciones personalizadas hacia el usuario brindándoles consejos únicos para que optimizar sus consumos energéticos. 
