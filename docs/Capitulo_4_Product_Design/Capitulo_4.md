@@ -10,7 +10,7 @@ En esta seccion se establecen las bases con las que realizaremos y organizaremos
 - - - El nombre completo de nuestro servicio es "Smart Energix Manager".
 - - - Para el dominio web y la aplicación, así como para ser más memorables se utilizará el nombre corto "Energix".
 - - - El logo representa de forma directa y moderna la combinación de un hogar familiar de color azul con la silueta de un foco ahorrador junto a una hoja, superpuesto en el centro del marcador. Esta combinación visual comunica de manera clara la idea de optimizar el consumo energético en los hogares y reducir el impacto ambiental.    
-      ![energix-logo.png](Reporte/assets/capitulo-4/energix-logo.png)
+      ![energix-logo.png](../../assets/capitulo-4/energix-logo.png)
 - - Tipografía
 - - - La tipografía principal seleccionada es Lato. Esta fuente fue elegida por su clásiscas proporciones, sobretodo en las mayúsculas dando así harmonía y elegancia a las oraciones motrando contemporaneidad sin ser abrumador.
 - - - Tamaños:
@@ -18,7 +18,7 @@ En esta seccion se establecen las bases con las que realizaremos y organizaremos
 - - - - Web: Títulos 50px, cuerpo y subtítulos 50px.
 - - Colores
 - - - Utilizaremos la siguiente paleta de colores:
-      <img src="Reporte/assets/capitulo-4/blue.png" width="50"/> <img src="Reporte/assets/capitulo-4/alice-blue.png" width="50"/> <img src="Reporte/assets/capitulo-4/gray.png" width="50"/><img src="Reporte/assets/capitulo-4/white.png" width="50"/><img src="Reporte/assets/capitulo-4/black.png" width="50"/>
+      <img src="../../assets/capitulo-4/blue.png" width="50"/> <img src="../../assets/capitulo-4/alice-blue.png" width="50"/> <img src="../../assets/capitulo-4/gray.png" width="50"/><img src="../../assets/capitulo-4/white.png" width="50"/><img src="../../assets/capitulo-4/black.png" width="50"/>
 - - - - Este azul moderno, representa confianza y presición para la navegación, Se usará en la parte del encabezado guiando al usuario de forma clara. Evocando la fiabilidad de las herrameintas establecidad.  #0277BD
 - - - - Este tono de azul más claro, llamado "Alice Blue", representa frecusra y tranquilidad. Se usará en la parte inferior de la página web, dandole una la sensación al usuario de paz y pureza. #E1F5FE
 - - - - Este gris cálido simple simboliza el punto neutro e imparcial representando comodidad y claridad. Se usará tanto en los botones de acción como en los subtítulos del pié de página. #808080
@@ -91,9 +91,9 @@ Esta sección detalla los lineamientos visuales para los componentes de la landi
 - **Claro y Directo:** La comunicación es concisa, facilitando al usuario la comprensión de los beneficios y el uso del sistema.
 - **Confiable y Eficiente:** Transmite seguridad y resalta el ahorro y la sostenibilidad como valores clave.
 
-![Buttons-Energix.png](Reporte/assets/capitulo-4/Buttons-Energix.png)
-![Footer-Energix.png](Reporte/assets/capitulo-4/Footer-Energix.png)
-![Colors-Energix.jpg](Reporte/assets/capitulo-4/Colors-Energix.jpg)
+![Buttons-Energix.png](../../assets/capitulo-4/Buttons-Energix.png)
+![Footer-Energix.png](../../assets/capitulo-4/Footer-Energix.png)
+![Colors-Energix.jpg](../../assets/capitulo-4/Colors-Energix.jpg)
 
 ### 4.1.3. Mobile Style Guidelines.
 #### 4.1.3.1. iOS Mobile Style Guidelines.
@@ -106,9 +106,9 @@ En esta seccion mostramos las decisiones de Arquitectura de Informacion para org
 ### 4.2.1. Organization Systems.
 
 Aplicación web:
-Dentro de la app, el sistema de organización se basa en un menú lateral que agrupa las funciones principales (Dashboard, Reportes, Consumo, Configuración, Perfil). Esto permite que el usuario mantenga un control claro de su progreso y pueda acceder rápidamente a las herramientas según sus metas.
+Dentro de la app, el sistema de organización se basa en un menú lateral que agrupa las funciones principales (Dashboard, ../..s, Consumo, Configuración, Perfil). Esto permite que el usuario mantenga un control claro de su progreso y pueda acceder rápidamente a las herramientas según sus metas.
 
-![organizationsystem-diagram.png](Reporte/assets/capitulo-4/organizationsystem-diagram.png)
+![organizationsystem-diagram.png](../../assets/capitulo-4/organizationsystem-diagram.png)
 
 ### 4.2.2. Labeling Systems.
 
@@ -174,13 +174,13 @@ El sistema de búsqueda en Energix se centra en evitar la sobrecarga de informac
 
 Opciones de búsqueda ofrecidas
 
-Barra de búsqueda global: disponible en la Navbar para encontrar dispositivos, reportes o alertas de forma directa.
+Barra de búsqueda global: disponible en la Navbar para encontrar dispositivos, ../..s o alertas de forma directa.
 
 Filtros específicos por módulo:
 
 Consumo: filtros por tiempo (diario, semanal, mensual) y por dispositivo.
 
-Reportes: filtros por tipo de reporte (semanal, mensual, cumplimiento de metas, ranking de dispositivos).
+../..s: filtros por tipo de ../.. (semanal, mensual, cumplimiento de metas, ranking de dispositivos).
 
 Alertas: filtros por estado (leídas/no leídas, activas/inactivas).
 
@@ -192,7 +192,7 @@ Los resultados se mostrarán en listas o gráficos, dependiendo del contexto:
 
 En Consumo: los gráficos se actualizan dinámicamente según los filtros aplicados.
 
-En Reportes: los reportes filtrados aparecen en lista y pueden abrirse individualmente.
+En ../..s: los ../..s filtrados aparecen en lista y pueden abrirse individualmente.
 
 En Alertas: las alertas se muestran en un listado reducido según los criterios de búsqueda.
 
@@ -212,7 +212,7 @@ Estructura de desplazamiento (scrolling) con enlaces ancla para moverse entre se
 
 #### Navegación en la Aplicación Web
 
-Un sidebar fijo con los módulos clave: Dashboard, Consumo, Alertas, Consejos & Ahorro, Reportes, Configuración, Cerrar sesión.
+Un sidebar fijo con los módulos clave: Dashboard, Consumo, Alertas, Consejos & Ahorro, ../..s, Configuración, Cerrar sesión.
 
 Enlaces contextuales dentro de cada módulo para profundizar en funciones (ejemplo: en Consumo → filtros por dispositivo o por tiempo).
 
@@ -225,25 +225,25 @@ Estructura jerárquica clara: Sidebar (categorías principales) → Body (conten
 El diseño de la landing page de Energix se ha concebido para ofrecer una experiencia visual atractiva y funcional, alineada con los objetivos de la plataforma. La estructura de la página está organizada en secciones claras que guían al usuario a través de la propuesta de valor, los productos y las opciones de suscripción. Cada sección ha sido diseñada con un enfoque en la usabilidad y la estética, utilizando una paleta de colores coherente y una tipografía legible que refuerza la identidad de la marca.
 
 ### 4.3.1. Landing Page Wireframe.
-![Wireframe-Inicio.png](Reporte/assets/capitulo-4/Wireframe-Inicio.png)
-![Wireframe-Beneficios.png](Reporte/assets/capitulo-4/Wireframe-Beneficios.png)
-![Wireframe-Producto.png](Reporte/assets/capitulo-4/Wireframe-Producto.png)
-![Wireframe-Suscripcion.png](Reporte/assets/capitulo-4/Wireframe-Suscripcion.png)
-![Wireframe-About-the-Team.png](Reporte/assets/capitulo-4/Wireframe-About-the-Team.png)
-![Wireframe-Nuestro-Equipo.png](Reporte/assets/capitulo-4/Wireframe-Nuestro-Equipo.png)
-![Wireframe-Footer.png](Reporte/assets/capitulo-4/Wireframe-Footer.png)
+![Wireframe-Inicio.png](../../assets/capitulo-4/Wireframe-Inicio.png)
+![Wireframe-Beneficios.png](../../assets/capitulo-4/Wireframe-Beneficios.png)
+![Wireframe-Producto.png](../../assets/capitulo-4/Wireframe-Producto.png)
+![Wireframe-Suscripcion.png](../../assets/capitulo-4/Wireframe-Suscripcion.png)
+![Wireframe-About-the-Team.png](../../assets/capitulo-4/Wireframe-About-the-Team.png)
+![Wireframe-Nuestro-Equipo.png](../../assets/capitulo-4/Wireframe-Nuestro-Equipo.png)
+![Wireframe-Footer.png](../../assets/capitulo-4/Wireframe-Footer.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
-![Barra-de-Navegacion.png](Reporte/assets/capitulo-4/Barra-de-Navegacion.png)
-![Inicio.png](Reporte/assets/capitulo-4/Inicio.png)
-![Beneficios.png](Reporte/assets/capitulo-4/Beneficios.png)
-![Producto.png](Reporte/assets/capitulo-4/Producto.png)
-![Suscripciones.png](Reporte/assets/capitulo-4/Suscripciones.png)
-![About-the-Team.png](Reporte/assets/capitulo-4/About-the-Team.png)
-![Nuestro-Equipo.png](Reporte/assets/capitulo-4/Nuestro-Equipo.png)
-![Preguntas-Frecuentes.png](Reporte/assets/capitulo-4/Preguntas-Frecuentes.png)
-![Footer.png](Reporte/assets/capitulo-4/Footer.png)
+![Barra-de-Navegacion.png](../../assets/capitulo-4/Barra-de-Navegacion.png)
+![Inicio.png](../../assets/capitulo-4/Inicio.png)
+![Beneficios.png](../../assets/capitulo-4/Beneficios.png)
+![Producto.png](../../assets/capitulo-4/Producto.png)
+![Suscripciones.png](../../assets/capitulo-4/Suscripciones.png)
+![About-the-Team.png](../../assets/capitulo-4/About-the-Team.png)
+![Nuestro-Equipo.png](../../assets/capitulo-4/Nuestro-Equipo.png)
+![Preguntas-Frecuentes.png](../../assets/capitulo-4/Preguntas-Frecuentes.png)
+![Footer.png](../../assets/capitulo-4/Footer.png)
 
 ## 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
@@ -259,7 +259,7 @@ El diseño de la landing page de Energix se ha concebido para ofrecer una experi
 
 La sección de Diseño UX/UI se centra en la arquitectura de la información, el diseño de la interfaz y la experiencia de usuario para las aplicaciones web de la solución Energix. Esta etapa abarca la creación de vistas funcionales y flujos de interacción completos, asegurando una experiencia intuitiva y centrada en el usuario.
 
-Se elaboraron wireframes detallados para la versión de escritorio, definiendo la disposición de elementos en pantallas clave como el Dashboard principal, los Reportes de Consumo, la Gestión de Dispositivos y la Configuración de Preferencias. A partir de estos esquemas de baja fidelidad, se diseñaron los mockups de alta fidelidad, alineados con un sistema visual consistente que respeta los principios de simplicidad y claridad.
+Se elaboraron wireframes detallados para la versión de escritorio, definiendo la disposición de elementos en pantallas clave como el Dashboard principal, los ../..s de Consumo, la Gestión de Dispositivos y la Configuración de Preferencias. A partir de estos esquemas de baja fidelidad, se diseñaron los mockups de alta fidelidad, alineados con un sistema visual consistente que respeta los principios de simplicidad y claridad.
 
 Los componentes y la navegación fueron organizados siguiendo flujos de usuario validados para garantizar que cada acción tenga un propósito claro dentro del recorrido del usuario. La estructura y las interacciones fueron pensadas para ofrecer una experiencia inclusiva, aplicando criterios de accesibilidad (a11y) y soporte para la visualización de datos en diferentes formatos. En los próximos sprints, se desarrollarán de manera progresiva las vistas, integrando las funcionalidades de monitoreo de energía en tiempo real y permitiendo la validación de las interacciones más importantes del sistema.
 
@@ -270,68 +270,68 @@ La fase de diseño de wireframes se ha enfocado en la creación meticulosa de la
 
 - Login: La puerta de entrada a la plataforma se presenta con un diseño minimalista y enfocado. La vista se centra en los campos de Username/Email y Password, que permiten al usuario autenticarse de forma segura. La progresión en este flujo es lineal y clara, guiando al usuario del ingreso de credenciales al botón principal de "Log in", con una opción secundaria para acceder a través de "Log in with Google".
 
-![Web-Wireframes-LogIn.PNG](Reporte/assets/capitulo-4/Web-Wireframes-LogIn.PNG)
+![Web-Wireframes-LogIn.PNG](../../assets/capitulo-4/Web-Wireframes-LogIn.PNG)
 
 
 - Dashboard: Esta es la vista central de la aplicación y la primera que el usuario ve después de iniciar sesión. Se estructura como un panel de control con múltiples tarjetas que ofrecen un resumen del consumo de energía y las alertas clave. La información se presenta de forma progresiva, desde un resumen general hasta visualizaciones más detalladas como gráficos de línea, que muestran el consumo en diferentes períodos y por categoría. La sección de alertas y una lista de dispositivos ofrecen una vista de alto nivel y un acceso rápido a la información más importante.
 
-![Web-Wireframes-Dashboard.png](Reporte/assets/capitulo-4/Web-Wireframes-Dashboard.png)
+![Web-Wireframes-Dashboard.png](../../assets/capitulo-4/Web-Wireframes-Dashboard.png)
 
 
 - Notifications (Pop-up): Este elemento es una ventana emergente que se superpone a la pantalla principal. Muestra una lista de mensajes y alertas importantes para el usuario, como alertas de alto consumo o recordatorios, asegurando que la información crítica sea visible de inmediato sin tener que navegar a otra sección.
 
-![Web-Wireframes-Notifications.PNG](Reporte/assets/capitulo-4/Web-Wireframes-Notifications.PNG)
+![Web-Wireframes-Notifications.PNG](../../assets/capitulo-4/Web-Wireframes-Notifications.PNG)
 
 
 - Profile: Diseñada para la gestión de datos personales, esta pantalla presenta una estructura clara y organizada. Los campos para First Name, Last Name, Email, Linked Adress y Number permiten al usuario mantener su información actualizada. El flujo de interacción es directo, centrado en el ingreso y la edición de datos. Se utiliza una progresión visual para la foto de perfil, mostrando un espacio para la imagen y un botón para cargarla, asegurando que el usuario pueda personalizar su cuenta.
 
-![Web-Wireframes-Profile.PNG](Reporte/assets/capitulo-4/Web-Wireframes-Profile.PNG)
+![Web-Wireframes-Profile.PNG](../../assets/capitulo-4/Web-Wireframes-Profile.PNG)
 
 
 - Devices: La visualización se presenta como una tabla lineal y detallada, donde cada dispositivo conectado al sistema ocupa su propia fila. Se utiliza una estructura consistente que permite al usuario explorar el estado de cada dispositivo de un vistazo. Las columnas desglosan información clave como el nombre y categoría del dispositivo, su estado en tiempo real (indicando si está encendido o apagado), la última vez que registró actividad, un historial de alertas y el consumo de energía acumulado.
 
-![Web-Wireframes-Devices.PNG](Reporte/assets/capitulo-4/Web-Wireframes-Devices.PNG)
+![Web-Wireframes-Devices.PNG](../../assets/capitulo-4/Web-Wireframes-Devices.PNG)
 
 
 - Preferences: Esta vista está diseñada para que el usuario personalice su experiencia de monitoreo. Se estructura como una matriz de opciones de "checkbox" donde cada una corresponde a una categoría o función de seguimiento. El diseño fomenta la selección múltiple, permitiendo al usuario decidir de forma granular qué datos desea que la aplicación recolecte y muestre. Los botones en la parte inferior de la pantalla actúan como controles para aplicar o descartar los cambios realizados en las preferencias, cerrando un ciclo de interacción claro y seguro.
 
-![Web-Wireframes-Preferences.PNG](Reporte/assets/capitulo-4/Web-Wireframes-Preferences.PNG)
+![Web-Wireframes-Preferences.PNG](../../assets/capitulo-4/Web-Wireframes-Preferences.PNG)
 
 
-- Reports: La pantalla de reportes es el centro de análisis de la aplicación. Incluye un gráfico de barras para el ranking de dispositivos que consumen más energía, mostrando el consumo total en kilovatios-hora (kWh). También presenta un gráfico de tendencias de consumo semanal, un resumen con datos clave y una sección para exportar o descargar reportes.
+- Reports: La pantalla de ../..s es el centro de análisis de la aplicación. Incluye un gráfico de barras para el ranking de dispositivos que consumen más energía, mostrando el consumo total en kilovatios-hora (kWh). También presenta un gráfico de tendencias de consumo semanal, un resumen con datos clave y una sección para exportar o descargar ../..s.
 
-![Web-Wireframes-Reports.PNG](Reporte/assets/capitulo-4/Web-Wireframes-Reports.PNG)
+![Web-Wireframes-Reports.PNG](../../assets/capitulo-4/Web-Wireframes-Reports.PNG)
 
 
-- Settings: Esta vista consolida diversas opciones de configuración en secciones claras y modulares. Se presenta un flujo de interacción centrado en el usuario, permitiéndole gestionar desde las automatizaciones de ahorro (Automatic Saving Mode) con interruptores de encendido y apagado (toggles), hasta las notificaciones y reportes personalizados. También ofrece acceso directo a secciones de ayuda y soporte (Support and Help) y opciones para gestionar la seguridad y la privacidad de la cuenta (Security and Privacy). El diseño organiza la información de manera lógica y progresiva para que el usuario pueda encontrar y ajustar fácilmente cualquier configuración.
+- Settings: Esta vista consolida diversas opciones de configuración en secciones claras y modulares. Se presenta un flujo de interacción centrado en el usuario, permitiéndole gestionar desde las automatizaciones de ahorro (Automatic Saving Mode) con interruptores de encendido y apagado (toggles), hasta las notificaciones y ../..s personalizados. También ofrece acceso directo a secciones de ayuda y soporte (Support and Help) y opciones para gestionar la seguridad y la privacidad de la cuenta (Security and Privacy). El diseño organiza la información de manera lógica y progresiva para que el usuario pueda encontrar y ajustar fácilmente cualquier configuración.
 
-![Web-Wireframes-Settings.PNG](Reporte/assets/capitulo-4/Web-Wireframes-Settings.PNG)
+![Web-Wireframes-Settings.PNG](../../assets/capitulo-4/Web-Wireframes-Settings.PNG)
 
 ### 4.6.2. Web Applications Wireflow Diagrams.
 
 - User goal 1: Iniciar sesión para poder obversar el dashboard informativo
 
-![Wireflow-1.png](Reporte/assets/capitulo-4/Wireflow-1.png)
+![Wireflow-1.png](../../assets/capitulo-4/Wireflow-1.png)
 
-- User goal 2: Entrar al dashboard informativo para luego entrar en la opción de Reportes y descargar mi reporte generado a lo largo del mes
+- User goal 2: Entrar al dashboard informativo para luego entrar en la opción de ../..s y descargar mi ../.. generado a lo largo del mes
 
-![Wireflow-2.png](Reporte/assets/capitulo-4/Wireflow-2.png)
+![Wireflow-2.png](../../assets/capitulo-4/Wireflow-2.png)
 
 - User goal 3: Estabelcer preferencias para todos los dispositivos que tengo configurados en la aplicación y guargar configuraciones predeterminadas
 
-![Wireflow-3.png](Reporte/assets/capitulo-4/Wireflow-3.png)
+![Wireflow-3.png](../../assets/capitulo-4/Wireflow-3.png)
 
 - User goal 4: Entrar al dashboard interactivo para luego ir a la opción de perfil y poder modificar sus datos
 
-![Wireflow-4.png](Reporte/assets/capitulo-4/Wireflow-4.png)
+![Wireflow-4.png](../../assets/capitulo-4/Wireflow-4.png)
 
 - Happy y Unhappy paths de cada User goal:
 - **User goal 1**:
 - - (Happy path) El usuario entra a la landing page y encuentra el botón de Iniciar sesión, como ya tiene una cuenta ingresa sus credenciales y son validadas por el sistema, una vez todo correcto es redirigido al dashboard informativo donde podrá interactuar con las diferentes herrameintas disponibles.
 - - (Unhappy path) El usuario entra a la landing page y presiona el botón de Inicar sesión, ingresa sus credenciales pero son incorrectas por lo que el sistema le manda un mensaje de error que dice "Correo o contraseña incorrectos", por lo que no será redirigido al dashboard informativo.
 - **User goal 2**:
-- - (Happy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de Reportes donde visualiza el panel con la información de su consumo de mes, cumplimiento de metas, ranking de dispositivos y ahorro acumulado, entonces el usuario presiona el botón para descarga la información en formato PDF y Excel, luego aparece un mensaje diciendo "Reporte descargado exito" con la opción de visualizar el reporte.
-- - (Unhappy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de Reportes, al momento de entrar no le aparecerá ninguna información disponible por lo que el sistema le dará un mensaje diciendo "Error al momento de cargar la información", del mismo modo si presiona el botón de descargar el sistema le dirá "Error al momento de descargar intente más tarde", por lo que el usuario no podrá visualizar su información ni descargarla.
+- - (Happy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de ../..s donde visualiza el panel con la información de su consumo de mes, cumplimiento de metas, ranking de dispositivos y ahorro acumulado, entonces el usuario presiona el botón para descarga la información en formato PDF y Excel, luego aparece un mensaje diciendo "../.. descargado exito" con la opción de visualizar el ../...
+- - (Unhappy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de ../..s, al momento de entrar no le aparecerá ninguna información disponible por lo que el sistema le dará un mensaje diciendo "Error al momento de cargar la información", del mismo modo si presiona el botón de descargar el sistema le dirá "Error al momento de descargar intente más tarde", por lo que el usuario no podrá visualizar su información ni descargarla.
 - **User goal 3**:
 - - (Happy path) El usuario accede al landing page y hace click en Iniciar Sesión. Desde el dashboard selecciona la opción Device que está disponible, en esta pantalla luego accede a la opción "Preference" donde puede establecer límites de consumo energético y horarios de funcionamiento. Una vez que completa la configuración y hace clic en "Save Preference", el sistema valida los parámetros y se guarda los cambios aplicados al dispositivo.
 - - (Unhappy path) El usuario accede al landing page y hace click en Iniciar Sesión. Desde el dashboard selecciona la opción Device que está disponible, en esta pantalla luego accede a la opción "Preference" y accede a su configuración para establecer límites de consumo energético. Después de completar todos los campos necesarios y hacer clic en "Save Preference", ocurre un error interno en el sistema de gestión de dispositivos. No se muestra ningún mensaje de confirmación y la configuración no se aplica correctamente, impidiendo que el usuario personalice las reglas de automatización para optimizar el consumo energético del dispositivo.
@@ -350,61 +350,61 @@ La coherencia visual entre todos los mockups asegura un sistema de diseño unifi
 
 - Login: Esta vista propone una interfaz minimalista y funcional diseñada para la autenticación del usuario. Se presenta con campos de entrada estilizados para el correo electrónico y la contraseña, centrando la atención en el proceso de acceso. Se prioriza la usabilidad al incluir un botón de “Log in with Google” como alternativa, agilizando el flujo de autenticación para quienes prefieren esta opción.
 
-![Web-MockUps-LogIn.PNG](Reporte/assets/capitulo-4/Web-MockUps-LogIn.PNG)
+![Web-MockUps-LogIn.PNG](../../assets/capitulo-4/Web-MockUps-LogIn.PNG)
 
 - Dashboard: El dashboard se concibe como el centro de mando de la plataforma, proporcionando un resumen visual y detallado del consumo energético. En la parte superior, se muestra un conjunto de tarjetas de indicadores clave (KPIs) con métricas esenciales como el consumo de energía, los ahorros estimados y la factura estimada. El espacio principal es dominado por gráficos que desglosan el consumo diario y por categorías, facilitando una rápida comprensión de los patrones de uso. Las notificaciones de alertas se integran de manera prominente, asegurando que la información crítica no pase desapercibida.
 
-![Web-MockUps-Dashboard.PNG](Reporte/assets/capitulo-4/Web-MockUps-Dashboard.PNG)
+![Web-MockUps-Dashboard.PNG](../../assets/capitulo-4/Web-MockUps-Dashboard.PNG)
 
 - Notifications (Pop-up): Este componente es un elemento de notificación de alta prioridad que se superpone a la pantalla principal, diseñado para alertar al usuario de forma inmediata. Se utiliza una jerarquía visual para distinguir entre mensajes de logros, como “Goal Achievement”, y alertas de consumo elevado. Se prioriza la inmediatez y la claridad de la información, asegurando que el usuario pueda tomar acciones rápidas cuando sea necesario.
 
-![Web-MockUps-Notifications.PNG](Reporte/assets/capitulo-4/Web-MockUps-Notifications.PNG)
+![Web-MockUps-Notifications.PNG](../../assets/capitulo-4/Web-MockUps-Notifications.PNG)
 
 - Profile: La sección de perfil presenta una arquitectura clara y editable para la gestión de datos personales. Se muestra una estructura con campos prellenados para la información del usuario, cada uno acompañado de un botón de “Edit”, lo que otorga al usuario el control para actualizar su información. Un espacio dedicado a la foto de perfil refuerza la personalización de la cuenta, priorizando la capacidad de adaptación y el control del usuario sobre sus propios datos.
 
-![Web-MockUps-Profile.PNG](Reporte/assets/capitulo-4/Web-MockUps-Profile.PNG)
+![Web-MockUps-Profile.PNG](../../assets/capitulo-4/Web-MockUps-Profile.PNG)
 
 - Devices: Esta pantalla está diseñada para el monitoreo detallado y estructurado de los dispositivos conectados. Se utiliza un formato de tabla para presentar de forma organizada el estado en tiempo real, la última actividad registrada, el historial de alertas y el consumo de energía. La interfaz prioriza la transparencia y la accesibilidad de los datos, permitiendo al usuario obtener una visión completa del rendimiento de cada dispositivo.
 
-![Web-MockUps-Devices.PNG](Reporte/assets/capitulo-4/Web-MockUps-Devices.PNG)
+![Web-MockUps-Devices.PNG](../../assets/capitulo-4/Web-MockUps-Devices.PNG)
 
 - Preferences: Este mockup profundiza en el control granular que el usuario tiene sobre el sistema de monitoreo. La interfaz se presenta como una matriz de opciones de "checkbox" que permiten al usuario activar o desactivar el seguimiento para diversas categorías de dispositivos y tipos de alertas. Esta vista prioriza la personalización, invitando al usuario a definir exactamente qué datos desea que la aplicación recolecte y qué notificaciones desea recibir.
 
-![Web-MockUps-Preferences.PNG](Reporte/assets/capitulo-4/Web-MockUps-Preferences.PNG)
+![Web-MockUps-Preferences.PNG](../../assets/capitulo-4/Web-MockUps-Preferences.PNG)
 
-- Reports: La sección de reportes se enfoca en la visualización y el análisis de datos históricos. Dos gráficos de barras de alta fidelidad, "Device Ranking" y "Weekly Consumption Trend", dominan la vista, facilitando la identificación de los mayores consumidores y la comparación de patrones de uso semanales. La funcionalidad de "Export Report" permite al usuario descargar sus datos en formatos PDF o CSV, lo cual es fundamental para el análisis externo y el registro personal.
+- Reports: La sección de ../..s se enfoca en la visualización y el análisis de datos históricos. Dos gráficos de barras de alta fidelidad, "Device Ranking" y "Weekly Consumption Trend", dominan la vista, facilitando la identificación de los mayores consumidores y la comparación de patrones de uso semanales. La funcionalidad de "Export Report" permite al usuario descargar sus datos en formatos PDF o CSV, lo cual es fundamental para el análisis externo y el registro personal.
 
-![Web-MockUps-Reports.PNG](Reporte/assets/capitulo-4/Web-MockUps-Reports.PNG)
+![Web-MockUps-Reports.PNG](../../assets/capitulo-4/Web-MockUps-Reports.PNG)
 
 - Settings: Este mockup de configuraciones presenta una arquitectura modular que consolida todas las opciones de personalización del sistema. Se muestra de manera clara la sección “Automatic Saving Mode”, que permite la creación de reglas de automatización, y “Notifications and Alerts”, donde el usuario puede definir qué notificaciones desea recibir. El diseño de la interfaz prioriza la organización y el acceso intuitivo, garantizando que el usuario pueda ajustar cada aspecto de la plataforma de manera eficiente.
 
-![Web-MockUps-Settings.PNG](Reporte/assets/capitulo-4/Web-MockUps-Settings.PNG)
+![Web-MockUps-Settings.PNG](../../assets/capitulo-4/Web-MockUps-Settings.PNG)
 
 ### 4.6.4. Web Applications User Flow Diagrams.
 
 - User goal 1: Iniciar sesión para poder obversar el dashboard informativo
 
-![User-Flow-1.png](Reporte/assets/capitulo-4/User-Flow-1.png)
+![User-Flow-1.png](../../assets/capitulo-4/User-Flow-1.png)
 
-- User goal 2: Entrar al dashboard informativo para luego entrar en la opción de Reportes y descargar mi reporte generado a lo largo del mes
+- User goal 2: Entrar al dashboard informativo para luego entrar en la opción de ../..s y descargar mi ../.. generado a lo largo del mes
 
-![User-Flow-2.png](Reporte/assets/capitulo-4/User-Flow-2.png)
+![User-Flow-2.png](../../assets/capitulo-4/User-Flow-2.png)
 
 - User goal 3: Comprar un producto desde la página principal rellenando información del medio de pago elegido.
 
-![User-Flow-3.png](Reporte/assets/capitulo-4/User-Flow-3.png)
+![User-Flow-3.png](../../assets/capitulo-4/User-Flow-3.png)
 
 - User goal 4: Entrar al dashboard interactivo para luego ir a la opción de perfil y poder modificar sus datos.
 
-![User-Flow-4.png](Reporte/assets/capitulo-4/User-Flow-4.png)
+![User-Flow-4.png](../../assets/capitulo-4/User-Flow-4.png)
 
 - Happy y Unhappy paths de cada User goal:
 - **User goal 1**:
 - - (Happy path) El usuario entra a la landing page y encuentra el botón de Iniciar sesión, como ya tiene una cuenta ingresa sus credenciales y son validadas por el sistema, una vez todo correcto es redirigido al dashboard informativo donde podrá interactuar con las diferentes herrameintas disponibles.
 - - (Unhappy path) El usuario entra a la landing page y presiona el botón de Inicar sesión, ingresa sus credenciales pero son incorrectas por lo que el sistema le manda un mensaje de error que dice "Correo o contraseña incorrectos", por lo que no será redirigido al dashboard informativo.
 - **User goal 2**:
-- - (Happy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de Reportes donde visualiza el panel con la información de su consumo de mes, cumplimiento de metas, ranking de dispositivos y ahorro acumulado, entonces el usuario presiona el botón para descarga la información en formato PDF y Excel, luego aparece un mensaje diciendo "Reporte descargado exito" con la opción de visualizar el reporte.
-- - (Unhappy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de Reportes, al momento de entrar no le aparecerá ninguna información disponible por lo que el sistema le dará un mensaje diciendo "Error al momento de cargar la información", del mismo modo si presiona el botón de descargar el sistema le dirá "Error al momento de descargar intente más tarde", por lo que el usuario no podrá visualizar su información ni descargarla.
+- - (Happy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de ../..s donde visualiza el panel con la información de su consumo de mes, cumplimiento de metas, ranking de dispositivos y ahorro acumulado, entonces el usuario presiona el botón para descarga la información en formato PDF y Excel, luego aparece un mensaje diciendo "../.. descargado exito" con la opción de visualizar el ../...
+- - (Unhappy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de ../..s, al momento de entrar no le aparecerá ninguna información disponible por lo que el sistema le dará un mensaje diciendo "Error al momento de cargar la información", del mismo modo si presiona el botón de descargar el sistema le dirá "Error al momento de descargar intente más tarde", por lo que el usuario no podrá visualizar su información ni descargarla.
 - **User goal 3**:
 - - (Happy path) El usuario ingresa a la landing page y se desplaza hacia la parte de productos, selecciona uno de los productos que están disponibles, luego se le habilitará una ventana para que eliga el método de pago preferido, una vez que rellene la información necesaria el sistema validará los datos y le dará un mensaje diciendo "Pago realizado, gracias" junto al logo con el método seleccionado.
 - - (Unhappy path) El usuario ingresa a la landing page y se desplaza hacia la parte de productos, selecciona uno de los productos que están disponibles, luego se le habilitará una ventana para que eliga el método de pago preferido, una vez que el usuario rellene toda la información necesaría le dará click al botón de "pagar", pero no pasará nada, no le aparecerá otra ventana diciendo "Pago realizado, gracias", debido a un error interno con los métodos de pago por lo que no se puede continuar con la transacción, por consiguiente el usuario no podrá comprar ningún producto.
@@ -420,11 +420,11 @@ Las decisiones de interacción se han tomado para que la aplicación sea tanto a
 
 Navegación Intuitiva y Persistente
 
-Para asegurar una navegación fluida, la aplicación cuenta con una barra lateral izquierda fija. Esta estructura pone las secciones principales—Dashboard, Dispositivos, Reportes, y Configuración—siempre al alcance del usuario, eliminando la necesidad de memorizar rutas de navegación. Esta elección de diseño refleja una jerarquía de información lógica y facilita la transición entre la revisión de datos y la acción de control.
+Para asegurar una navegación fluida, la aplicación cuenta con una barra lateral izquierda fija. Esta estructura pone las secciones principales—Dashboard, Dispositivos, ../..s, y Configuración—siempre al alcance del usuario, eliminando la necesidad de memorizar rutas de navegación. Esta elección de diseño refleja una jerarquía de información lógica y facilita la transición entre la revisión de datos y la acción de control.
 
 Diseño Orientado al Análisis y la Toma de Decisiones
 
-La sección de Reportes es un claro ejemplo de cómo la interfaz empodera al usuario para analizar sus datos de consumo. Mediante gráficos interactivos y una vista tabular detallada, el usuario puede identificar rápidamente tendencias y picos de consumo. El sistema de interacción es directo y familiar, permitiendo al usuario exportar sus datos en formatos estándar como CSV o PDF, lo que convierte la información en una herramienta práctica y tangible.
+La sección de ../..s es un claro ejemplo de cómo la interfaz empodera al usuario para analizar sus datos de consumo. Mediante gráficos interactivos y una vista tabular detallada, el usuario puede identificar rápidamente tendencias y picos de consumo. El sistema de interacción es directo y familiar, permitiendo al usuario exportar sus datos en formatos estándar como CSV o PDF, lo que convierte la información en una herramienta práctica y tangible.
 
 Retroalimentación Visual Clara
 
@@ -432,7 +432,7 @@ La aplicación proporciona retroalimentación visual efectiva sobre el estado de
 
 Validación de Flujos de Navegación
 
-A través de estos prototipos, se simula el recorrido del usuario a través de la aplicación. Se demuestra cómo se puede pasar sin problemas de una notificación a la pantalla de Dispositivos para tomar una acción correctiva, o de la Dashboard a los Reportes para un análisis más profundo. Estas interacciones validan la coherencia de los flujos de usuario y garantizan una experiencia de navegación lógica y sin fricciones.
+A través de estos prototipos, se simula el recorrido del usuario a través de la aplicación. Se demuestra cómo se puede pasar sin problemas de una notificación a la pantalla de Dispositivos para tomar una acción correctiva, o de la Dashboard a los ../..s para un análisis más profundo. Estas interacciones validan la coherencia de los flujos de usuario y garantizan una experiencia de navegación lógica y sin fricciones.
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210513_upc_edu_pe/EbK0zgZImC5Nm6USAh19_aoBa9UNerHtDBz4iBQn80qlnQ?e=U92QIh
 
@@ -448,13 +448,13 @@ SEMS se apoya además en tres sistemas externos que amplían sus capacidades sin
 
 Esta integración permite que SEMS funcione como un ecosistema completo para el control y la gestión energética doméstica. Al reunir usuarios, dispositivos y datos bajo una infraestructura digital modular, la plataforma fortalece su propuesta de valor: ofrecer a las personas un sistema confiable, accesible y proactivo que contribuya tanto al ahorro económico como a la sostenibilidad ambiental.
 
-![Context-Diagram.png](Reporte/assets/capitulo-4/Context-Diagram.png)
+![Context-Diagram.png](../../assets/capitulo-4/Context-Diagram.png)
 
 ### 4.8.2. Software Architecture Container Diagrams.
 
 - Este diagrama de contenedores ilustra los componentes clave de la plataforma ENERGIX y cómo interactúan entre sí y con sistemas externos. Se destacan la **Aplicación web**, **la API Backend**, **la Base de Datos** y **servicios externos** como xxx xxx y xxx xxx. Cada contenedor cumple una función específica para asegurar el funcionamiento integral del sistema.
 
-![Container-Diagram.png](Reporte/assets/capitulo-4/Container-Diagram.png)
+![Container-Diagram.png](../../assets/capitulo-4/Container-Diagram.png)
 
 ### 4.8.3. Software Architecture Components Diagrams.
 
@@ -471,11 +471,11 @@ El diagrama de componentes profundiza en la arquitectura interna de la plataform
 La plataforma se comunica con otros sistemas y contenedores para ofrecer su funcionalidad completa.  La capa de servicios interactúa con contenedores externos clave: DeviceService y AlertService utilizan el Message Broker para la comunicación asíncrona y la gestión de eventos en tiempo real.
 
 - ReportService y AlertService se conectan con el File Storage para almacenar informes generados y archivos adjuntos de notificaciones, respectivamente.
-- Por último, todos los repositorios se comunican con la Database para almacenar y recuperar la información esencial del sistema, como datos de usuarios, dispositivos, automatizaciones, reportes y alertas.
+- Por último, todos los repositorios se comunican con la Database para almacenar y recuperar la información esencial del sistema, como datos de usuarios, dispositivos, automatizaciones, ../..s y alertas.
 
 Esta estructura modular y desacoplada facilita el desarrollo, las pruebas y el mantenimiento del sistema, permitiendo que cada componente se evolucione de forma independiente sin afectar a los demás.
 
-![Component-Diagram.png](Reporte/assets/capitulo-4/Component-Diagram.png)
+![Component-Diagram.png](../../assets/capitulo-4/Component-Diagram.png)
 
 ## 4.9. Software Object-Oriented Design.
 
@@ -485,31 +485,31 @@ Esta sección presenta el diseño orientado a objetos del sistema, definiendo la
 
 **Identity and Access Management**
 
-![Identity-and-Access-Management.jpeg](Reporte/assets/capitulo-4/Identity-and-Access-Management.jpeg)
+![Identity-and-Access-Management.jpeg](../../assets/capitulo-4/Identity-and-Access-Management.jpeg)
 
 Este diagrama muestra la arquitectura en capas (Aplicación, Dominio, Infraestructura) para el Bounded Context de Identidad y Gestión de Acceso. La capa de Aplicación (AuthController y AuthService) se encarga de recibir las peticiones de autenticación y registro. El núcleo es la capa de Dominio, que se centra en las entidades User y Role, que definen las reglas de negocio, y las interfaces UserRepository y TokenService, que establecen los contratos para la persistencia y la gestión de tokens. La capa de Infraestructura (UserRepositoryImpl y Database) implementa estas interfaces, gestionando la conexión y las operaciones de persistencia con la base de datos. La dependencia del sistema siempre apunta hacia la capa de Dominio, lo que asegura que la lógica central no dependa de los detalles de la implementación.
 
 **Connected Device Management**
 
-![Connected-Device-Management.jpeg](Reporte/assets/capitulo-4/Connected-Device-Management.jpeg)
+![Connected-Device-Management.jpeg](../../assets/capitulo-4/Connected-Device-Management.jpeg)
 
 Este diagrama detalla la arquitectura en capas (Aplicación, Dominio, Infraestructura) para el Bounded Context de Gestión de Dispositivos Conectados. La capa de Aplicación (DeviceController y DeviceService) gestiona las peticiones para el registro, monitoreo y configuración de los dispositivos. El corazón del sistema es la capa de Dominio, que se centra en el agregado Device, y las entidades relacionadas como DeviceConfig, DeviceStatus y DeviceType, que encapsulan la lógica de negocio de los dispositivos inteligentes. El Dominio también define la interfaz DeviceRepository. La capa de Infraestructura (DeviceRepositoryImpl y SmartDeviceService) implementa la persistencia a través de la base de datos y se comunica con los dispositivos reales, garantizando que la lógica de negocio esté desacoplada de los detalles técnicos de la comunicación.
 
 **Report Management**
 
-![Report-Management.jpeg](Reporte/assets/capitulo-4/Report-Management.jpeg)
+![Report-Management.jpeg](../../assets/capitulo-4/Report-Management.jpeg)
 
-Este diagrama ilustra la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Reportes. La capa de Aplicación (ReportController y ReportService) se encarga de coordinar la generación y consulta de reportes, recibiendo las peticiones de los usuarios. El centro de la arquitectura es la capa de Dominio, centrada en el agregado Report y sus componentes internos como ReportData y ReportType, que definen la estructura y las reglas de negocio de los reportes. El Dominio también establece la interfaz ReportRepository. La capa de Infraestructura (ReportRepositoryImpl y FileStorage) implementa la lógica de persistencia, con ReportRepositoryImpl gestionando la base de datos y FileStorage almacenando los archivos de reportes en un sistema externo, manteniendo así la lógica de negocio independiente de la forma de almacenamiento.
+Este diagrama ilustra la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de ../..s. La capa de Aplicación (ReportController y ReportService) se encarga de coordinar la generación y consulta de ../..s, recibiendo las peticiones de los usuarios. El centro de la arquitectura es la capa de Dominio, centrada en el agregado Report y sus componentes internos como ReportData y ReportType, que definen la estructura y las reglas de negocio de los ../..s. El Dominio también establece la interfaz ReportRepository. La capa de Infraestructura (ReportRepositoryImpl y FileStorage) implementa la lógica de persistencia, con ReportRepositoryImpl gestionando la base de datos y FileStorage almacenando los archivos de ../..s en un sistema externo, manteniendo así la lógica de negocio independiente de la forma de almacenamiento.
 
 **Alert and Notification Management**
 
-![Alert-and-Notification-Management.jpeg](Reporte/assets/capitulo-4/Alert-and-Notification-Management.jpeg)
+![Alert-and-Notification-Management.jpeg](../../assets/capitulo-4/Alert-and-Notification-Management.jpeg)
 
 Este diagrama presenta la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Alertas y Notificaciones. La capa de Aplicación (AlertController y AlertService) gestiona la creación, actualización y eliminación de alertas. El núcleo es la capa de Dominio, centrada en la entidad Alert y sus subtipos AlertType y AlertSeverity, que encapsulan las reglas de negocio para los distintos tipos de alertas y su severidad. Las interfaces AlertRepository y NotificationService definen los contratos para la persistencia y el envío de notificaciones. La capa de Infraestructura (AlertRepositoryImpl y MessageBroker) implementa estos contratos, con AlertRepositoryImpl gestionando la base de datos y MessageBroker interactuando con un sistema externo para el envío de mensajes, asegurando que la lógica de negocio principal sea agnóstica a la tecnología de mensajería.
 
 **Automation Management**
 
-![Automation-Management.jpeg](Reporte/assets/capitulo-4/Automation-Management.jpeg)
+![Automation-Management.jpeg](../../assets/capitulo-4/Automation-Management.jpeg)
 
 Este diagrama muestra la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Automatizaciones. La capa de Aplicación (AutomationController y AutomationService) coordina la lógica para la creación y gestión de las reglas de automatización. El corazón del sistema es la capa de Dominio, que se centra en el agregado Automation y sus objetos internos AutomationTrigger, AutomationAction y Schedule, que definen las reglas de negocio y el comportamiento de las automatizaciones. El Dominio también especifica la interfaz AutomationRepository. La capa de Infraestructura (AutomationRepositoryImpl y TaskScheduler) implementa la persistencia y la ejecución de las tareas programadas, desacoplando la lógica de negocio del mecanismo específico de programación, lo que permite una mayor flexibilidad y escalabilidad.
 
@@ -531,28 +531,28 @@ A continuación, se presenta una descripción detallada del diseño de la base d
 
 En este contexto se modela la gestión de usuarios y sus permisos dentro de la plataforma. El modelo de datos se centra en la entidad principal "users", que representa a los usuarios con atributos como nombre, correo electrónico y una contraseña encriptada. Se relaciona con la entidad "roles" para definir los distintos niveles de acceso, los cuales a su vez se asocian con permisos específicos "permissions" a través de una tabla intermedia "role_permissions". Este diseño permite un control granular sobre las acciones que cada usuario puede realizar en el sistema, asegurando la seguridad y la correcta asignación de responsabilidades. Además, la entidad "user_sessions" se encarga de gestionar las sesiones activas, permitiendo la persistencia y la autenticación continua del usuario.
 
-![Diagrama-BD-Identity-and-Access-Management.jpeg](Reporte/assets/capitulo-4/Diagrama-BD-Identity-and-Access-Management.jpeg)
+![Diagrama-BD-Identity-and-Access-Management.jpeg](../../assets/capitulo-4/Diagrama-BD-Identity-and-Access-Management.jpeg)
 
 **Connected Device Management**
 
 El contexto define la arquitectura de datos para la administración de los dispositivos inteligentes del hogar. La entidad central es "devices", que representa cada dispositivo físico vinculado al sistema. Se relaciona directamente con "device_types" para clasificar los dispositivos, y con "device_configurations" para almacenar ajustes personalizados de cada equipo, como límites de consumo o programaciones de autoapagado. La tabla "device_status" registra el estado actual del dispositivo en tiempo real, incluyendo si está activo, su consumo de energía, etc. Este diseño permite una supervisión integral y centralizada de todos los aparatos del hogar.
 
-![Diagrama-BD-Connected-Device-Management.jpeg](Reporte/assets/capitulo-4/Diagrama-BD-Connected-Device-Management.jpeg)
+![Diagrama-BD-Connected-Device-Management.jpeg](../../assets/capitulo-4/Diagrama-BD-Connected-Device-Management.jpeg)
 
 **Report Management**
 
-En este contexto se define la arquitectura de datos para la generación y almacenamiento de reportes de consumo. La entidad principal es "reports", que almacena cada informe generado con metadatos como el periodo de tiempo y el formato de archivo. La entidad "report_data" contiene las métricas detalladas del reporte, como el consumo total, el consumo promedio y los costos. La tabla "report_types" define los distintos tipos de informes que la plataforma puede generar. Finalmente, "scheduled_reports" permite a los usuarios programar la generación automática y periódica de sus reportes, optimizando la gestión de la información.
+En este contexto se define la arquitectura de datos para la generación y almacenamiento de ../..s de consumo. La entidad principal es "reports", que almacena cada informe generado con metadatos como el periodo de tiempo y el formato de archivo. La entidad "report_data" contiene las métricas detalladas del ../.., como el consumo total, el consumo promedio y los costos. La tabla "report_types" define los distintos tipos de informes que la plataforma puede generar. Finalmente, "scheduled_reports" permite a los usuarios programar la generación automática y periódica de sus ../..s, optimizando la gestión de la información.
 
-![Diagrama-BD-Report-Management.jpeg](Reporte/assets/capitulo-4/Diagrama-BD-Report-Management.jpeg)
+![Diagrama-BD-Report-Management.jpeg](../../assets/capitulo-4/Diagrama-BD-Report-Management.jpeg)
 
 **Alert and Notification Management**
 
 En este contexto se establece el modelo para el sistema de alertas y su configuración. La entidad principal "alerts" que registra cada alerta generada, conteniendo información como el umbral que se ha superado. Esta entidad se relaciona con "notifications", que almacena los mensajes específicos enviados al usuario. El modelo se complementa con la entidad "notification_preferences", que permite al usuario definir sus preferencias de notificación (por ejemplo, si desea recibir correos o notificaciones push), y "alert_types", que define los tipos de alertas predeterminados.
 
-![Diagrama-BD-Alert-and-Notification-Management.jpeg](Reporte/assets/capitulo-4/Diagrama-BD-Alert-and-Notification-Management.jpeg)
+![Diagrama-BD-Alert-and-Notification-Management.jpeg](../../assets/capitulo-4/Diagrama-BD-Alert-and-Notification-Management.jpeg)
 
 **Automation Management**
 
 Este contexto se enfoca en la creación y ejecución de reglas de automatización personalizadas para los dispositivos. La entidad principal es "automations", que representa una regla o rutina de automatización definida por el usuario. Se vincula con "automation_triggers" para definir las condiciones que inician la automatización (por ejemplo, un umbral de consumo o una hora específica), y con "automation_actions" para especificar la acción a ejecutar (por ejemplo, apagar un dispositivo). La entidad "automation_schedules" gestiona la recurrencia de las automatizaciones. Este modelo de datos permite a los usuarios configurar reglas complejas para optimizar su consumo energético de manera autónoma.
 
-![Diagrama-BD-Automation-Management.jpeg](Reporte/assets/capitulo-4/Diagrama-BD-Automation-Management.jpeg)
+![Diagrama-BD-Automation-Management.jpeg](../../assets/capitulo-4/Diagrama-BD-Automation-Management.jpeg)
