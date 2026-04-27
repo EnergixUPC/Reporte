@@ -148,6 +148,24 @@ La base de datos fue alojada en Aiven, con conexión bajo SSL obligatorio para l
 
 ## 5.2. Product Implementation & Deployment.
 ### 5.2.1. Sprint Backlogs.
+
+### Sprint 1
+
+| User Story ID | User Story Title                | Task ID | Task Title                      | Description                                                  | Estimation | Assigned To     | Status |
+|---------------|--------------------------------|---------|--------------------------------|--------------------------------------------------------------|------------|------------------|--------|
+| US20          | Consultar la propuesta de valor| UT01    | Redactar contenido             | Crear texto sobre beneficios de la plataforma                | 2h         | Jonatan Acuña    | Done   |
+|               |                                | UT02    | Diseñar sección                | Implementar diseño en la landing page                        | 3h         | Jonatan Acuña    | Done   |
+| US21          | Acceder a FAQ                  | UT03    | Redactar preguntas             | Crear lista de preguntas frecuentes                          | 2h         | Yeira Huaman     | Done   |
+|               |                                | UT04    | Implementar FAQ                | Desarrollar componente tipo acordeón                         | 3h         | Yeira Huaman     | Done   |
+| US22          | Revisar planes de suscripción  | UT05    | Redactar planes                | Crear contenido de precios y beneficios                      | 3h         | Andrés Torres    | Done   |
+|               |                                | UT06    | Diseñar comparación            | Implementar tabla/cards comparativos                         | 3h         | Andrés Torres    | Done   |
+| US23          | Cambiar idioma                 | UT07    | Implementar selector idioma    | Permitir cambio entre español e inglés                       | 4h         | Antonio Duran    | Done   |
+|               |                                | UT08    | Configurar traducciones        | Mapear textos en ambos idiomas                               | 3h         | Antonio Duran    | Done   |
+| US01          | Registro de cuenta             | UT09    | Diseñar formulario             | Crear interfaz con validaciones                              | 3h         | Didier Meza      | Done   |
+|               |                                | UT10    | Implementar registro           | Lógica para crear cuentas                                    | 4h         | Didier Meza      | Done   |
+| US02          | Inicio de sesión               | UT11    | Diseñar login                  | Crear interfaz de inicio de sesión                           | 2h         | Joan Teves       | Done   |
+|               |                                | UT12    | Implementar autenticación      | Validar credenciales                                         | 3h         | Joan Teves       | Done   |
+
 ### 5.2.2. Implemented Landing Page Evidence
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 ### 5.2.4. Acuerdo de Servicio - SaaS
