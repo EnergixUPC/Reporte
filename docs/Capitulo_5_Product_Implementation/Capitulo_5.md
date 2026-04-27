@@ -25,6 +25,45 @@ Para la validación de los criterios de aceptación del proyecto Energix, utiliz
 
 
 ### 5.1.2. Source Code Management.
+
+Usuarios de GitHub
+
+| **Integrante**                 | **Nombre de Usuario** |
+|--------------------------------|-----------------------|
+| Acuña Corahua, Jonatan Ariel   | JonatanFD             |
+| Duran Díaz, Antonio Rodrigo    | Sltcrd                |
+| Huaman Olivos, Yeira Shari     | YeiShari              |
+| Meza Solórzano, Didier Sebastian | DidierSebas           |
+| Teves Samaniego, Joan Fernando | Joan3210              |
+| Torres Lavandera, Andrés Rodrigo | AndresTorres202312557 |
+
+La gestión del código fuente es parte fundamental del desarrollo de cualquier
+proyecto de software, ya que nos permitirá rastrear cambios, revertir versionas y
+coordinar a los diferentes integrantes del equipo a la misma vez. En ENERGIX,
+utilizaremos GitHub como plataforma para alojar nuestros repositorios.
+
+**URL de repositorio de Landing Page:** https://github.com/EnergixUPC/Landing-Page
+
+**URL de repositorio de Frontend:** https://github.com/EnergixUPC/Frontend
+
+**URL de repositorio de Backend:** https://github.com/EnergixUPC/Backend
+
+**URL de repositorio Mobile:** https://github.com/EnergixUPC/Movil
+
+**URL de repositorio de Reporte:** https://github.com/EnergixUPC/Reporte
+
+Ejemplos de commits
+
+• feat(login): add user authentication module
+
+• fix(payment): resolve payment gateway issue
+
+• docs(README): update setup instructions
+
+Con estas estructuras, ENERGIX se puede gestionar eficientemente el flujo de
+trabajo del desarrollo, asegurándonos una integración continua y una organización
+clara del código.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 En el proyecto Energix, hemos implementado una serie de guías de estilo y convenciones con el objetivo de asegurar que todos los integrantes del equipo de desarrollo sigan una estructura consistente y clara a lo largo de todo el proyecto, facilitando la legibilidad del código, mejorando la colaboración y garantizando que el código sea mantenible a largo plazo.
