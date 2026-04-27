@@ -2,6 +2,75 @@
 
 ## 3.1. To-Be Scenario Mapping.
 
+**Segmento objetivo #1: Propietarios de Vivienda**
+
+<table border="1px">
+    <tbody>
+        <tr>
+            <td style="font-weight: bold;">Phases</td>
+            <td style="font-weight: bold;">Notar incremento del gasto (Recepción del recibo)</td>
+            <td style="font-weight: bold;">Búsqueda de culpables (Inspección)</td>
+            <td style="font-weight: bold;">Intervención manual</td>
+            <td style="font-weight: bold;">Evaluación de resultados</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Doing</td>
+            <td>Recibe una alerta automática por consumo elevado y consulta la proyección de factura mensual para notar que el gasto está aumentando antes de finalizar el periodo.</td>
+            <td>Ingresa al sistema y revisa el panel de consumo en tiempo real y el ranking de dispositivos de alto consumo para identificar qué electrodoméstico genera el incremento.</td>
+            <td>Configura umbrales personalizados para ese dispositivo y solicita asesoría personalizada en eficiencia energética para reducir el gasto en el hogar.</td>
+            <td>Consulta el reporte semanal y compara el consumo entre periodos para verificar si el consumo disminuyó respecto a la semana anterior.</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Thinking</td>
+            <td>“Qué bueno que la plataforma me avisó antes de que llegue el recibo final. Ahora puedo actuar rápido.”</td>
+            <td>“Ahora sé exactamente qué dispositivo está consumiendo más energía.”</td>
+            <td>“Debo ajustar mis límites y seguir las recomendaciones para ahorrar.”</td>
+            <td>“El ahorro ya es visible y puedo comprobar si las acciones funcionaron.”</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Feeling</td>
+            <td>Tranquilidad, control</td>
+            <td>Confianza, alivio</td>
+            <td>Determinación, comodidad</td>
+            <td>Satisfacción, motivación</td>
+        </tr>
+    </tbody>
+</table>
+
+**Segmento objetivo #2: Estudiantes que alquilan**
+
+<table border="1px">
+    <tbody>
+        <tr>
+            <td style="font-weight: bold;">Phases</td>
+            <td style="font-weight: bold;">Sorpresa del mes</td>
+            <td style="font-weight: bold;">Investigación técnica</td>
+            <td style="font-weight: bold;">Prácticas extremas</td>
+            <td style="font-weight: bold;">Revisión de billetera</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Doing</td>
+            <td>Consulta la proyección de factura mensual y nota que el monto estimado es mayor al esperado para su presupuesto.</td>
+            <td>Revisa el consumo en tiempo real y el historial mensual para identificar qué dispositivos del cuarto o departamento consumen más energía.</td>
+            <td>Configura alertas personalizadas y revisa consejos de ahorro energético en la sección de noticias y recomendaciones.</td>
+            <td>Compara el consumo entre semanas y revisa el historial actualizado para comprobar si logró reducir el gasto.</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Thinking</td>
+            <td>“Mi próximo recibo podría salirse de mi presupuesto.”</td>
+            <td>“Necesito identificar rápido qué está consumiendo más.”</td>
+            <td>“Voy a seguir los consejos y configurar alertas para evitar excesos.”</td>
+            <td>“Espero que mis cambios realmente reduzcan el gasto.”</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Feeling</td>
+            <td>Preocupación, urgencia</td>
+            <td>Curiosidad, análisis</td>
+            <td>Enfoque, esperanza</td>
+            <td>Alivio, satisfacción</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## 3.2. User Stories.
