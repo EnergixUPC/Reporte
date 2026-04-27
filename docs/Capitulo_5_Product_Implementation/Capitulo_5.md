@@ -85,6 +85,28 @@ Los tipos utilizados son:
 
 ### 5.1.4. Software Deployment Configuration.
 
+En esta sección se detalla la configuración utilizada para el despliegue de los productos desarrollados en el proyecto Energix, abarcando la Landing Page, la aplicación web Frontend y el Backend del sistema SEMS.
+
+**Landing Page — Netlify**
+
+Para el despliegue de la landing page se utilizó Netlify. El proceso consistió en autenticarse con GitHub desde la plataforma, buscar la organización del proyecto, seleccionar el repositorio correspondiente y cargar los archivos. Una vez completado el proceso, Netlify generó automáticamente el enlace de publicación.
+La landing page está disponible en: https://energixlp.netlify.app
+
+**Frontend — Vercel**
+
+El frontend desarrollado con Angular fue desplegado en Vercel, conectando el repositorio de GitHub para que cada merge a la rama principal genere un despliegue automático.
+La aplicación web está disponible en: https://frontend-sems.vercel.app
+
+**Backend — Render**
+
+El backend con Spring Boot fue desplegado en Render, también con integración continua desde GitHub. Para proteger la dirección IP del servidor y evitar exponerla en un repositorio público, se configuró un proxy mediante Cloudflare Tunnel.
+
+La documentación Swagger está en: https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
+
+**Base de datos — Aiven**
+
+La base de datos fue alojada en Aiven, con conexión bajo SSL obligatorio para la seguridad de los datos.
+
 ## 5.2. Product Implementation & Deployment.
 ### 5.2.1. Sprint Backlogs.
 ### 5.2.2. Implemented Landing Page Evidence
