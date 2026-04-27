@@ -6,6 +6,20 @@
 
 ## 3.2. User Stories.
 
+En el desarrollo de la plataforma se definieron nueve épicas que abarcan todo el recorrido del usuario: desde registrarse y gestionar su cuenta, recibir alertas, analizar reportes y optimizar su consumo energético.
+
+Estas épicas se diseñaron tomando como base Domain-Driven Design (DDD), lo que permitió dividir el sistema en bounded contexts claros y funcionales. Gracias a esto, cada parte de la plataforma tiene responsabilidades bien definidas y puede crecer de manera independiente y escalable.
+
+Las User Stories fueron redactadas siguiendo principios de User Experience (UX) y apoyadas en una arquitectura REST, lo que asegura que la interacción de los usuarios sea sencilla y fluida, al mismo tiempo que la parte técnica se mantiene ordenada y lista para integrarse con servicios distribuidos.
+
+Cada User Story combina dos perspectivas:
+
+* Una visión funcional, que explica lo que necesita el usuario y el valor que obtiene.
+
+* Una visión técnica, con criterios de aceptación escritos en formato Dado–Cuando–Entonces, lo que facilita probar cada caso de uso y garantizar su cumplimiento.
+
+Con este enfoque, las User Stories cubren áreas clave como la seguridad de cuentas, las alertas y notificaciones, los reportes y proyecciones, las herramientas de ahorro y la experiencia en la página de inicio.
+
 | StoryID | Title                                                     | Description                                                                                                                           | Acceptance Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Epic |
 |---------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | US01    | Registro de cuenta                                        | Como usuario, quiero registrarme en la plataforma para acceder a todas las funcionalidades.                                           | Escenario 1: Registro válido<br><br>Dado que no dispongo de una cuenta<br>Cuando confirmo mi registro con datos completos y válidos<br>Entonces el sistema crea mi cuenta y la habilita<br><br><br><br>Escenario 2: Datos inválidos<br><br>Dado que ingreso datos incompletos o incorrectos<br>Cuando intento registrarme<br>Entonces el sistema rechaza el registro e informa los errores<br><br><br><br>Escenario 3: Correo duplicado<br><br>Dado que un correo ya está registrado<br>Cuando intento usarlo para crear otra cuenta<br>Entonces el sistema rechaza el proceso                                                    | EP01 |
@@ -32,9 +46,7 @@
 | US22    | Revisar planes de suscripción                             | Como visitante, quiero revisar los planes de suscripción para comparar precios y beneficios antes de decidir.                         | Escenario 1: Acceso a planes de suscripción<br><br>Dado que el visitante accede a la sección de suscripciones<br>Cuando revisa el contenido<br>Entonces el sistema muestra diferentes planes con precios y beneficios<br><br><br><br>Escenario 2: Comparación de planes<br><br>Dado que el visitante analiza las opciones<br>Cuando compara los planes<br>Entonces el sistema destaca las diferencias principales entre los niveles básico, intermedio y avanzado                                                                                                                                                                 | EP10 |
 | US23    | Cambiar idioma                                            | Como visitante, quiero cambiar el idioma de la landing page entre español e inglés para entender mejor la información                 | Escenario 1: Traducción completa a inglés<br><br>Dado que el visitante accede a la Landing Page<br>Cuando selecciona el idioma inglés<br>Entonces el sistema presenta todos los textos de la página en inglés<br><br><br><br>Escenario 2: Traducción completa a español<br><br>Dado que el visitante accede a la Landing Page<br>Cuando selecciona el idioma español<br>Entonces el sistema muestra de forma consistente todo el contenido en español                                                                                                                                                                             | EP10 |
 
-
 ## 3.3. Product Backlog.
-
 
 | # Orden | User Story Id | Título                                                    | Descripción                                                                                                                           | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
