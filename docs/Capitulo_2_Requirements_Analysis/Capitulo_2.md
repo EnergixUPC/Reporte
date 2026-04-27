@@ -217,7 +217,7 @@ Link del Video: https://shorturl.at/l63Qm
 
 **ENTREVISTA 1**
 
-![Entrevista-1-Propietario.png](assets/Entrevista-1-Propietario.png)
+![Entrevista-1-Propietario.png](../../assets/capitulo-2/Entrevista-1-Propietario.png)
 
 
 Inicia: 0 minutos y 0 segundos
@@ -245,7 +245,7 @@ Información extra:
 
 **ENTREVISTA 2**
 
-![Entrevista-2-Propietario.png](assets/Entrevista-2-Propietario.png)
+![Entrevista-2-Propietario.png](../../assets/capitulo-2/Entrevista-2-Propietario.png)
 
 Inicia:  5 minutos y 24 segundos
 
@@ -271,7 +271,7 @@ Información extra:
 
 **ENTREVISTA 3**
 
-![Entrevista1-Segmento1.png](assets/Entrevista1-Segmento1.png)
+![Entrevista-3-Propietario.png](../../assets/capitulo-2/Entrevista1-Segmento1.png)
 
 
 Inicia: 9 minutos y 17 segundos
@@ -300,7 +300,7 @@ Información extra:
 
 **ENTREVISTA 1**
 
-![Entrevista-1-Estudiante.jpeg](assets/Entrevista-1-Estudiante.jpeg)
+![Entrevista-1-Estudiante.jpeg](../../assets/capitulo-2/Entrevista-1-Estudiante.jpeg)
 
 
 Inicia: 16 minutos y 23 segundos
@@ -327,7 +327,7 @@ Información extra:
 
 **ENTREVISTA 2**
 
-![Entrevista-2-Estudiante.jpeg](assets/Entrevista-2-Estudiante.jpeg)
+![Entrevista-2-Estudiante.jpeg](../../assets/capitulo-2/Entrevista-2-Estudiante.jpeg)
 
 Inicia: 19 minutos y 55 segundos
 
@@ -355,7 +355,7 @@ Información extra:
 
 **ENTREVISTA 3**
 
-![Entrevista-3-Estudiante.jpeg](assets/Entrevista-3-Estudiante.jpeg)
+![Entrevista-3-Estudiante.jpeg](../../assets/capitulo-2/Entrevista-3-Estudiante.jpeg)
 
 Inicia: 24 minutos y 2 segundos
 
