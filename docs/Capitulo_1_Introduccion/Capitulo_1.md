@@ -32,7 +32,7 @@ En este punto del informe, se presentará información detallada sobre nuestro p
 
 __Product Name__: Nuestro producto se llamará “SEMS”, un nombre compuesto por cuatro palabras en inglés: "Smart Energy Management System" (Sistema de gestión de energía inteligente). Esta combinación refleja claramente el propósito principal de la plataforma: ofrecer un sistema eficiente y accesible para el monitoreo y control del consumo de energía en el hogar.
 
-__Product Desciption__: SEMS es una plataforma que permite a los usuarios controlar y reducir su consumo energético de manera inteligente. A través de un medidor inteligente que se conecta a los dispositivos del hogar, SEMS realiza un seguimiento en tiempo real del consumo de energía, emite alertas cuando se detectan picos de consumo, proporciona recomendaciones personalizadas y permite apagar dispositivos que estén utilizando más energía de lo necesario.
+__Product Description__: SEMS es una plataforma que permite a los usuarios controlar y reducir su consumo energético de manera inteligente. A través de un medidor inteligente que se conecta a los dispositivos del hogar, SEMS realiza un seguimiento en tiempo real del consumo de energía, emite alertas cuando se detectan picos de consumo, proporciona recomendaciones personalizadas y permite apagar dispositivos que estén utilizando más energía de lo necesario.
 
 __Monetización__:  
 SEMS funciona mediante un modelo de suscripción mensual o anual. Se ofrecen tres planes diseñados para adaptarse a diferentes necesidades y niveles de control del consumo energético en el hogar:
@@ -63,10 +63,13 @@ SEMS funciona mediante un modelo de suscripción mensual o anual. Se ofrecen tre
     - Recordatorios periódicos sobre el rendimiento energético y recomendaciones de mejoras
 
 ### 1.2.1 Antecedentes y problemática
-#### En las ultimas décadas, el crecimiento poblacional y el aumento de dispositivos electrónicos en los hogares han generado un incremento significativo en la demanda energética. Según el informe World Energy Outlook 2023 de la Agencia Internacional de Energía (IEA).
-#### En Perú, el Ministerio de Energía y Minas indicó en su boletín estadístico 2022 que el consumo residencial alcanzó el 28.6% del total de electricidad nacional, siendo los electrodomésticos, sistemas de iluminación y aparatos conectados permanentemente a la red los principales responsables de dicho gasto, impactando negativamente al medio ambiente y a la economía familiar.
-#### En los hogares, muchas veces no se cuentan con información clara sobre cuánta energía consume cada artefacto, lo que dificulta tomar desiciones para reducir el gasto. A esto se suma la falta de hábitos de consumo eficiente, como el uso de focos LED o la desconexión de equipos en reposo. Además, la mayoría de usuarios solo conoce su consumo mediante el recibo mensual.
-#### Frente a esta problemática, surge Energix, una plataforma que brinda a los usuarios informes personalizados, alertas automáticas ante consumos inusuales y monitoreo en tiempo real, permitíendoles gestionar de manera efectiva el usuo energético de cada uno de sus dispositivos.
+En las ultimas décadas, el crecimiento poblacional y el aumento de dispositivos electrónicos en los hogares han generado un incremento significativo en la demanda energética. Según el informe World Energy Outlook 2023 de la Agencia Internacional de Energía (IEA).
+
+En Perú, el Ministerio de Energía y Minas indicó en su boletín estadístico 2022 que el consumo residencial alcanzó el 28.6% del total de electricidad nacional, siendo los electrodomésticos, sistemas de iluminación y aparatos conectados permanentemente a la red los principales responsables de dicho gasto, impactando negativamente al medio ambiente y a la economía familiar.
+
+En los hogares, muchas veces no se cuentan con información clara sobre cuánta energía consume cada artefacto, lo que dificulta tomar desiciones para reducir el gasto. A esto se suma la falta de hábitos de consumo eficiente, como el uso de focos LED o la desconexión de equipos en reposo. Además, la mayoría de usuarios solo conoce su consumo mediante el recibo mensual.
+
+Frente a esta problemática, surge Energix, una plataforma que brinda a los usuarios informes personalizados, alertas automáticas ante consumos inusuales y monitoreo en tiempo real, permitíendoles gestionar de manera efectiva el usuo energético de cada uno de sus dispositivos.
 
 | Elemento | Descripción |
 |----------|-------------|
@@ -210,7 +213,7 @@ El desafío principal que enfrentamos es lograr que nuestros usuarios confíen e
 
 #### 1.2.2.4. Lean UX Canvas.
 
-![Lean-Ux-Canvas.png](assets/Lean-Ux-Canvas.png)
+![Lean-Ux-Canvas.png](../../assets/capitulo-1/Lean-Ux-Canvas.png)
 
 ## 1.3. Segmentos objetivos.
 
