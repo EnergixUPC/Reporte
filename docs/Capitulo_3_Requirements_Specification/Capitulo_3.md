@@ -63,3 +63,5 @@
 | 23      | US23          | Cambiar idioma                                            | Como visitante, quiero cambiar el idioma de la landing page entre español e inglés para entender mejor la información.                | 5                                |
 
 ## 3.4. Impact Mapping.
+
+![impact-mapping.png](../../assets/capitulo-3/impact-mapping.png)
