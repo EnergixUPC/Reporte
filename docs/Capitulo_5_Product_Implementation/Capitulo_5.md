@@ -259,6 +259,32 @@ El funcionamiento de Energix depende de la disponibilidad de conexión a interne
 Este acuerdo define las condiciones bajo las cuales Energix ofrece su servicio, garantizando una experiencia confiable, segura y en constante evolución para sus usuarios.
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+Durante el desarrollo del sprint se lograron completar los principales módulos del backend del sistema Energix, consolidando una arquitectura funcional y escalable orientada a la gestión del consumo energético en hogares.
+
+Las funcionalidades implementadas fueron las siguientes:
+
+1. API de autenticación completa, incluyendo endpoints para registro de usuarios, inicio de sesión y validación de sesiones activas.
+
+2. Gestión de perfiles de usuario mediante API, permitiendo consultar y actualizar información personal, así como la carga de imágenes de perfil.
+
+3. Módulo de reportes de consumo energético, con generación y consulta de reportes semanales, diarios, mensuales y por categorías.
+
+4. CRUD de dispositivos inteligentes, incorporando monitoreo en tiempo real, control de encendido/apagado, configuración de preferencias y organización por categorías.
+
+5. Sistema de autenticación robusto, con validación de sesión activa y cierre de sesión seguro, incluyendo manejo adecuado de errores.
+
+6. Backend desplegado en Render, integrado con base de datos, sistema de notificaciones y documentación completa mediante Swagger.
+
+**Capturas de pantalla de la documentación en Swagger**
+
+**Deployment del Backend en Render**
+
+![Deploy-API](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/Deploy-API.png)
+
+**SEMS API**
+
+![SEMS-API](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/SEMS-API.png)
 ### 5.2.7. RESTful API documentation
 ### 5.2.8. Team Collaboration Insights
 
