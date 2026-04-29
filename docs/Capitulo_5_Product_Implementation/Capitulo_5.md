@@ -232,6 +232,31 @@ Finalmente, el frontend fue desplegado en un entorno productivo mediante integra
 
 URL del frontend desplegado: https://frontend-sems.vercel.app
 ### 5.2.4. Acuerdo de Servicio - SaaS
+
+El sistema Energix se ofrece bajo un modelo Software as a Service (SaaS), lo que permite a los usuarios acceder a la plataforma a través de internet sin necesidad de realizar instalaciones locales. Este enfoque facilita la escalabilidad, el mantenimiento continuo y la disponibilidad del servicio.
+
+**Disponibilidad del Servicio**  
+Energix garantiza una alta disponibilidad del sistema, apoyándose en servicios de despliegue en la nube como Vercel (frontend), Render (backend) y Aiven (base de datos). Se busca mantener el servicio activo el mayor tiempo posible, con monitoreo constante para detectar y resolver incidentes.
+
+**Acceso y Autenticación**  
+El acceso a la plataforma se realiza mediante credenciales seguras (correo electrónico y contraseña). Cada usuario cuenta con un perfil único, y el sistema implementa control de acceso según el rol (propietario o estudiante), asegurando que la información sea visible únicamente para usuarios autorizados.
+
+**Seguridad de la Información**  
+Energix protege la información de los usuarios mediante conexiones seguras (HTTPS) y el uso de bases de datos con conexión cifrada (SSL). Asimismo, se aplican buenas prácticas de desarrollo para evitar vulnerabilidades comunes.
+
+**Actualizaciones y Mantenimiento**  
+El sistema se actualiza de manera continua mediante integración con repositorios en GitHub. Las mejoras, correcciones de errores y nuevas funcionalidades se despliegan automáticamente, sin necesidad de intervención del usuario final.
+
+**Escalabilidad del Servicio**  
+Gracias al uso de infraestructura en la nube, Energix puede adaptarse al crecimiento en la cantidad de usuarios, permitiendo escalar recursos según la demanda del sistema.
+
+**Soporte y Mejora Continua**  
+El equipo de desarrollo realiza seguimiento constante del funcionamiento del sistema, recopilando retroalimentación de los usuarios para implementar mejoras en futuras versiones.
+
+**Limitaciones del Servicio**  
+El funcionamiento de Energix depende de la disponibilidad de conexión a internet y de los servicios de terceros utilizados para su despliegue. Interrupciones en estos servicios pueden afectar temporalmente el acceso a la plataforma.
+
+Este acuerdo define las condiciones bajo las cuales Energix ofrece su servicio, garantizando una experiencia confiable, segura y en constante evolución para sus usuarios.
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 ### 5.2.7. RESTful API documentation
