@@ -286,6 +286,45 @@ Las funcionalidades implementadas fueron las siguientes:
 
 ![SEMS-API](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/SEMS-API.png)
 ### 5.2.7. RESTful API documentation
+
+La documentación de la API REST del sistema Energix ha sido implementada con el objetivo de facilitar la comprensión, integración y consumo de los distintos servicios del backend por parte del frontend y otros posibles clientes.
+
+Para el despliegue del backend se utilizó **Render**, lo que permitió contar con una infraestructura centralizada, escalable y conectada directamente con el repositorio del proyecto. De esta manera, cada actualización en la rama principal se refleja automáticamente en el entorno de producción, optimizando el flujo de desarrollo.
+
+Adicionalmente, se implementó un **proxy mediante Cloudflare Tunnel** con el fin de mejorar la seguridad del sistema. Esta medida permite ocultar la dirección IP real del servidor, reduciendo riesgos asociados a accesos no autorizados o ataques directos. Por ello, la API solo es accesible mediante una URL pública controlada.
+
+La base URL de la API es la siguiente:
+
+https://theft-muscles-inner-protection.trycloudflare.com
+
+La documentación interactiva se encuentra disponible a través de Swagger UI:
+
+https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
+
+---
+
+### Endpoints principales de la API
+
+| Método HTTP | Endpoint                          | Descripción                                   |
+|-------------|-----------------------------------|-----------------------------------------------|
+| POST        | /api/v1/auth/register             | Registro de nuevos usuarios                   |
+| POST        | /api/v1/auth/login                | Inicio de sesión de usuario                   |
+| GET         | /api/v1/auth/validate             | Validación de sesión activa                   |
+| GET         | /api/profile/{userId}             | Consulta de perfil de usuario                 |
+| PUT         | /api/profile/{userId}             | Actualización de información de perfil        |
+| GET         | /api/v1/devices                   | Listado de dispositivos registrados           |
+| POST        | /api/v1/devices                   | Creación de dispositivos                       |
+| GET         | /api/v1/devices/{deviceId}        | Detalle de un dispositivo                      |
+| PUT         | /api/v1/devices/{deviceId}        | Actualización de dispositivo                   |
+| DELETE      | /api/v1/devices/{deviceId}        | Eliminación de dispositivo                     |
+| POST        | /api/v1/devices/{deviceId}/toggle | Cambio de estado de dispositivo                |
+| GET         | /api/v1/alerts                    | Consulta de alertas                            |
+| POST        | /api/v1/alerts                    | Creación de alertas                            |
+| GET         | /api/v1/notifications             | Listado de notificaciones                      |
+| GET         | /api/v1/consumption/daily         | Consumo energético diario                      |
+| GET         | /api/v1/consumption/monthly       | Consumo energético mensual                     |
+| GET         | /api/v1/reports/weeklyConsumption | Reporte semanal de consumo                     |
+| GET         | /api/v1/dashboard/stats           | Estadísticas generales del sistema             |
 ### 5.2.8. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product.
