@@ -167,6 +167,25 @@ La base de datos fue alojada en Aiven, con conexión bajo SSL obligatorio para l
 |               |                                | UT12    | Implementar autenticación      | Validar credenciales                                         | 3h         | Joan Teves       | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
+
+Como parte de la implementación del producto, se desarrolló y consolidó la Landing Page de Energix, la cual representa el primer punto de interacción entre el usuario y la propuesta de valor del sistema. Esta página fue diseñada considerando criterios de usabilidad, accesibilidad y claridad en la comunicación de beneficios, permitiendo presentar de forma estructurada las funcionalidades principales del producto.
+
+La Landing Page incluye secciones clave como la barra de navegación, pantalla de inicio, descripción de beneficios, presentación del producto, planes de suscripción, información del equipo, preguntas frecuentes y pie de página. Cada una de estas secciones fue implementada siguiendo los diseños previamente definidos en Figma, asegurando coherencia visual y experiencia de usuario.
+
+A continuación, se presentan las evidencias correspondientes a la implementación final de la Landing Page:
+
+![Barra-de-Navegacion.png](../assets/capitulo-5/lan0.png)
+![Inicio.png](../assets/capitulo-5/lan1.png)
+![Beneficios.png](../assets/capitulo-5/lan2.png)
+![Producto.png](../assets/capitulo-5/lan3.png)
+![Suscripciones.png](../assets/capitulo-5/lan4.png)
+![About-the-Team.png](../assets/capitulo-5/lan5.png)
+![Preguntas-Frecuentes.png](../assets/capitulo-5/lan6.png)
+![Footer.png](../assets/capitulo-5/lan7.png)
+
+Adicionalmente, la Landing Page fue desplegada en un entorno productivo, permitiendo su acceso público para validación y retroalimentación continua. El despliegue se realizó mediante integración con el repositorio del proyecto, garantizando que cada actualización refleje de manera automática los cambios implementados por el equipo de desarrollo.
+
+URL de la Landing Page desplegada: https://energixlp.netlify.app
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 ### 5.2.4. Acuerdo de Servicio - SaaS
 ### 5.2.5. Implemented Native-Mobile Application Evidence
