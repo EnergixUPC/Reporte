@@ -187,6 +187,50 @@ Adicionalmente, la Landing Page fue desplegada en un entorno productivo, permiti
 
 URL de la Landing Page desplegada: https://energixlp.netlify.app
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
+Como parte de la implementación del producto Energix, se desarrolló la aplicación web frontend, la cual permite a los usuarios interactuar de manera eficiente con el sistema de gestión energética. Esta interfaz fue construida utilizando Angular, siguiendo principios de diseño centrado en el usuario y buenas prácticas de desarrollo frontend.
+
+La aplicación web integra diversas funcionalidades clave que garantizan una experiencia fluida e intuitiva. Entre las principales características implementadas se encuentran:
+
+1. Sistema de autenticación completo, que permite el registro e inicio de sesión diferenciando entre tipos de usuario (propietarios y estudiantes), adaptando la experiencia según el rol.
+
+2. Gestión y personalización del perfil de usuario, permitiendo modificar información relevante y mejorar la experiencia dentro de la plataforma.
+
+3. Visualización de dashboards interactivos, donde el usuario puede monitorear su consumo energético mediante gráficos y métricas claras.
+
+4. Módulo de reportes, que permite filtrar información por fechas y tipos, así como descargar los datos en distintos formatos.
+
+5. Gestión de dispositivos, facilitando el registro, visualización y control de los dispositivos asociados al usuario.
+
+6. Implementación de internacionalización (i18n), permitiendo el uso de la plataforma en más de un idioma.
+
+7. Sistema de navegación robusto, con rutas protegidas que garantizan la seguridad del acceso a la información, además de una página 404 personalizada.
+
+A continuación, se presentan evidencias visuales de las principales vistas implementadas en la aplicación web:
+
+**Login y Autenticación**
+
+![login](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/login.png)
+
+**Dashboard Principal**
+
+![dashboard](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/dashboard.png)
+
+**Gestión de Dispositivos**
+
+![devices](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/devices.png)
+
+**Módulo de Reportes**
+
+![reports](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/reports.png)
+
+**Configuración de Usuario**
+
+![configuration](https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report/raw/develop/chapter-05/assets/configuration.png)
+
+Finalmente, el frontend fue desplegado en un entorno productivo mediante integración continua con el repositorio del proyecto, permitiendo que cada actualización realizada por el equipo se refleje automáticamente en la aplicación en línea.
+
+URL del frontend desplegado: https://frontend-sems.vercel.app
 ### 5.2.4. Acuerdo de Servicio - SaaS
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
