@@ -326,5 +326,52 @@ https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 | GET         | /api/v1/reports/weeklyConsumption | Reporte semanal de consumo                     |
 | GET         | /api/v1/dashboard/stats           | Estadísticas generales del sistema             |
 ### 5.2.8. Team Collaboration Insights
+En esta sección se presenta la participación activa de los integrantes del equipo en los distintos repositorios del proyecto Energix, evidenciando el trabajo colaborativo tanto en el desarrollo del backend, frontend y la landing page.
+
+---
+
+### Backend de la Aplicación
+
+Repositorio del Backend:  
+https://github.com/EnergixUPC/Backend
+
+| **Integrante**                           | **Actividad**                                                                                          |  
+|------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**           | Desarrollo de funcionalidades del backend y aportes al documento **chapter 5.md**                     |
+| **Torres Lavandera, Andrés Rodrigo**     | Desarrollo de funcionalidades del backend y aportes al documento **chapter 5.md**                     |
+| **Acuña Corahua, Jonatan Ariel**         | Desarrollo de funcionalidades del backend y aportes al documento **chapter 5.md**                     |
+| **Meza Solórzano, Didier Sebastian**     | Desarrollo de funcionalidades del backend y aportes al documento **chapter 5.md**                     |
+| **Duran Díaz, Antonio Rodrigo**          | Desarrollo de funcionalidades del backend y aportes al documento **chapter 5.md**                     |
+| **Teves Samaniego, Joan Fernando**       | Desarrollo de funcionalidades del backend y aportes al documento **chapter 5.md**                     |
+
+---
+
+### Frontend de la Aplicación Web
+
+Repositorio del Frontend:  
+https://github.com/EnergixUPC/Frontend
+| **Integrante**                           | **Actividad**                                                                                                         |  
+|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**           | Desarrollo de interfaces del frontend y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**                           |
+| **Torres Lavandera, Andrés Rodrigo**     | Desarrollo de interfaces del frontend y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**                           |
+| **Acuña Corahua, Jonatan Ariel**         | Desarrollo de interfaces del frontend y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**                           |
+| **Meza Solórzano, Didier Sebastian**     | Desarrollo de interfaces del frontend y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**                           |
+| **Duran Díaz, Antonio Rodrigo**          | Desarrollo de interfaces del frontend y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**                           |
+| **Teves Samaniego, Joan Fernando**       | Desarrollo de interfaces del frontend y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**                           |
+
+---
+
+### Landing Page
+
+Repositorio de Landing Page:  
+https://github.com/EnergixUPC/Landing-Page
+| **Integrante**                           | **Actividad**                                                                                          |  
+|------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**           | Desarrollo de secciones de la landing page y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**       |
+| **Torres Lavandera, Andrés Rodrigo**     | Desarrollo de secciones de la landing page y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**       |
+| **Acuña Corahua, Jonatan Ariel**         | Desarrollo de secciones de la landing page y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**       |
+| **Meza Solórzano, Didier Sebastian**     | Desarrollo de secciones de la landing page y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**       |
+| **Duran Díaz, Antonio Rodrigo**          | Desarrollo de secciones de la landing page y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**       |
+| **Teves Samaniego, Joan Fernando**       | Desarrollo de secciones de la landing page y contribuciones a los **chapter 1, 2, 3, 4 y 5.md**       |
 
 ## 5.3. Video About-the-Product.
