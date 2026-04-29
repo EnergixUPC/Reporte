@@ -174,14 +174,14 @@ La Landing Page incluye secciones clave como la barra de navegación, pantalla d
 
 A continuación, se presentan las evidencias correspondientes a la implementación final de la Landing Page:
 
-![Barra-de-Navegacion.png](../assets/capitulo-5/lan0.png)
-![Inicio.png](../assets/capitulo-5/lan1.png)
-![Beneficios.png](../assets/capitulo-5/lan2.png)
-![Producto.png](../assets/capitulo-5/lan3.png)
-![Suscripciones.png](../assets/capitulo-5/lan4.png)
-![About-the-Team.png](../assets/capitulo-5/lan5.png)
-![Preguntas-Frecuentes.png](../assets/capitulo-5/lan6.png)
-![Footer.png](../assets/capitulo-5/lan7.png)
+![Barra de Navegación](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan0.png?raw=true)
+![Inicio](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan1.png?raw=true)
+![Beneficios](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan2.png?raw=true)
+![Producto](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan3.png?raw=true)
+![Suscripciones](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan4.png?raw=true)
+![About the Team](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan5.png?raw=true)
+![Preguntas Frecuentes](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan6.png?raw=true)
+![Footer](https://github.com/EnergixUPC/Reporte/blob/develop/assets/capitulo-5/lan7.png?raw=true)
 
 Adicionalmente, la Landing Page fue desplegada en un entorno productivo, permitiendo su acceso público para validación y retroalimentación continua. El despliegue se realizó mediante integración con el repositorio del proyecto, garantizando que cada actualización refleje de manera automática los cambios implementados por el equipo de desarrollo.
 
