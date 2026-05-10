@@ -62,6 +62,14 @@ La Entrega Continua (Continuous Delivery) extiende la Integración Continua al a
 
 A continuación se presentan las evidencias visuales del pipeline de entrega continua, incluyendo la construcción y publicación de la imagen Docker en GitHub Container Registry.
 
+**Pipeline CI — Build & Test**
+
+![Backend CI Pipeline](../../assets/capitulo-7/BackendCI-Pipeline.png)
+
+**Pipeline CD — Build & Push Docker Image**
+
+![Backend CD Pipeline](../../assets/capitulo-7/BackendCD-Pipeline.png)
+
 ## 7.3. Continuous deployment
 
 ### 7.3.1. Tools and Practices.
