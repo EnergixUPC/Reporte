@@ -33,7 +33,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-01.png](../../assets/capitulo-6/US-01.png)
 
 <table border="1px">
     <tbody>
@@ -45,7 +45,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-02.png](../../assets/capitulo-6/US-02.png)
 
 <table border="1px">
     <tbody>
@@ -57,7 +57,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-03.png](../../assets/capitulo-6/US-03.png)
 
 <table border="1px">
     <tbody>
@@ -69,7 +69,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-04.png](../../assets/capitulo-6/US-04.png)
 
 <table border="1px">
     <tbody>
@@ -81,7 +81,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-05.png](../../assets/capitulo-6/US-05.png)
 
 <table border="1px">
     <tbody>
@@ -93,7 +93,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-06.png](../../assets/capitulo-6/US-06.png)
 
 <table border="1px">
     <tbody>
@@ -105,7 +105,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-07.png](../../assets/capitulo-6/US-07.png)
 
 <table border="1px">
     <tbody>
@@ -117,7 +117,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-08.png](../../assets/capitulo-6/US-08.png)
 
 <table border="1px">
     <tbody>
@@ -129,7 +129,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-09.png](../../assets/capitulo-6/US-09.png)
 
 <table border="1px">
     <tbody>
@@ -141,7 +141,7 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
     </tbody>
 </table>
 
-
+![US-10.png](../../assets/capitulo-6/US-10.png)
 
 <table border="1px">
     <tbody>
