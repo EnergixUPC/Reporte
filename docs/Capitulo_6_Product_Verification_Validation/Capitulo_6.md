@@ -2,6 +2,23 @@
 
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests.
+
+Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las entidades principales del sistema de manera aislada, asegurando que las reglas de negocio, validaciones y comportamientos esenciales se ejecuten correctamente. Estas pruebas son fundamentales para detectar errores tempranamente, mejorar la estabilidad del proyecto y facilitar el mantenimiento del software durante el desarrollo.
+
+**User Profile Test**
+
+![img.png](img.png)
+
+**Dashboard Test**
+
+![img_1.png](img_1.png)
+
+**Device Test**
+
+![img_2.png](img_2.png)
+
+
+
 ### 6.1.2. Core Integration Tests.
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests.
