@@ -32,6 +32,11 @@ A continuación se describen las herramientas y prácticas que componen la etapa
 
 A continuación se presentan las evidencias visuales del pipeline de construcción y suite de pruebas ejecutado mediante GitHub Actions.
 
+**Pipeline CI — Build & Test**
+
+![Backend CI Pipeline](../../assets/capitulo-7/BackendCI-Pipeline.png)
+
+
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices.
@@ -62,10 +67,6 @@ La Entrega Continua (Continuous Delivery) extiende la Integración Continua al a
 
 A continuación se presentan las evidencias visuales del pipeline de entrega continua, incluyendo la construcción y publicación de la imagen Docker en GitHub Container Registry.
 
-**Pipeline CI — Build & Test**
-
-![Backend CI Pipeline](../../assets/capitulo-7/BackendCI-Pipeline.png)
-
 **Pipeline CD — Build & Push Docker Image**
 
 ![Backend CD Pipeline](../../assets/capitulo-7/BackendCD-Pipeline.png)
@@ -94,6 +95,54 @@ El Despliegue Continuo (Continuous Deployment) representa la etapa final del pip
 ### 7.3.2. Production Deployment Pipeline Components.
 
 A continuación se presentan las evidencias visuales del pipeline de despliegue continuo a producción, incluyendo la extracción de la imagen desde ghcr.io y su ejecución en el entorno productivo.
+
+El procesos se realiza con el siguiente Github Action
+
+```yml
+name: CD
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-push:
+    name: Build and Push Docker Image
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: docker/setup-buildx-action@v3
+
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set image tag
+        run: echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}:latest" >> $GITHUB_ENV
+
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ${{ env.IMAGE }}
+
+      - name: Deploy on render
+        run: curl -X POST "https://api.render.com/deploy/srv-d7vtn9hj2pic73eqaflg?key=KVHJR4sUpWA"
+```
+
+![Backend CD Pipeline](../../assets/capitulo-7/CD-1.png)
+
+
+![Backend CD Pipeline](../../assets/capitulo-7/CD-2.png)
+
+> Notar que se usa secret configurado en Github para hacer el deploy del servicio en Render
 
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
