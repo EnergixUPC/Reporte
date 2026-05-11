@@ -342,7 +342,11 @@ El análisis estático no solo dependió de herramientas automatizadas, sino tam
 Este proceso de revisión mitigó el riesgo de introducir errores de lógica que las herramientas automatizadas no pueden detectar, fomentando además la propiedad colectiva del código.
 
 > **Evidencia de Revisión de Pares:**
-> *[Insertar captura de pantalla de GitHub de un Pull Request cerrado/aprobado. (Idealmente captura la del PR de tu rama "tests-2" hacia "develop", donde se vea el botón de Merge verde y quién fue el autor).]*
+![img.png](../../assets/capitulo-6/Merge_Frontend.png)
+![img.png](../../assets/capitulo-6/Merge_Frontend2.png)
+![img.png](../../assets/capitulo-6/Merge_Backend.png)
+![img.png](../../assets/capitulo-6/Merge_Backend2.png)
+![img.png](../../assets/capitulo-6/Merge_Backend3.png)
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
