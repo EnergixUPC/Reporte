@@ -20,6 +20,22 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
 
 
 ### 6.1.2. Core Integration Tests.
+
+Los Controller Tests y Core Integration Tests son fundamentales para verificar el correcto funcionamiento de los endpoints y la interacción entre los distintos componentes del sistema, como servicios y bases de datos. Estas pruebas permiten validar respuestas, manejo de errores y códigos de estado, contribuyendo a desarrollar un software más estable, confiable y de calidad.
+
+**Authentication Controller Test**
+
+![img_3.png](img_3.png)
+
+**User Controller Test**
+
+![img_4.png](img_4.png)
+
+**Devices Controller Test**
+
+![img_5.png](img_5.png)
+
+
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests.
 
