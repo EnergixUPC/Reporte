@@ -7,16 +7,15 @@ Los Core Entities Unit Tests permiten validar el correcto funcionamiento de las 
 
 **User Profile Test**
 
-![img.png](img.png)
+![img.png](../../assets/capitulo-6/img.png)
 
 **Dashboard Test**
 
-![img_1.png](img_1.png)
+![img_1.png](../../assets/capitulo-6/img_1.png)
 
 **Device Test**
 
-![img_2.png](img_2.png)
-
+![img_2.png](../../assets/capitulo-6/img_2.png)
 
 
 ### 6.1.2. Core Integration Tests.
@@ -25,18 +24,28 @@ Los Controller Tests y Core Integration Tests son fundamentales para verificar e
 
 **Authentication Controller Test**
 
-![img_3.png](img_3.png)
+![img_3.png](../../assets/capitulo-6/img_3.png)
 
 **User Controller Test**
 
-![img_4.png](img_4.png)
+![img_4.png](../../assets/capitulo-6/img_4.png)
 
 **Devices Controller Test**
 
-![img_5.png](img_5.png)
+![img_5.png](../../assets/capitulo-6/img_5.png)
 
 
 ### 6.1.3. Core Behavior-Driven Development
+
+![features.png](../../assets/capitulo-6/features.png)
+
+![feature-02.png](../../assets/capitulo-6/feature-02.png)
+
+![feature-06.png](../../assets/capitulo-6/feature-06.png)
+
+![feature-14.png](../../assets/capitulo-6/feature-14.png)
+
+
 ### 6.1.4. Core System Tests.
 
 <table border="1px">
