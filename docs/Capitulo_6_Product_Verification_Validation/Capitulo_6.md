@@ -292,10 +292,57 @@ Los Controller Tests y Core Integration Tests son fundamentales para verificar e
 ![US-20.png](../../assets/capitulo-6/US-20.png)
 
 ## 6.2. Static testing & Verification
+
+En esta fase del proyecto **EnergixUPC**, se aplicaron técnicas de pruebas estáticas para asegurar la mantenibilidad, escalabilidad y seguridad del código fuente sin necesidad de ejecutar la aplicación. Esto nos permitió identificar y corregir defectos en etapas tempranas del ciclo de desarrollo.
+
 ### 6.2.1. Static Code Analysis
-#### 6.2.1.1. Coding standard & Code conventions.
-#### 6.2.1.2. Code Quality & Code Security.
+
+El análisis estático de código se realizó integrando herramientas automatizadas tanto en los entornos de desarrollo locales (IntelliJ IDEA y Visual Studio Code) como en el repositorio de GitHub.
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+Para garantizar que el código escrito por todos los miembros del equipo mantenga un formato uniforme y sea fácil de leer, se establecieron y respetaron las siguientes convenciones de codificación según la tecnología:
+
+* **Backend (Java / Spring Boot):**
+    * Se siguieron las convenciones de codificación estándar de Java de Oracle y Google.
+    * **Nomenclatura:** Se utilizó `PascalCase` para las clases e interfaces (ej. `DeviceConsumptionCalculationServiceImpl`), y `camelCase` para métodos y atributos (ej. `calculateConsumption`).
+    * **Estructura:** Se respetó la arquitectura Hexagonal (Domain-Driven Design), separando estrictamente los paquetes en `domain`, `application`, `infrastructure` e `interfaces`.
+    * **Herramientas:** Se empleó el formateador integrado de IntelliJ IDEA y SonarLint para validar el estilo en tiempo real.
+
+* **Frontend (Angular / TypeScript):**
+    * Se aplicó la guía de estilo oficial de Angular (Angular Style Guide).
+    * **Nomenclatura:** Se utilizó `kebab-case` para los nombres de archivos y carpetas (ej. `device-list.component.ts`), `PascalCase` para las clases de los componentes y `camelCase` para variables y funciones.
+    * **Herramientas:** Se configuró ESLint y Prettier a través de las extensiones de Visual Studio Code (detallado en `.vscode/extensions.json`) para un formateo automático al guardar los archivos.
+
+> **Evidencia de Convenciones de Código:**
+> *[Insertar captura de pantalla de un fragmento de código bien tabulado en IntelliJ o VS Code, o una captura de la configuración de ESLint/Prettier]*
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Para prevenir la acumulación de deuda técnica, "code smells" (malas prácticas) y vulnerabilidades de seguridad, el equipo implementó las siguientes estrategias:
+
+* **Calidad de Código (Code Smells y Bugs Estáticos):** Se utilizó el motor de análisis estático para escanear los componentes del backend y frontend. Esto permitió detectar variables no utilizadas, dependencias circulares, y métodos con alta complejidad ciclomática. Además, la integración continua mediante GitHub Actions (definida en `.github/workflows/ci.yml` y `tests.yml`) asegura que el código pase un control mínimo antes de integrarse.
+* **Seguridad y Dependencias (Vulnerabilidades):**
+    Se habilitó **GitHub Dependabot** en el repositorio. Esta herramienta escaneó constantemente el archivo `pom.xml` (Backend) y `package.json` (Frontend) en busca de librerías de terceros desactualizadas o con vulnerabilidades públicas conocidas (CVEs), emitiendo alertas para su inmediata actualización.
+
+> **Evidencia de Calidad y Seguridad:**
+> *[Insertar captura de pantalla del dashboard de SonarQube/SonarCloud analizando el proyecto EnergixUPC, O BIEN, una captura de la pestaña "Security" -> "Dependabot" de su repositorio en GitHub demostrando el escaneo de dependencias]*
+
 ### 6.2.2. Reviews
+
+El análisis estático no solo dependió de herramientas automatizadas, sino también de la revisión humana. Para ello, el equipo estableció un flujo de trabajo basado en **Peer Reviews (Revisiones de Pares)**.
+
+**Proceso de Revisión (Pull Requests):**
+1.  Ningún desarrollador tiene permitido hacer *commits* directamente a las ramas principales protegidas (`main` o `develop`).
+2.  Todo el desarrollo de nuevas características o pruebas (como la rama `tests-2`) se realiza en ramas independientes.
+3.  Al finalizar, se abre un **Pull Request (PR)** hacia la rama de integración (`develop`).
+4.  Antes de realizar el *Merge*, el código debe ser revisado por al menos un compañero de equipo distinto al autor. El revisor comprueba la lógica de negocio, el cumplimiento de las convenciones y la correcta implementación de las pruebas (por ejemplo, validando los tests unitarios con JUnit y Mockito).
+5.  Una vez aprobado y habiendo pasado los *workflows* de GitHub Actions, el código se integra.
+
+Este proceso de revisión mitigó el riesgo de introducir errores de lógica que las herramientas automatizadas no pueden detectar, fomentando además la propiedad colectiva del código.
+
+> **Evidencia de Revisión de Pares:**
+> *[Insertar captura de pantalla de GitHub de un Pull Request cerrado/aprobado. (Idealmente captura la del PR de tu rama "tests-2" hacia "develop", donde se vea el botón de Merge verde y quién fue el autor).]*
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
