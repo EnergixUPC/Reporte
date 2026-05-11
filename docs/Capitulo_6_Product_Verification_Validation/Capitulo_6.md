@@ -350,10 +350,51 @@ Este proceso de revisión mitigó el riesgo de introducir errores de lógica que
 ![img.png](../../assets/capitulo-6/Merge_Backend2.png)
 ![img.png](../../assets/capitulo-6/Merge_Backend3.png)
 
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-### 6.3.2. Registro de Entrevistas.
-### 6.3.3. Evaluaciones según heurísticas.
+## 6.3. Validation Interviews
+
+En esta sección se documenta el proceso de validación del prototipo de alta fidelidad y del Frontend implementado, recolectando retroalimentación cualitativa directamente de los usuarios finales (Segmento Objetivo).
+
+### 6.3.1. Diseño de Entrevistas
+
+Para estandarizar la recolección de datos, se diseñó una guía de entrevista semiestructurada enfocada en descubrir puntos de fricción dentro del sistema. 
+
+* **Objetivo de la entrevista:** Validar la usabilidad de los flujos principales (Registro, Visualización del Dashboard de Consumo y Configuración de Preferencias de Dispositivos).
+* **Perfil del entrevistado:** Personas responsables del pago de servicios básicos, jóvenes independizados (roommates) y padres de familia interesados en optimizar su consumo de energía eléctrica.
+* **Formato:** Sesiones remotas y presenciales de 10-15 minutos utilizando la técnica de *Thinking Aloud* (Pensar en voz alta) mientras el usuario interactúa con la aplicación.
+
+**Guía de Preguntas:**
+1. Al ver la pantalla principal (Dashboard), ¿qué información es la primera que llama tu atención?
+2. Por favor, intenta agregar un nuevo dispositivo (ej. "Laptop" o "Refrigeradora") a tu lista. ¿Te pareció intuitivo el proceso?
+3. Revisa la sección de Reportes de Consumo. ¿Consideras que los gráficos son fáciles de interpretar para alguien que no es ingeniero?
+4. ¿Encontraste alguna dificultad al intentar ver tus consumos pasados?
+5. ¿Qué funcionalidad sientes que le falta a la plataforma para que la uses diariamente en tu hogar?
+
+### 6.3.2. Registro de Entrevistas
+
+A continuación, se presenta el resumen de las 4 sesiones de validación realizadas con el segmento objetivo.
+
+| Entrevistado | Edad | Perfil | Fecha | Duración | Enlace a Grabación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Rocio Montesinos | 24 | Estudiante de Negocios Internacionales / Roommate | 14/05/2026 | 12 min | [Link de YouTube/Drive] |
+| Carlos Mendoza | 35 | Padre de familia / Propietario de departamento | 12/05/2026 | 15 min | [Link de YouTube/Drive] |
+| Luis Fernández | 28 | Trabajador Remoto / Inquilino | 13/05/2026 | 14 min | [Link de YouTube/Drive] |
+| María Torres | 42 | Administradora de edificio residencial | 13/05/2026 | 18 min | [Link de YouTube/Drive] |
+
+**Hallazgos Clave (Insights):**
+* **Positivos:** Todos los usuarios destacaron la limpieza visual del Dashboard. El registro de dispositivos fue considerado rápido y sin fricciones técnicas. Los perfiles que comparten gastos (roommates) valoraron mucho poder ver qué dispositivo gasta más.
+* **Oportunidades de Mejora:** Dos usuarios mencionaron que los gráficos de consumo "Semanal" y "Mensual" podrían confundirse si no se resalta más el filtro de fechas. Además, sugirieron incluir una opción para "dividir el recibo" entre las personas de la casa.
+
+### 6.3.3. Evaluaciones según heurísticas
+
+El sistema fue evaluado utilizando las **10 Heurísticas de Usabilidad de Jakob Nielsen**.
+
+| Heurística de Nielsen | Evaluación en el Proyecto EnergixUPC | Estado |
+| :--- | :--- | :--- |
+| **1. Visibilidad del estado del sistema** | El sistema muestra *spinners* de carga visuales al cargar gráficos de consumo de la base de datos. | Cumple |
+| **2. Relación entre el sistema y el mundo real** | Se usa terminología amigable (ej. "Ahorro", "Mis Dispositivos") en lugar de jerga técnica como "Kilovatios-hora". | Cumple  |
+| **3. Control y libertad del usuario** | El usuario puede editar o eliminar dispositivos creados por error fácilmente mediante iconos de papelera. | Cumple  |
+| **4. Consistencia y estándares** | Todo el sistema mantiene la misma tipografía y paleta de colores gracias a los componentes de Angular. | Cumple  |
+| **5. Prevención de errores** | Los formularios tienen validación reactiva en tiempo real antes de permitir guardar un dispositivo. | Cumple  |
 
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada.
