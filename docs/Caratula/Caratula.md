@@ -335,8 +335,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |--------------------------|-------------------------|------------------|
-| **Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **Huaman Olivos, Yeira Shari**<br>**TB1**<br> - Texto  .<br><br>**Torres Lavandera, Andrés Rodrigo**<br>**TB1**<br>- Texto .<br><br>**Acuña Corahua, Jonatan Ariel**<br>**TB1**<br>- Texto .<br><br>**Meza Solórzano, Didier Sebastian**<br>**TB1**<br>- Texto .<br><br>**Duran Díaz, Antonio Rodrigo**<br>**TB1**<br>- Durante el desarrollo del informe consideré la importancia de usar la información de manera responsable .<br><br>**Teves Samaniego, Joan Fernando**<br>**TB1**<br>- Texto.| Conclusion |
-| **Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Huaman Olivos, Yeira Shari**<br>**TB1**<br> - Texto  .<br><br>**Torres Lavandera, Andrés Rodrigo**<br>**TB1**<br>- Texto .<br><br>**Acuña Corahua, Jonatan Ariel**<br>**TB1**<br>- Texto .<br><br>**Meza Solórzano, Didier Sebastian**<br>**TB1**<br>- Texto .<br><br>**Duran Díaz, Antonio Rodrigo**<br>**TB1**<br>- Participando con el avance del informe se analizó como la solución propuesta puede influir en los usuarios y su entorno de manera positiva.<br><br>**Teves Samaniego, Joan Fernando**<br>**TB1**<br>- Texto.| Conclusion |
+| **Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **Huaman Olivos, Yeira Shari**<br>**TP1**<br> - Texto  .<br><br>**Torres Lavandera, Andrés Rodrigo**<br>**TP1**<br>- Texto .<br><br>**Acuña Corahua, Jonatan Ariel**<br>**TP1**<br>- Texto .<br><br>**Meza Solórzano, Didier Sebastian**<br>**TP1**<br>- Texto .<br><br>**Duran Díaz, Antonio Rodrigo**<br>**TP1**<br>- Durante el desarrollo del informe consideré la importancia de usar la información de manera responsable .<br><br>**Teves Samaniego, Joan Fernando**<br>**TP1**<br>- Texto.| Conclusion |
+| **Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Huaman Olivos, Yeira Shari**<br>**TP1**<br> - Texto  .<br><br>**Torres Lavandera, Andrés Rodrigo**<br>**TP1**<br>- Texto .<br><br>**Acuña Corahua, Jonatan Ariel**<br>**TP1**<br>- Texto .<br><br>**Meza Solórzano, Didier Sebastian**<br>**TP1**<br>- Texto .<br><br>**Duran Díaz, Antonio Rodrigo**<br>**TP1**<br>- Participando con el avance del informe se analizó como la solución propuesta puede influir en los usuarios y su entorno de manera positiva.<br><br>**Teves Samaniego, Joan Fernando**<br>**TP1**<br>- Texto.| Conclusion |
 
 ## Video App Validation
 [Enlace o inserto del video]
@@ -345,7 +345,41 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 [Enlace o inserto del video]
 
 ## Bibliografía
-[Referencias APA/IEEE]
+Aiven. (2026). *Aiven Cloud Database platform*. Aiven. https://aiven.io
+
+Cloudflare. (2026). *Cloudflare Tunnel*. Cloudflare. https://www.cloudflare.com/products/tunnel/
+
+Conventional Commits. (2026). *Conventional Commits: A specification for adding human and machine readable meaning to commit messages*. https://www.conventionalcommits.org/
+
+Cucumber. (2026). *Cucumber: Behavior-Driven Development*. SmartBear. https://cucumber.io/
+
+Docker. (2026). *Docker Enterprise Container Platform*. Docker, Inc. https://www.docker.com/
+
+Driessen, V. (2010). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+
+Figma. (2026). *Figma: The collaborative interface design tool*. Figma. https://www.figma.com/
+
+GitHub. (2026). *GitHub Actions*. GitHub, Inc. https://github.com/features/actions
+
+Google. (2026). *Angular: The modern web developer's platform*. Google. https://angular.io/
+
+Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing Great Products with Agile Teams*. O'Reilly Media.
+
+Netlify. (2026). *Netlify: Develop & deploy the best web experiences in record time*. Netlify. https://www.netlify.com/
+
+Oracle. (2026). *Java Platform, Standard Edition*. Oracle Corporation. https://www.oracle.com/java/
+
+Pivotal Software. (2026). *Spring Boot*. VMware. https://spring.io/projects/spring-boot
+
+Render. (2026). *Render: Cloud Application Hosting*. Render. https://render.com/
+
+SmartBear. (2026). *Swagger: API Documentation & Design*. SmartBear. https://swagger.io/
+
+UXPressia. (2026). *UXPressia: Customer Journey Mapping Tool*. UXPressia. https://uxpressia.com/
+
+Vercel. (2026). *Vercel: Develop. Preview. Ship.* Vercel. https://vercel.com/
 
 ## Anexos
 [Documentos adicionales]
