@@ -60,14 +60,71 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
-|---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
-| **0.1** | 24/04/2026 | Jonatan  Acuña | Creación de la organización con estructura principal para el informe |
-| **0.2** | 25/04/2026 | Antonio Duran | Realización de competidores, Entrevistas, Needfinding y Ubiquitous Language |
-| **0.3** | 26/04/2026 | Joan Teves | Realización de Product Design, Style Guidelines, Information Architecture y Software Object-Oriented Design |
-| **0.4** | 27/04/2026 | Jonatan  Acuña | Desarrollo del Startup Profile, Solution Profile y Segmentos objetivo |
-| **0.5** | 27/04/2026 | Yeira Huaman | Elaboración de Product Implementation & Deployment |
-| **0.6** | 27/04/2026 | Andres Torres | Elaboración de To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping |
+| Fecha | Autor | Mensaje del commit (Traducción + Referencia al Documento) |
+| --- | --- | --- |
+| 2026-04-24 | Jonatan Acuña | Creación inicial de la estructura del informe de proyecto en Markdown. |
+| 2026-04-25 | Duran Díaz, Antonio Rodrigo | Reorganización de carpetas para el **Capítulo V: Software Configuration Management**.|
+| 2026-04-25 | Duran Díaz, Antonio Rodrigo | Adición de archivos .gitkeep para conservar directorios base de assets del informe.|
+| 2026-04-25 | Duran Díaz, Antonio Rodrigo | Adición de la sección de Análisis Competitivo y FODA para el **Capítulo II: Análisis competitivo (2.1.1)**.|
+| 2026-04-26 | Duran Díaz, Antonio Rodrigo | Adición de las secciones de Análisis Competitivo, Entrevistas y Needfinding correspondientes al **Capítulo II: Requirements Elicitation & Analysis**.|
+| 2026-04-26 | Duran Díaz, Antonio Rodrigo | Adición de recursos visuales para el UX y Análisis Competitivo en el **Capítulo II: Requirements Elicitation & Analysis**.|
+| 2026-04-26 | Duran Díaz, Antonio Rodrigo | Adición de Empathy Mapping, As-Is Scenarios y Ubiquitous Language con sus respectivas imágenes para el **Capítulo II (2.3.4, 2.3.5, 2.4)**.|
+| 2026-04-26 | Duran Díaz, Antonio Rodrigo | Refactorización de la matriz de tareas a formato de tabla HTML para el **Capítulo II: User Task Matrix (2.3.2)**.|
+| 2026-04-26 | Huaman Olivos, Yeira Shari | Adición de la configuración del entorno para el **Capítulo V: Software Development Environment Configuration (5.1.1)**.|
+| 2026-04-26 | Huaman Olivos, Yeira Shari | Adición de la guía de estilos y convenciones de código para el **Capítulo V: Source Code Style Guide & Conventions (5.1.3)**.|
+| 2026-04-26 | Huaman Olivos, Yeira Shari | Adición de la configuración de despliegue de software para el **Capítulo V: Software Deployment Configuration (5.1.4)**.|
+| 2026-04-26 | Teves Samaniego, Joan Fernando | Adición de la información y estructura base del **Capítulo IV: Product Design**.|
+| 2026-04-26 | Teves Samaniego, Joan Fernando | Carga de recursos visuales e imágenes correspondientes al **Capítulo IV: Product Design**.|
+| 2026-04-26 | Teves Samaniego, Joan Fernando | Actualización y edición del archivo Markdown del **Capítulo IV: Product Design**.|
+| 2026-04-27 | Torres Lavandera, Andrés Rodrigo | Redacción y adición de las historias de usuario para el **Capítulo III: User Stories (3.2)**.|
+| 2026-04-27 | Torres Lavandera, Andrés Rodrigo | Adición de la tabla del backlog de producto para el **Capítulo III: Product Backlog (3.3)**.|
+| 2026-04-27 | Torres Lavandera, Andrés Rodrigo | Adición del mapeo de impacto para el **Capítulo III: Impact Mapping (3.4)**.|
+| 2026-04-27 | Duran Díaz, Antonio Rodrigo | Refactorización de la sección de entrevistas para el **Capítulo II: Entrevistas (2.2)**.|
+| 2026-04-27 | Jonatan Acuña | Adición de recursos visuales y logos para el **Capítulo I: Introducción**.|
+| 2026-04-27 | Jonatan Acuña | Implementación de la plantilla inicial para la sección de la **Carátula**.|
+| 2026-04-27 | Jonatan Acuña | Redacción del **Capítulo I: Introducción**, dejando pendiente la sección de Startup Profile y perfiles de integrantes.|
+| 2026-04-27 | Huaman Olivos, Yeira Shari | Adición de la sección de gestión de código fuente para el **Capítulo V: Source Code Management (5.1.2)**.|
+| 2026-04-27 | Torres Lavandera, Andrés Rodrigo | Actualización y corrección de criterios en las historias de usuario del **Capítulo III: User Stories (3.2)**.|
+| 2026-04-27 | Huaman Olivos, Yeira Shari | Adición del backlog correspondiente a la iteración 1 para el **Capítulo V: Sprint Backlogs (5.2.1)**.|
+| 2026-04-27 | Duran Díaz, Antonio Rodrigo | Mejoras y refactorización en el formato de la **Carátula**.|
+| 2026-04-27 | Duran Díaz, Antonio Rodrigo | Adición del cuadro resumen de la sección **Student Outcome (ABET - EAC)**.|
+| 2026-04-27 | Torres Lavandera, Andrés Rodrigo | Adición del mapeo de escenarios futuros para el **Capítulo III: To-Be Scenario Mapping (3.1)**.|
+| 2026-04-27 | Jonatan Acuña | Adición de múltiples recursos visuales complementarios al informe general. |
+| 2026-04-27 | Jonatan Acuña | Adición de la información del equipo en la sección **Capítulo I: Perfiles de integrantes del equipo (1.1.2)**.|
+| 2026-04-27 | Jonatan Acuña | Corrección general de faltas ortográficas en el informe. |
+| 2026-04-27 | Jonatan Acuña | Reducción y ajuste del alcance del proyecto en el **Capítulo I: Antecedentes y problemática (1.2.1)**.|
+| 2026-04-27 | Jonatan Acuña | Eliminación de archivos generales o secciones en desuso del repositorio. |
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Carga de archivos y código de implementación al repositorio del informe. |
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Carga de archivos y código de implementación al repositorio del informe. |
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Redacción y enlace de URL para la sección del **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-28 | Meza Solórzano, Didier Sebastian | Actualización de las capturas de pantalla de la Landing Page en el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
+| 2026-04-29 | Meza Solórzano, Didier Sebastian | Adición de capturas de la UI de la aplicación web para el **Capítulo V: Implemented Frontend-Web Application Evidence (5.2.3)**.|
+| 2026-04-29 | Meza Solórzano, Didier Sebastian | Adición de los términos legales en la sección **Capítulo V: Acuerdo de Servicio - SaaS (5.2.4)**.|
+| 2026-04-29 | Meza Solórzano, Didier Sebastian | Adición de evidencias de implementación de módulos de backend para el **Capítulo V: Implemented RESTful API Evidence (5.2.6)**.|
+| 2026-04-29 | Meza Solórzano, Didier Sebastian | Adición de documentación de endpoints integrados con Swagger para el **Capítulo V: RESTful API documentation (5.2.7)**.|
+| 2026-04-29 | Meza Solórzano, Didier Sebastian | Adición de estadísticas y contribución del equipo en backend/frontend para el **Capítulo V: Team Collaboration Insights (5.2.8)**.|
+| 2026-04-29 | Torres Lavandera, Andrés Rodrigo | Actualización general del **Capítulo III: Product Backlog (3.3)**.|
+| 2026-04-29 | Torres Lavandera, Andrés Rodrigo | Actualización de filas y estimaciones en la tabla del **Capítulo III: Product Backlog (3.3)**.|
+| 2026-05-09 | Jonatan Acuña | Creación e inicio de redacción de la sección principal del **Capítulo VII: DevOps Practices**.|
+| 2026-05-09 | Jonatan Acuña | Adición de capturas de los pipelines de CI/CD para el **Capítulo VII: DevOps Practices (7.1.2, 7.2.2, 7.3.2)**.|
+| 2026-05-10 | Jonatan Acuña | Mejora y explicación de la documentación para el pipeline en el **Capítulo VII: Continuous Delivery (7.2)**.|
+| 2026-05-10 | Huaman Olivos, Yeira Shari | Redacción e inserción de código de pruebas unitarias para el **Capítulo VI: Core Entities Unit Tests (6.1.1)**.|
+| 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Adición de pruebas de sistema para el **Capítulo VI: Core System Tests (6.1.4)**.|
+| 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Actualización del código de pruebas de sistema para el **Capítulo VI: Core System Tests (6.1.4)**.|
+| 2026-05-10 | Huaman Olivos, Yeira Shari | Adición de pruebas de integración para el **Capítulo VI: Core Integration Tests (6.1.2)**.|
+| 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Actualización y refactorización en el **Capítulo VI: Core Entities Unit Tests (6.1.1)**.|
+| 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Adición de pruebas basadas en comportamiento de usuario para el **Capítulo VI: Core Behavior-Driven Development (6.1.3)**.|
+| 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Creación del apartado y estructura general del **Capítulo VI: Testing Suites & Validation (6.1)**.|
+| 2026-05-10 | Jonatan Acuña | Adición de las conclusiones del proyecto para la sección final del documento **Conclusiones y recomendaciones**.|
+| 2026-05-10 | Jonatan Acuña | Configuración del archivo .gitignore del repositorio como parte del **Capítulo V: Source Code Management (5.1.2)**.|
+
 
 </div>
 
