@@ -94,13 +94,6 @@
 | 2026-04-27 | Jonatan Acuña | Corrección general de faltas ortográficas en el informe. |
 | 2026-04-27 | Jonatan Acuña | Reducción y ajuste del alcance del proyecto en el **Capítulo I: Antecedentes y problemática (1.2.1)**.|
 | 2026-04-27 | Jonatan Acuña | Eliminación de archivos generales o secciones en desuso del repositorio. |
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Carga de archivos y código de implementación al repositorio del informe. |
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
-| 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
 | 2026-04-28 | Meza Solórzano, Didier Sebastian | Carga de archivos y código de implementación al repositorio del informe. |
 | 2026-04-28 | Meza Solórzano, Didier Sebastian | Adición de capturas como evidencia de avance de la Landing Page para el **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
 | 2026-04-28 | Meza Solórzano, Didier Sebastian | Redacción y enlace de URL para la sección del **Capítulo V: Implemented Landing Page Evidence (5.2.2)**.|
@@ -123,7 +116,6 @@
 | 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Adición de pruebas basadas en comportamiento de usuario para el **Capítulo VI: Core Behavior-Driven Development (6.1.3)**.|
 | 2026-05-10 | Torres Lavandera, Andrés Rodrigo | Creación del apartado y estructura general del **Capítulo VI: Testing Suites & Validation (6.1)**.|
 | 2026-05-10 | Jonatan Acuña | Adición de las conclusiones del proyecto para la sección final del documento **Conclusiones y recomendaciones**.|
-| 2026-05-10 | Jonatan Acuña | Configuración del archivo .gitignore del repositorio como parte del **Capítulo V: Source Code Management (5.1.2)**.|
 
 
 </div>
@@ -142,7 +134,7 @@ Con el fin de evidenciar los avances realizados y demostrar la participación ac
 ## Contributors
 En la sección de Contributors se puede visualizar la participación individual de cada integrante del equipo en la redacción del informe correspondiente a esta primera entrega. El registro muestra la cantidad de commits efectuados por cada miembro, así como el número de adiciones y eliminaciones realizadas en el documento, reflejando el nivel de contribución y trabajo colaborativo del grupo.
 
-<img src="../../assets/caratula/contributors-tb1.png">
+<img src="../../assets/caratula/contributors.png">
 
 
 ## Contenido (Tabla de contenidos)
