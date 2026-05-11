@@ -315,8 +315,9 @@ Para garantizar que el código escrito por todos los miembros del equipo manteng
     * **Herramientas:** Se configuró ESLint y Prettier a través de las extensiones de Visual Studio Code (detallado en `.vscode/extensions.json`) para un formateo automático al guardar los archivos.
 
 > **Evidencia de Convenciones de Código:**
-> *[Insertar captura de pantalla de un fragmento de código bien tabulado en IntelliJ o VS Code, o una captura de la configuración de ESLint/Prettier]*
-
+>![img.png](../../assets/capitulo-6/Clean_Code.png)
+>![img.png](../../assets/capitulo-6/Clean_Code2.png)
+> ![img.png](../../assets/capitulo-6/Clean_Code3.png)
 #### 6.2.1.2. Code Quality & Code Security
 
 Para prevenir la acumulación de deuda técnica, "code smells" (malas prácticas) y vulnerabilidades de seguridad, el equipo implementó las siguientes estrategias:
