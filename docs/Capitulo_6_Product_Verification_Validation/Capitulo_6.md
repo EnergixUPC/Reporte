@@ -327,7 +327,8 @@ Para prevenir la acumulación de deuda técnica, "code smells" (malas prácticas
     Se habilitó **GitHub Dependabot** en el repositorio. Esta herramienta escaneó constantemente el archivo `pom.xml` (Backend) y `package.json` (Frontend) en busca de librerías de terceros desactualizadas o con vulnerabilidades públicas conocidas (CVEs), emitiendo alertas para su inmediata actualización.
 
 > **Evidencia de Calidad y Seguridad:**
-> *[Insertar captura de pantalla del dashboard de SonarQube/SonarCloud analizando el proyecto EnergixUPC, O BIEN, una captura de la pestaña "Security" -> "Dependabot" de su repositorio en GitHub demostrando el escaneo de dependencias]*
+![img.png](../../assets/capitulo-6/Analisis.png)
+![img.png](../../assets/capitulo-6/Analisis2.png)
 
 ### 6.2.2. Reviews
 
