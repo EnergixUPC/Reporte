@@ -145,7 +145,118 @@ jobs:
 > Notar que se usa secret configurado en Github para hacer el deploy del servicio en Render
 
 ## 7.4. Continuous Monitoring
+
+La Monitorización Continua (Continuous Monitoring) es la práctica mediante la cual se supervisa de manera constante el rendimiento, la disponibilidad, la calidad y el comportamiento de la aplicación tanto en producción como en etapas previas del ciclo de vida del desarrollo de software. Esto permite identificar cuellos de botella, regresiones de rendimiento y fallos de servicio en tiempo real, facilitando una respuesta rápida y basada en datos.
+
 ### 7.4.1. Tools and Practices
+
+A continuación se describen las herramientas y prácticas que componen la etapa de Monitorización Continua para garantizar la calidad del sistema, la experiencia de usuario y la integridad de las interfaces:
+
+| Herramienta | Versión | Propósito en el proyecto |
+|---|---|---|
+| **k6** | v0.51.0 | Herramienta moderna de código abierto para pruebas de carga y estrés. Escrita en Go y programable en JavaScript, permite simular flujos de usuario complejos y validar el rendimiento de los endpoints bajo escenarios de alta concurrencia. |
+| **Google Analytics (GA4)** | v4 | Plataforma de analítica web que permite monitorear de manera pasiva y en tiempo real la experiencia del usuario (RUM), registrando flujos de navegación, eventos personalizados, tasas de conversión y métricas de interacción en el frontend. |
+| **Newman (Postman CLI)** | v6.1.3 | Ejecutor de línea de comandos para colecciones de Postman. Permite automatizar pruebas funcionales y de contrato sobre las APIs del sistema en entornos locales y pipelines de integración. |
+| **Better Stack (Uptime)** | — | Herramienta de monitoreo activo que sondea de forma continua la disponibilidad (uptime) y tiempos de respuesta de las APIs desde múltiples nodos externos, generando alertas inmediatas ante incidentes de inactividad. |
+
+**Prácticas adoptadas:**
+
+- **Testing de Carga y Estrés Automatizado:** Definición de scripts declarativos en **k6** para modelar picos de tráfico (stress testing) y carga sostenida (load testing), ejecutándolos de forma programada para identificar cuellos de botella en la base de datos o en el procesamiento del backend antes de realizar pasos a producción.
+- **Monitoreo de Experiencia de Usuario basado en Datos (RUM):** Configuración de flujos y eventos clave en **Google Analytics** para entender la interacción real de los usuarios, medir la tasa de rebote ante incrementos de latencia visual y detectar fricciones en los recorridos dentro de la aplicación.
+- **Monitoreo de APIs de Dos Niveles:**
+  - *A nivel funcional:* Integración de **Newman** en el pipeline de CI/CD para ejecutar validaciones completas sobre los endpoints de la API ante cada despliegue, asegurando que no existan regresiones en los contratos de datos.
+  - *A nivel de disponibilidad:* Configuración de pings HTTPS en **Better Stack** para vigilar constantemente que el backend Spring Boot responda correctamente y en menos de un umbral establecido (ej. 500ms).
+
 ### 7.4.2. Monitoring Pipeline Components
+
+En esta sección se detallan los componentes encargados de medir y asegurar la calidad visual y el rendimiento técnico de la interfaz de usuario en la web:
+
+**Lighthouse:**
+Es una herramienta automatizada de código abierto desarrollada por Google para auditar la calidad de las páginas web. En el ciclo de vida del proyecto se utiliza de las siguientes maneras:
+- **Auditoría de Calidad Multidimensional:** Evalúa el rendimiento (Performance), la accesibilidad (Accessibility), las mejores prácticas de desarrollo (Best Practices) y el SEO.
+- **Core Web Vitals:** Mide métricas críticas para la experiencia del usuario de Google, tales como el *Largest Contentful Paint* (LCP - velocidad de carga percibida), *First Input Delay* (FID - interactividad) y *Cumulative Layout Shift* (CLS - estabilidad visual).
+- **Lighthouse CI (LHCI):** Integrado en el pipeline de CI/CD, permite ejecutar auditorías automatizadas contra entornos temporales de prueba. Si el puntaje de rendimiento o accesibilidad de una pull request desciende por debajo de un umbral establecido (por ejemplo, < 90/100), el pipeline se bloquea, impidiendo regresiones de rendimiento en producción.
+
+**Catchpoint:**
+Es una plataforma avanzada de monitoreo de la experiencia digital (DEM) que permite un análisis más dinámico y profundo que las pruebas locales:
+- **Monitoreo Sintético Global (Synthetic Monitoring):** Realiza pruebas simuladas de manera continua y programada desde múltiples nodos geográficos distribuidos por todo el mundo. Esto ayuda a evaluar cómo la infraestructura de red, la CDN, la resolución DNS y los tiempos de handshake SSL impactan la calidad visual y el tiempo de carga de la página para usuarios reales en diferentes países.
+- **Monitoreo de Usuario Real (RUM):** Recopila y analiza de manera pasiva el rendimiento de la página directamente desde los navegadores de los usuarios reales que visitan el sitio. Proporciona datos detallados sobre la carga de la página bajo condiciones de red y dispositivos reales.
+- **Diagnóstico y Aislamiento de Errores:** Permite rastrear la cascada de carga de archivos (scripts, imágenes, estilos) e identificar qué recursos de terceros o fallos de red causan latencias elevadas o bloqueos en la interfaz del usuario.
+
 ### 7.4.3. Alerting Pipeline Components
+
+El núcleo de la monitorización de infraestructura y servicios del backend se construye sobre **Prometheus** y **Grafana**, ofreciendo una solución robusta de recolección de métricas, visualización en tiempo real y disparo de alertas ante anomalías operativas.
+
+```mermaid
+graph TD
+    App["Spring Boot Backend"] -->|Expone /actuator/prometheus| Prom["Prometheus Server"]
+    Prom -->|Consulta PromQL| Grafana["Grafana Dashboards"]
+    Prom -->|Reglas de Alerta| AM["Prometheus Alertmanager"]
+    Grafana -->|Grafana Alerting| Notify["Canales de Notificación"]
+    AM -->|Notificaciones| Notify
+```
+
+**Prometheus (Recolección y Almacenamiento):**
+- **Modelo Pull:** Prometheus funciona mediante un modelo basado en "pull" (extracción), realizando peticiones HTTP de forma periódica al endpoint `/actuator/prometheus` expuesto por el backend de Spring Boot (gracias a la biblioteca Micrometer).
+- **Métricas de Series Temporales:** Almacena y procesa métricas clave como el uso de memoria de la JVM, consumo de CPU, estado del pool de conexiones de la base de datos (HikariCP), y tasas de peticiones HTTP agrupadas por código de estado y ruta.
+- **Reglas de Alerta en Prometheus:** Se configuran reglas escritas en PromQL (Prometheus Query Language) para detectar comportamientos anómalos (por ejemplo, si la tasa de errores HTTP 5xx supera el 5% durante más de 2 minutos, o si el espacio en disco es inferior al 10%). Cuando se cumple la condición, Prometheus cambia el estado de la alerta a `Firing`.
+
+**Grafana (Visualización e Instrumentación):**
+- **Paneles de Control Dinámicos:** Se conecta a Prometheus como origen de datos para construir dashboards en tiempo real que permiten al equipo técnico visualizar la salud del sistema de un vistazo.
+- **Grafana Alerting:** Además de la visualización, Grafana permite definir alertas directamente sobre los gráficos del dashboard, estableciendo umbrales visuales que, al ser sobrepasados (por ejemplo, latencia del percentil 95 superior a 800ms), activan notificaciones automáticas.
+
+**Prometheus Alertmanager (Gestión de Alertas):**
+- Es el componente encargado de recibir las alertas crudas generadas por Prometheus.
+- **Deduplicación y Agrupación:** Silencia y agrupa alertas similares (por ejemplo, múltiples alertas de caída de nodos del mismo microservicio) para evitar la fatiga por alertas en el equipo.
+- **Enrutamiento Inteligente:** Dirige las alertas a los canales apropiados según su severidad (e.g., alertas críticas a localizadores/PagerDuty y alertas de advertencia a canales de mensajería).
+
 ### 7.4.4. Notification Pipeline Components.
+
+La integración de las herramientas de automatización de pipelines como **Jenkins** con sistemas de comunicación en tiempo real es fundamental para mantener una cultura DevOps transparente y responder rápidamente a cualquier incidente en los procesos de compilación, prueba y despliegue.
+
+**Mecanismos de Integración en Jenkins:**
+- **Jenkins Plugins:** Jenkins cuenta con una amplia biblioteca de plugins oficiales para conectarse con plataformas como **Slack**, **Microsoft Teams**, **Discord**, servidores de correo electrónico (SMTP) y Webhooks genéricos.
+- **Configuración de Webhooks Entrantes:** Se configuran Webhooks en la plataforma de destino (por ejemplo, un canal de Slack `#devops-alerts`) y se asocian en las credenciales y configuración global de Jenkins.
+
+**Flujo de Notificaciones y Reglas de Estado:**
+Dentro de los pipelines declarativos (`Jenkinsfile`), se definen bloques `post` de ejecución para evaluar el resultado del build y enviar notificaciones personalizadas según el estado de los indicadores clave del proceso:
+
+- **post { failure { ... } } (Notificación ante Fallos):** Se activa de forma inmediata si la compilación falla, si una prueba unitaria, de integración o BDD (Cucumber) no pasa, o si el análisis de calidad de código falla. Se envía un mensaje al canal del equipo detallando el commit autor del cambio, la rama, el número de ejecución en Jenkins y un enlace directo a los logs del error.
+- **post { changed { ... } } (Notificación de Cambio de Estado):** Notifica al equipo cuando el estado de una compilación cambia de exitoso a fallido (o viceversa), permitiendo identificar rápidamente cuándo se rompió la rama de desarrollo y cuándo fue restaurada.
+- **post { success { ... } } (Confirmación de Despliegue):** Envía una notificación de éxito cuando la imagen Docker ha sido subida correctamente a producción o al entorno de pruebas, informando que una nueva versión estable está operativa.
+
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Build & Test') {
+            steps {
+                sh 'mvn clean test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh './deploy-script.sh'
+            }
+        }
+    }
+    post {
+        always {
+            // Envía resumen de pruebas de forma general
+            junit '**/target/surefire-reports/*.xml'
+        }
+        success {
+            slackSend(channel: '#devops-deployments',
+                      color: '#00FF00',
+                      message: "¡Pipeline Exitoso! Proyecto desplegado con éxito. Build #${env.BUILD_NUMBER} (${env.BUILD_URL})")
+        }
+        failure {
+            slackSend(channel: '#devops-alerts',
+                      color: '#FF0000',
+                      message: "❌ ¡ALERTA! El pipeline falló en la etapa de compilación/pruebas. Build #${env.BUILD_NUMBER} (${env.BUILD_URL})")
+        }
+    }
+}
+```
+
+Esta integración asegura un ciclo de retroalimentación ultrarrápido (*feedback loop*), garantizando que los desarrolladores estén al tanto de cualquier fallo a los pocos segundos de haber realizado un `git push`, optimizando el tiempo medio de reparación (MTTR).
