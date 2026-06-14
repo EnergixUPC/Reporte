@@ -3,7 +3,7 @@
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary.
 
-Actualmente, la solución propuesta SEMS (Smart Energy Management System) se encuentra en una fase inicial de validación basada en supuestos derivados del enfoque Lean UX. La plataforma busca optimizar el consumo energético mediante monitoreo en tiempo real, alertas inteligentes y recomendaciones personalizadas.
+Actualmente, la solución propuesta EMS (Energy Management System) se encuentra en una fase inicial de validación basada en supuestos derivados del enfoque Lean UX. La plataforma busca optimizar el consumo energético mediante monitoreo en tiempo real, alertas inteligentes y recomendaciones personalizadas.
 
 En el estado actual, se identifican las siguientes condiciones:
 
@@ -22,6 +22,41 @@ Asimismo, se identifican riesgos importantes:
 Por ello, se requiere validar estas hipótesis mediante experimentación estructurada, permitiendo tomar decisiones basadas en evidencia.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+**Assumptions:**
+
+- Se asume que los usuarios desean reducir su consumo energético para disminuir costos.
+- Se asume que los usuarios están dispuestos a utilizar tecnología para monitorear su consumo.
+- Se asume que las alertas en tiempo real pueden influir en el comportamiento del usuario.
+- Se asume que las recomendaciones personalizadas generan cambios en los hábitos de consumo.
+- Se asume que los usuarios aceptarán un modelo de suscripción.
+- Se asume que la instalación del hardware no representa una barrera significativa.
+
+**Knowledge Gaps:**
+
+- Falta información sobre la disposición real de los usuarios a pagar por el servicio.
+- Se desconoce qué nivel de ahorro es percibido como significativo.
+- No se tiene claridad sobre la facilidad de uso del sistema para usuarios no técnicos.
+- Se requiere validar la confianza en los datos proporcionados por el sistema.
+- No se conoce el impacto real de las alertas en el comportamiento del usuario.
+- Falta evidencia sobre qué funcionalidades son realmente críticas para el usuario.
+
+**Ideas:**
+
+- Implementar encuestas y entrevistas para validar percepciones del usuario.
+- Desarrollar una versión demo sin hardware para reducir fricción inicial.
+- Implementar una prueba gratuita para evaluar conversión a usuarios pagos.
+- Incorporar visualización de ahorro estimado en tiempo real.
+- Analizar soluciones similares en el mercado para identificar mejores prácticas.
+
+**Claims:**
+
+- Se afirma que el monitoreo en tiempo real puede reducir el consumo energético.
+- Se sostiene que las alertas inteligentes generan cambios en el comportamiento.
+- Se afirma que la visualización de datos incrementa la conciencia energética.
+- Se sostiene que el valor del ahorro supera el costo del servicio.
+- Se afirma que la personalización mejora la retención de usuarios.
+
 ### 8.1.3. Experiment-Ready Questions.
 ### 8.1.4. Question Backlog.
 ### 8.1.5. Experiment Cards.
