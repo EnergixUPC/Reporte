@@ -69,6 +69,17 @@ Por ello, se requiere validar estas hipótesis mediante experimentación estruct
 | Q5 | ¿Los usuarios entienden el consumo mostrado en kWh y gráficos del EMS?        | 7 - Basado en diseño UX                               | 6 - Riesgo de incomprensión | 9 - Impacto en uso del sistema             | 8 - Alto interés    | 30          |
 | Q6 | ¿Un modo demo sin hardware incrementa la intención de uso?                    | 7 - Reduce fricción inicial                           | 4 - Bajo riesgo             | 8 - Impacto en adquisición                 | 8 - Interés alto    | 27          |
 
+### 8.1.4. Question Backlog
+
+| Prioridad (1,2,3,5,8) | ID | Pregunta                                                                      |
+| --------------------- | -- | ----------------------------------------------------------------------------- |
+| 1                     | Q1 | ¿La instalación del smart meter reduce la adopción del sistema?               |
+| 1                     | Q2 | ¿Los usuarios confían en los datos generados por el EMS?                      |
+| 2                     | Q3 | ¿Las recomendaciones personalizadas generan reducción de consumo energético?  |
+| 3                     | Q4 | ¿Las alertas de consumo en tiempo real modifican el uso de electrodomésticos? |
+| 5                     | Q5 | ¿Los usuarios entienden el consumo mostrado en kWh y gráficos del EMS?        |
+| 5                     | Q6 | ¿Un modo demo sin hardware incrementa la intención de uso?                    |
+
 
 
 
