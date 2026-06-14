@@ -350,3 +350,184 @@ Este proceso de revisión mitigó el riesgo de introducir errores de lógica que
 ![img.png](../../assets/capitulo-6/Merge_Backend2.png)
 ![img.png](../../assets/capitulo-6/Merge_Backend3.png)
 
+## 6.3. Validation Interviews
+
+Las entrevistas de validación representan una fase crucial en el proceso de desarrollo del producto SEMS (Sistema de Monitoreo Energético Inteligente). Esta metodología nos permite evaluar la efectividad, usabilidad y aceptación de la solución implementada por parte de nuestros segmentos objetivo identificados en el capítulo anterior.
+
+### 6.3.1. Diseño de Entrevistas
+
+El diseño de las entrevistas de validación se estructura en torno a la evaluación práctica del producto ENERGIX desarrollado. Las entrevistas están dirigidas a los mismos segmentos objetivo identificados en el capítulo 2: propietarios de vivienda y estudiantes que alquilan, con el fin de validar si la solución implementada satisface sus necesidades específicas de monitoreo energético.
+
+**Preguntas para Segmento #1: Propietarios de Vivienda**
+1. Al ingresar a la plataforma, ¿qué es lo primero que llama su atención?
+2. Sin leer instrucciones, ¿puede identificar cuál es el propósito principal de esta aplicación?
+3. ¿La información presentada en el dashboard le resulta clara y comprensible?
+4. ¿Puede localizar fácilmente la información sobre su consumo energético actual?
+5. ¿Qué opina sobre la forma en que se presentan los datos de consumo (gráficos, números, alertas)?
+6. ¿Las alertas de consumo le resultan útiles y fáciles de entender?
+7. ¿Considera que esta herramienta podría ayudarle realmente a reducir sus gastos de electricidad?
+8. ¿Qué funcionalidad le resulta más valiosa de las que ha visto?
+9. ¿El diseño y colores le transmiten confianza y profesionalismo?
+10. ¿Encuentra alguna dificultad para navegar entre las diferentes secciones?
+11. ¿Los íconos y botones son claros en su función?
+12. Basándose en lo que ha visto, ¿estaría dispuesto(a) a usar esta plataforma regularmente?
+13. ¿Recomendaría esta solución a otros propietarios de vivienda?
+14. ¿Qué mejoraría para que la plataforma sea perfecta para sus necesidades?
+
+**Preguntas para Segmento #2: Estudiantes que Alquilan**
+
+1. ¿La interfaz le parece amigable para alguien de su perfil tecnológico?
+2. ¿Puede entender rápidamente cómo esta aplicación le ayudaría a gestionar sus gastos de luz?
+3. ¿La información se presenta de una manera que le resulte familiar y fácil de procesar?
+4. ¿Los datos de consumo le ayudan a entender mejor en qué se va su dinero de electricidad?
+5. ¿Las alertas le parecen útiles para controlar mejor sus gastos mensuales?
+6. ¿Puede identificar fácilmente cuánto podría ahorrar usando esta herramienta?
+7. ¿La función de monitoreo en tiempo real le resulta práctica para su estilo de vida?
+8. ¿Esta herramienta le ayudaría a mantenerse dentro de su presupuesto mensual?
+9. ¿Qué característica considera más importante para su situación como estudiante?
+10. ¿El ahorro promedio mostrado le parece realista y atractivo?
+11. ¿Hay algo que le parezca confuso o complicado de entender?
+12. ¿Con qué frecuencia cree que usaría esta plataforma?
+13. ¿Se siente motivado(a) a cambiar sus hábitos de consumo después de ver esta herramienta?
+
+### 6.3.2. Registro de Entrevistas
+
+**Segmento objetivo: Propietarios de vivienda**
+
+**Entrevista 1**
+
+Nombres:
+
+Apellidos:
+
+Edad:
+
+Distrito:
+
+Evidencia de la reunión:
+
+Inicio:
+
+Fin: 
+
+Enlace de entrevista:
+
+**Entrevista 2**
+
+Nombres
+
+Apellidos:
+
+Edad:
+
+Distrito:
+
+Evidencia de la reunión:
+
+Inicio:
+
+Fin: 
+
+Enlace de entrevista:
+
+
+**Segmento objetivo: Estudiantes que alquilan**
+
+**Entrevista 1**
+
+Nombres:
+
+Apellidos:
+
+Edad:
+
+Distrito:
+
+Evidencia de la reunión:
+
+Inicio:
+
+Fin: 
+
+Enlace de entrevista:
+
+**Entrevista 2**
+
+Nombres
+
+Apellidos:
+
+Edad:
+
+Distrito:
+
+Evidencia de la reunión:
+
+Inicio:
+
+Fin: 
+
+Enlace de entrevista:
+
+### 6.3.3. Evaluaciones según heurísticas
+
+Aplicación para evaluar: Energix
+
+Tareas a evaluar:
+
+* 
+
+*
+
+*
+
+
+Escala de severidad:
+
+Tabla de resumen:
+
+**Escala de Severidad**
+
+**ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+| Nivel | Descripción |
+| :--- | :--- |
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+<br>
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| 1 | Problema | 3 | Usability: Libertad y control del usuario |
+| 2 | Problema | 1 | Usability: Consistencia y estándares |
+| 3 | Problema | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Problema | 3 | Information Architecture: Is it usable? |
+| 5 | Problema | 2 | Information Architecture: Is it findable? |
+
+
+Heurísticas y Recomendaciones:
+
+PROBLEMA #1:
+
+Severidad: 3 
+
+Heurística violada: Usabilidad - Libertad y control del usuario 
+
+Problema: 
+
+Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
+
+(Incluir además una captura de pantalla ilustrando el problema). 
+
+Recomendación:
+
+La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.
+
+
