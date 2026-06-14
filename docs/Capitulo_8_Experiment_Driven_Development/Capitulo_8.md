@@ -2,6 +2,25 @@
 
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary.
+
+Actualmente, la solución propuesta SEMS (Smart Energy Management System) se encuentra en una fase inicial de validación basada en supuestos derivados del enfoque Lean UX. La plataforma busca optimizar el consumo energético mediante monitoreo en tiempo real, alertas inteligentes y recomendaciones personalizadas.
+
+En el estado actual, se identifican las siguientes condiciones:
+
+- Los usuarios no cuentan con visibilidad detallada del consumo energético por dispositivo, limitándose a información mensual agregada.
+- Existe una baja conciencia sobre hábitos de consumo energético eficiente.
+- No se ha validado si los usuarios perciben valor suficiente en soluciones tecnológicas para gestionar su consumo.
+- Se desconoce el nivel de disposición a pagar por una solución de monitoreo energético.
+
+Asimismo, se identifican riesgos importantes:
+
+- Resistencia a la adopción por la necesidad de instalar hardware.
+- Baja comprensión de métricas energéticas (kWh, consumo por circuito).
+- Posible percepción de complejidad del dashboard.
+- Desconfianza en la precisión de medición del EMS.
+
+Por ello, se requiere validar estas hipótesis mediante experimentación estructurada, permitiendo tomar decisiones basadas en evidencia.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 ### 8.1.3. Experiment-Ready Questions.
 ### 8.1.4. Question Backlog.
