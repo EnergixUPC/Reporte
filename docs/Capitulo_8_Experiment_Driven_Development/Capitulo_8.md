@@ -95,8 +95,6 @@ Por ello, se requiere validar estas hipótesis mediante experimentación estruct
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses.
 
-A continuación, se presentan las hipótesis detalladas para cada una de las preguntas de experimentación priorizadas.
-
 | | **Hypothesis** |
 | :--- | :--- |
 | **Question** | ¿La instalación del smart meter reduce la adopción del sistema? |
@@ -141,8 +139,6 @@ A continuación, se presentan las hipótesis detalladas para cada una de las pre
 
 ### 8.2.2. Domain Business Metrics
 
-A continuación, se definen las métricas de negocio que se utilizarán para evaluar el éxito de los experimentos y su alineación con los objetivos del producto Energix.
-
 | Métrica | Descripción | Fórmula de Cálculo | Técnica de Recolección | Meta Deseada |
 | :--- | :--- | :--- | :--- | :--- |
 | **Tasa de Registro de Usuarios** | Mide el porcentaje de visitantes que completan el proceso de registro. Es un indicador clave de la adquisición de usuarios y la efectividad de la propuesta de valor inicial. | (Número de Usuarios Registrados / Número de Visitantes Únicos) * 100 | Análisis de logs del servidor y plataforma de analítica web/móvil. | Incrementar en un 25-30% |
@@ -152,8 +148,6 @@ A continuación, se definen las métricas de negocio que se utilizarán para eva
 | **Tasa de Éxito en Tareas de Usabilidad** | Mide el porcentaje de usuarios que pueden completar tareas clave dentro de la plataforma sin asistencia. Indica la facilidad de uso y la claridad de la interfaz. | (Número de Usuarios que completan la tarea con éxito / Número Total de Usuarios en la prueba) * 100 | Pruebas de usabilidad moderadas y no moderadas. | ≥ 80% |
 
 ### 8.2.3. Measures.
-
-A continuación, se definen las métricas y mediciones clave para cada experimento, basadas en las hipótesis formuladas.
 
 | Question | Measure |
 | :--- | :--- |
@@ -180,8 +174,6 @@ A continuación, se definen las métricas y mediciones clave para cada experimen
 | ¿Un modo demo sin hardware incrementa la intención de uso? | Medir la tasa de clics en el botón de "Registro" o "Probar ahora" en la página de destino. Se comparará la tasa de conversión de la versión que promociona el modo demo interactivo frente a la que no lo hace. |
 
 ### 8.2.4. Conditions.
-
-A continuación, se establecen las condiciones experimentales y de control para cada una de las hipótesis a validar.
 
 | Question | Condición Experimental | Condición de Control |
 | :--- | :--- | :--- |
@@ -229,8 +221,6 @@ Este marco permite tomar decisiones basadas en datos para validar, ajustar o des
 | **Q6:** Creemos que un modo demo sin compromiso aumenta el registro. Sabremos que esto es cierto cuando observemos un incremento del **30%** en la tasa de registro. | Crear un landing page y campañas de marketing que destaquen la disponibilidad de un modo demo interactivo para atraer a usuarios que aún no están listos para comprar el hardware. |                 |              |          |               |
 
 ### 8.2.6. Methods Selection.
-
-Esta sección describe cómo se llevará a cabo la investigación, siguiendo el principio de que el método debe ser la "cosa más simple y útil" (Simplest Useful Thing) para alcanzar el tamaño de muestra y las condiciones necesarias. Se distingue claramente entre el objeto de investigación (la hipótesis) y el método (la técnica o herramienta). Para la recolección y análisis de datos de los experimentos, se han evaluado las siguientes herramientas:
 
 | Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
 | :--- | :--- | :--- | :--- | :--- |
