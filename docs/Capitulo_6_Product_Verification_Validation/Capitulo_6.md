@@ -394,140 +394,164 @@ El diseño de las entrevistas de validación se estructura en torno a la evaluac
 
 **Segmento objetivo: Propietarios de vivienda**
 
-**Entrevista 1**
+**ENTREVISTA 1**
 
-Nombres:
+Link de las entrevistas
 
-Apellidos:
+Foto de la entrevista
+![EntrevistaEmpe.png](../../assets/capitulo-6/EntrevistaEmpe.png)
 
-Edad:
+Inicia:00.00
 
-Distrito:
+Duración:10:07
 
-Evidencia de la reunión:
+Nombre: Emperatriz Sessarego
 
-Inicio:
+Edad: 57
 
-Fin: 
+Distrito: Jesús María
+ 
+Resumen: La propietaria de vivienda Emperatriz regresa para ser presentada ante la página web junto a beneficios que ofrecemos y luego es redirigida hacia la aplicación web donde se le hizo un recurrido sobre las diferentes herramientas que ofrece la aplicación. Emperatriz resume su experiencia como agradeble, cree que la plataforma le será uitl al momento de controlar su consumo energético. Define la aplicación como fácile de enterder y navegar y concluye que si usaría la aplicación y la recomendaría a otros propietarios de vivienda.
 
-Enlace de entrevista:
 
-**Entrevista 2**
+**ENTREVISTA 2**
 
-Nombres
+Foto de la entrevista
+![EntrevistaAna.png](../../assets/capitulo-6/EntrevistaAna.png)
+Inicia:00:00
 
-Apellidos:
+Duración: 05:43
 
-Edad:
+Nombre: Ana Vivar
 
-Distrito:
+Edad: 28 
 
-Evidencia de la reunión:
+Distrito: San Miguel 
 
-Inicio:
-
-Fin: 
-
-Enlace de entrevista:
+Resumen: La propietaria de vivienda Ana Vivar evaluó la aplicación web y afirmó que sí estaría dispuesta a utilizarla, resaltando que le pareció intuitiva, clara y fácil de navegar. Destacó que los datos detallados sobre el consumo energético le serían muy útiles para optimizar el uso de energía en su hogar y reducir su factura eléctrica, y que el diseño de la plataforma transmite profesionalismo, con botones bien definidos y un dashboard especialmente valioso por la forma en que presenta la información. Además, mencionó que recomendaría la aplicación a amigos que, como ella, son propietarios de vivienda.
 
 
 **Segmento objetivo: Estudiantes que alquilan**
 
-**Entrevista 1**
+**ENTREVISTA 1**
 
-Nombres:
+![Entrevista-1-Estudiantes.png](../../assets/capitulo-6/Entrevista-1-Estudiantes.png)
 
-Apellidos:
+Inicia: 00:00
 
-Edad:
+Duración: 
 
-Distrito:
+Nombre: Johnny Ricardo Mallqui Cueva
 
-Evidencia de la reunión:
+Edad: 19
 
-Inicio:
+Distrito: Chorrillos
 
-Fin: 
-
-Enlace de entrevista:
+Resumen: Johnny Mallqui (19 años) estudia en la UPC y alquila un cuarto en Chorrillos, se relaciaona a menudo con la tecnología ya que estudia ingeniería de Sistemas. Al probar nuestra herramienta nos comento que fue de su agrado y qeu si la usaria, mas que nada si esta se puede usar en un dispositivo movil ya que si una herramienta que solo esta disponible para laptop o PC, nos comento que no valdria la pena, en su caso si esta dispuesto a usarla, ya que al usar tantos dispositivos, seria una herramienta que facilite el ahorro de consumo energetico, tambien nos menciono que la aplicacion es intuitiva y que es muy facil de usar. 
 
 **Entrevista 2**
 
-Nombres
+Foto de la entrevista 
+![EntrevistaSimon.png](../../assets/capitulo-6/EntrevistaSimon.png)
+Inicia: 00:00
 
-Apellidos:
+Duración: 04:21 
 
-Edad:
+Nombre: Simón Gabriel Molina Chirinos
 
-Distrito:
+Edad: 19
 
-Evidencia de la reunión:
+Distrito: Pueblo Libre
 
-Inicio:
-
-Fin: 
-
-Enlace de entrevista:
+Resumen:Simón es un estudiante que alquila un cuarto. Según sus propias palabras, la interfaz de la aplicación le parece amigable, ay que todo está bien distribuido y es intuitivo. Además, el diseño de la aplicación le resulta cómodo para entender los datos. Asmimismo, comprende de qué manera los datos se relacionan con sus gastos en sí. Menciona que las alertas de la aplicación le parecen útiles para identificar alguna anomalía en sus consumos. También, se siente motivado al ver que puede visualizar una estimación de ahorros. Le resulta útil el monitoreo constante, ya que puede corregir malos hábitos al momento. Además, considera que esta aplicación tendría un impacto positivo en cuanto al recibo mensual de luz. También, considera que lo más importante de esta aplicación es el apartado visual, ya que le ayuda a entender mejor los datos y gestionar su consumo. Asimismo, considera que los iconos de la aplicación podrían tener alguna breve explicación sobre su uso. Finalmente, el entrevistado declara que la aplicación le beneficiaría totalmente a mejorar sus hábitos y su consumo energético.
 
 ### 6.3.3. Evaluaciones según heurísticas
 
-Aplicación para evaluar: Energix
+**Aplicación para evaluar:** Energix 
 
-Tareas a evaluar:
+**Tareas a evaluar:**
 
-* 
+El proceso de evaluación de usabilidad y funcionalidad se basó en el recorrido completo realizado por un usuario nuevo, abarcando las siguientes tareas principales:
 
-*
+* **Tarea 1: Registro e Inicio de Sesión (Onboarding):** Crear una cuenta nueva mediante el formulario de registro y completar la autenticación inicial para acceder al panel principal de la aplicación.
+* **Tarea 2: Configuración y Gestión de Dispositivos y Ubicaciones:** Agregar electrodomésticos en la lista de dispositivos, asignándoles nombres personalizados, categorías y ubicaciones específicas (por ejemplo, "Habitación Juan", "Habitación María").
+* **Tarea 3: Monitoreo Energético y Consulta del Dashboard:** Revisar indicadores numéricos de consumo y facturación estimada, analizar widget de ahorros y responder a las alertas de consumo inusual iniciales.
+* **Tarea 4: Visualización y Descarga de Reportes:** Explorar tendencias de consumo semanal mediante gráficos de barra e intentar descargar el reporte mensual detallado en formato PDF.
+* **Tarea 5: Suscripción a Planes Premium:** Navegar a la pantalla de planes, seleccionar la opción Premium e intentar completar la pasarela de pagos integrada.
+* **Tarea 6: Configuración del Perfil y Ajuste de Alertas:** Modificar preferencias generales de la cuenta, cambiar o remover foto de perfil y editar el horario permitido para la recepción de alertas de consumo.
+* **Tarea 7: Cierre de Sesión Seguro:** Salir de la cuenta activa utilizando la funcionalidad "Cerrar Sesión" en la barra de navegación lateral.
 
-*
-
-
-Escala de severidad:
-
-Tabla de resumen:
-
-**Escala de Severidad**
+<br>
 
 **ESCALA DE SEVERIDAD:**
 
-*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+*Los errores de usabilidad identificados fueron puntuados tomando en cuenta la escala de severidad de Jakob Nielsen:*
 
 | Nivel | Descripción |
-| :--- | :--- |
-| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| :---: | :--- |
+| **1** | **Problema superficial:** Puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de resolución de cara al siguiente release. |
+| **3** | **Problema mayor:** Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** Un error de gran impacto que impide al usuario continuar con el uso de la herramienta o rompe flujos principales de negocio. Es imperativo que sea corregido antes del lanzamiento. |
 
 <br>
 
 **TABLA RESUMEN:**
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| # | Problema / Hallazgo Detectado | Escala de severidad | Heurística / Principio Violado |
 | :---: | :--- | :---: | :--- |
-| 1 | Problema | 3 | Usability: Libertad y control del usuario |
-| 2 | Problema | 1 | Usability: Consistencia y estándares |
-| 3 | Problema | 3 | Inclusive Design: Proporciona experiencias comparables |
-| 4 | Problema | 3 | Information Architecture: Is it usable? |
-| 5 | Problema | 2 | Information Architecture: Is it findable? |
+| 1 | **Descarga de reportes rota:** El botón de descarga de reportes se queda bloqueado en "Descargando..." sin descargar ningún archivo ni permitir reintentos. | 4 | N1: Visibilidad del estado del sistema / N3: Control y libertad del usuario |
+| 2 | **Bug de tildes en campos de texto:** Al intentar ingresar caracteres con tilde en los formularios (crear categoría o ubicación), la entrada se interrumpe y borra el texto redactado. | 3 | N5: Prevención de errores |
+| 3 | **Indicador de notificaciones falsas (Campana):** El icono de campana muestra permanentemente un badge rojo de alerta activa, pero al hacer clic el modal indica "No tienes notificaciones". | 2 | N1: Visibilidad del estado del sistema |
+| 4 | **UI estática al modificar horario de alertas:** Al guardar un nuevo horario, se muestra un mensaje toast de éxito pero la tarjeta de configuración sigue mostrando el horario por defecto (05:00 - 22:00). | 2 | N4: Consistencia y estándares / N1: Visibilidad del estado del sistema |
 
+<br>
 
-Heurísticas y Recomendaciones:
+### Heurísticas y Recomendaciones:
 
-PROBLEMA #1:
+#### PROBLEMA #1: Botón de descarga de reportes deshabilitado indefinidamente
 
-Severidad: 3 
+* **Severidad:** 4
+* **Heurística violada:** Usabilidad - Visibilidad del estado del sistema (Nielsen #1) / Control y libertad del usuario (Nielsen #3)
+* **Problema:** Al hacer clic en el botón de "Descargar" en la sección de reportes, el texto cambia a "Descargando..." y el botón se deshabilita de manera indefinida. El sistema no inicia la descarga del archivo ni provee un mensaje de confirmación o de error, dejando al usuario bloqueado y sin saber si la acción está en curso o falló.
 
-Heurística violada: Usabilidad - Libertad y control del usuario 
+![Descarga congelada en reportes](../../assets/capitulo-6/heuristic-download-stuck.png)
 
-Problema: 
+* **Recomendación:** Corregir el manejador de descarga en el frontend. Asegurar que al completarse la petición de descarga (o en caso de que ocurra una falla/timeout de la API), el estado local se restablezca a falso (`downloading = false`), habilitando nuevamente el botón para que el usuario pueda intentar la descarga otra vez. Adicionalmente, implementar un indicador de progreso visual o una notificación toast de descarga exitosa.
 
-Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
+---
 
-(Incluir además una captura de pantalla ilustrando el problema). 
+#### PROBLEMA #2: Bug de truncamiento al escribir vocales con tildes en formularios
 
-Recomendación:
+* **Severidad:** 3
+* **Heurística violada:** Usabilidad - Prevención de errores (Nielsen #5)
+* **Problema:** Al intentar redactar textos que lleven vocales con tilde en los campos de los formularios (por ejemplo, al crear categorías o ubicaciones como "Habitación"), el cuadro de texto sufre un bug de renderizado e interrumpe la entrada, borrando la palabra a partir del carácter acentuado. Esto limita la libertad de entrada del usuario y le obliga a escribir con errores ortográficos.
 
-La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.
+![Truncamiento de tildes en formulario](../../assets/capitulo-6/heuristic-tilde-bug.png)
 
+* **Recomendación:** Verificar el manejador de eventos del teclado (`keyup`, `keydown` o `input`) en los componentes de formulario en Angular. Asegurarse de que el regex o la máscara de validación de caracteres del backend y frontend admita la codificación UTF-8 para vocales acentuadas (`á`, `é`, `í`, `ó`, `ú`) y caracteres especiales en español (`ñ`, `Ñ`).
+
+---
+
+#### PROBLEMA #3: Indicador de notificaciones falsas activas (Campana)
+
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad - Visibilidad del estado del sistema (Nielsen #1)
+* **Problema:** El icono de la campana en la barra superior muestra un círculo rojo de notificación activa de forma permanente, pero al hacer clic, el modal indica "No tienes notificaciones". Esto frustra al usuario que busca limpiar sus alertas y genera una falsa sensación de urgencia o error.
+
+![Badge de notificación falso](../../assets/capitulo-6/heuristic-notification-badge.png)
+
+* **Recomendación:** Vincular de forma reactiva la visibilidad del círculo rojo (badge de notificación) al tamaño del array de notificaciones no leídas devuelto por la API. Si el número de notificaciones no leídas es `0`, el círculo rojo debe ocultarse automáticamente en la interfaz.
+
+---
+
+#### PROBLEMA #4: Falta de actualización visual del horario modificado en configuración
+
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad - Visibilidad del estado del sistema (Nielsen #1) / Consistencia y estándares (Nielsen #4)
+* **Problema:** Al modificar las horas de alertas en la pestaña de Configuración y presionar "Aceptar", el sistema muestra un mensaje emergente de éxito (toast) confirmando que el horario fue guardado. Sin embargo, la tarjeta informativa de la pantalla continúa mostrando el rango horario por defecto (`05:00 - 22:00`) en lugar de actualizarse con los datos recién ingresados, provocando una inconsistencia visual entre el mensaje y la pantalla.
+
+![Horario estático en configuración](../../assets/capitulo-6/heuristic-settings-static.png)
+
+* **Recomendación:** En el componente de configuración (`settings`), al recibir la respuesta HTTP exitosa (200 OK) del backend, se debe actualizar el estado del modelo local que alimenta la visualización de la tarjeta con los nuevos valores ingresados en el formulario en lugar de conservar los valores iniciales.
 
