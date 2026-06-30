@@ -297,7 +297,14 @@ Las siguientes historias de usuario fueron diseñadas a partir de las hipótesis
 | **US25** | Probar la plataforma desde la Landing Page | Como visitante, quiero acceder a un botón de "Probar ahora" en la landing page, para conocer la plataforma sin necesidad de registrarme con datos reales. | **Escenario 1: Clic en "Probar ahora"**<br>**Given** que el visitante se encuentra en la Landing Page<br>**When** hace clic en el botón "Probar ahora"<br>**Then** el sistema lo redirige al modo demo sin solicitar registro previo<br><br>**Escenario 2: Conversión desde la demo**<br>**Given** que el visitante exploró el modo demo desde la landing<br>**When** decide registrarse<br>**Then** el sistema lo dirige al formulario de registro con sus datos de prueba precargados | EP10 |
 
 ### 8.3.2. To-Be Product Backlog
-
+| # Orden | User Story ID | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+| :--- | :--- | :--- | :--- |
+| 1 | US20 | Activar modo demo sin hardware | 5 |
+| 2 | US21 | Validar precisión de datos del EMS | 5 |
+| 3 | US22 | Medir impacto de recomendaciones personalizadas | 5 |
+| 4 | US23 | Configurar alertas en horas pico | 3 |
+| 5 | US24 | Acceder a tutorial interactivo de interpretación de datos | 3 |
+| 6 | US25 | Probar la plataforma desde la Landing Page | 2 |
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
