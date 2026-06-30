@@ -285,6 +285,8 @@ Este enfoque asegurará que Energix continúe evolucionando en función de los d
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories.
 ### 8.3.2. To-Be Product Backlog
+
+
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
@@ -292,6 +294,8 @@ Este enfoque asegurará que Energix continúe evolucionando en función de los d
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.6. Team Collaboration Insights
+
+
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas.
 #### 8.3.4.2. Registro de Entrevistas.
