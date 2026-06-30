@@ -284,9 +284,27 @@ Este enfoque asegurará que Energix continúe evolucionando en función de los d
 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories.
+
+Las siguientes historias de usuario fueron diseñadas a partir de las hipótesis planteadas en la sección 8.2.1, traduciendo cada pregunta de experimentación (Q1-Q6) en una funcionalidad concreta a implementar en la plataforma.
+
+| User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| :--- | :--- | :--- | :--- | :--- |
+| **US20** | Activar modo demo sin hardware | Como usuario potencial, quiero acceder a un modo demo sin necesidad de instalar un smart meter físico, para conocer la plataforma antes de comprometerme con la instalación. | **Escenario 1: Acceso al modo demo**<br>**Given** que el usuario visualiza la opción "Probar sin instalación"<br>**When** hace clic en el botón correspondiente<br>**Then** el sistema le otorga acceso a un dashboard con datos simulados de consumo<br>**And** muestra el mensaje: "Estás explorando una demo con datos de ejemplo"<br><br>**Escenario 2: Conversión de demo a cuenta real**<br>**Given** que el usuario está usando el modo demo<br>**When** decide continuar y registrarse con datos reales<br>**Then** el sistema migra su sesión a una cuenta activa<br>**And** muestra el mensaje: "Tu cuenta ha sido activada correctamente" | EP02 |
+| **US21** | Validar precisión de datos del EMS | Como usuario, quiero comparar el consumo mostrado por la plataforma con mi recibo eléctrico real, para confiar en la exactitud de la información que recibo. | **Escenario 1: Carga de recibo para comparación**<br>**Given** que el usuario tiene un recibo eléctrico del mes<br>**When** sube una foto o ingresa el monto de su recibo en la sección "Validar consumo"<br>**Then** el sistema compara el valor con el consumo registrado en la plataforma<br>**And** muestra el porcentaje de coincidencia entre ambos valores<br><br>**Escenario 2: Discrepancia detectada**<br>**Given** que existe una diferencia significativa entre el recibo y los datos del sistema<br>**When** se completa la comparación<br>**Then** el sistema muestra el mensaje: "Detectamos una diferencia, revisa la calibración de tus dispositivos" | EP04 |
+| **US22** | Medir impacto de recomendaciones personalizadas | Como usuario, quiero ver el ahorro de consumo logrado tras aplicar las recomendaciones personalizadas, para confirmar el valor real que me brinda la plataforma. | **Escenario 1: Comparación antes/después**<br>**Given** que el usuario ha recibido recomendaciones de ahorro<br>**When** consulta la sección "Impacto de mis recomendaciones"<br>**Then** el sistema muestra el porcentaje de reducción de consumo respecto al periodo anterior<br><br>**Escenario 2: Sin reducción significativa**<br>**Given** que el usuario aplicó recomendaciones pero no redujo su consumo<br>**When** revisa el reporte de impacto<br>**Then** el sistema muestra el mensaje: "Aún no se detecta una reducción significativa, sigue aplicando las recomendaciones" | EP07 |
+| **US23** | Configurar alertas en horas pico | Como usuario, quiero recibir alertas específicas durante las horas de mayor demanda eléctrica, para modificar mi uso de electrodomésticos en esos momentos. | **Escenario 1: Activación de alertas en hora pico**<br>**Given** que el usuario configura su horario de hora pico<br>**When** un dispositivo está en uso durante ese rango horario<br>**Then** el sistema envía una alerta indicando el sobrecosto potencial<br>**And** muestra el mensaje: "Estás consumiendo en horario pico, considera posponer el uso"<br><br>**Escenario 2: Resumen de consumo en hora pico**<br>**Given** que finalizó el día<br>**When** el usuario consulta su resumen diario<br>**Then** el sistema muestra el porcentaje de consumo registrado durante las horas pico | EP03 |
+| **US24** | Acceder a tutorial interactivo de interpretación de datos | Como usuario, quiero un tutorial interactivo que me explique cómo leer los gráficos en kWh y el consumo histórico, para tomar decisiones informadas sin confusión. | **Escenario 1: Primer acceso al dashboard**<br>**Given** que el usuario ingresa por primera vez al panel de consumo<br>**When** el sistema detecta que no ha completado el tutorial<br>**Then** muestra una guía paso a paso explicando cada gráfico y métrica<br><br>**Escenario 2: Reintentar tutorial**<br>**Given** que el usuario desea repasar la explicación<br>**When** selecciona "Ver tutorial" desde el centro de ayuda<br>**Then** el sistema vuelve a desplegar la guía interactiva | EP02 |
+| **US25** | Probar la plataforma desde la Landing Page | Como visitante, quiero acceder a un botón de "Probar ahora" en la landing page, para conocer la plataforma sin necesidad de registrarme con datos reales. | **Escenario 1: Clic en "Probar ahora"**<br>**Given** que el visitante se encuentra en la Landing Page<br>**When** hace clic en el botón "Probar ahora"<br>**Then** el sistema lo redirige al modo demo sin solicitar registro previo<br><br>**Escenario 2: Conversión desde la demo**<br>**Given** que el visitante exploró el modo demo desde la landing<br>**When** decide registrarse<br>**Then** el sistema lo dirige al formulario de registro con sus datos de prueba precargados | EP10 |
+
 ### 8.3.2. To-Be Product Backlog
-
-
+| # Orden | User Story ID | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+| :--- | :--- | :--- | :--- |
+| 1 | US20 | Activar modo demo sin hardware | 5 |
+| 2 | US21 | Validar precisión de datos del EMS | 5 |
+| 3 | US22 | Medir impacto de recomendaciones personalizadas | 5 |
+| 4 | US23 | Configurar alertas en horas pico | 3 |
+| 5 | US24 | Acceder a tutorial interactivo de interpretación de datos | 3 |
+| 6 | US25 | Probar la plataforma desde la Landing Page | 2 |
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
