@@ -318,13 +318,7 @@ Cada una de las To-Be User Stories definidas en la sección 8.3.1 (US20–US25) 
 | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Story Points) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
 | **US20** | Activar modo demo sin hardware | TK01 | Diseñar interfaz del modo demo | Construir el dashboard de demostración con datos simulados de consumo y el mensaje "Estás explorando una demo con datos de ejemplo". | 3 | Jonatan Acuña | Done |
-|  |  | TK02 | Implementar conversión demo → cuenta real | Migrar la sesión demo a una cuenta activa y mostrar "Tu cuenta ha sido activada correctamente". | 2 | Jonatan Acuña | Done |
-| **US21** | Validar precisión de datos del EMS | TK03 | Implementar carga y comparación de recibo | Permitir subir foto o ingresar el monto del recibo y compararlo con el consumo registrado, mostrando el porcentaje de coincidencia. | 3 | Didier Meza | Done |
-|  |  | TK04 | Desarrollar alerta de discrepancia | Detectar diferencias significativas y mostrar "Detectamos una diferencia, revisa la calibración de tus dispositivos". | 2 | Didier Meza | Done |
-| **US22** | Medir impacto de recomendaciones personalizadas | TK05 | Construir sección "Impacto de mis recomendaciones" | Calcular y mostrar el porcentaje de reducción de consumo respecto al periodo anterior (comparación antes/después). | 3 | Andrés Torres | Done |
-|  |  | TK06 | Manejar escenario sin reducción significativa | Mostrar "Aún no se detecta una reducción significativa, sigue aplicando las recomendaciones" cuando no haya ahorro. | 2 | Andrés Torres | Done |
 | **US23** | Configurar alertas en horas pico | TK07 | Configurar y disparar alertas en hora pico | Permitir definir el rango horario pico y enviar la alerta de sobrecosto durante el uso de dispositivos. | 2 | Antonio Duran | Done |
-|  |  | TK08 | Generar resumen diario de consumo en hora pico | Mostrar en el resumen diario el porcentaje de consumo registrado durante las horas pico. | 1 | Antonio Duran | Done |
 | **US24** | Acceder a tutorial interactivo de interpretación de datos | TK09 | Desarrollar tutorial interactivo paso a paso | Guía que explica los gráficos en kWh y el consumo histórico en el primer acceso al dashboard. | 2 | Yeira Huaman | Done |
 |  |  | TK10 | Habilitar reintento del tutorial | Opción "Ver tutorial" en el centro de ayuda para volver a desplegar la guía interactiva. | 1 | Yeira Huaman | Done |
 | **US25** | Probar la plataforma desde la Landing Page | TK11 | Implementar botón "Probar ahora" | Añadir el botón en la Landing Page que redirige al modo demo sin solicitar registro previo. | 1 | Joan Teves | Done |
