@@ -306,12 +306,121 @@ Las siguientes historias de usuario fueron diseñadas a partir de las hipótesis
 | 5 | US24 | Acceder a tutorial interactivo de interpretación de datos | 3 |
 | 6 | US25 | Probar la plataforma desde la Landing Page | 2 |
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+
+
 #### 8.3.3.1. To-Be Sprint Backlogs
+
+Cada una de las To-Be User Stories definidas en la sección 8.3.1 (US20–US25) fue descompuesta en work items/tasks concretos y planificada dentro del Sprint de experimentación. La estimación de cada tarea (en Story Points) suma exactamente los puntos asignados a su historia en el To-Be Product Backlog (sección 8.3.2), garantizando la trazabilidad entre la hipótesis, la historia y el trabajo ejecutado. Cada historia fue asignada a un integrante del equipo como responsable, permitiendo un desarrollo paralelo de los seis experimentos planteados.
+
+**Sprint 1 — Experimentación (To-Be)**
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Story Points) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **US20** | Activar modo demo sin hardware | TK01 | Diseñar interfaz del modo demo | Construir el dashboard de demostración con datos simulados de consumo y el mensaje "Estás explorando una demo con datos de ejemplo". | 3 | Jonatan Acuña | Done |
+| **US23** | Configurar alertas en horas pico | TK07 | Configurar y disparar alertas en hora pico | Permitir definir el rango horario pico y enviar la alerta de sobrecosto durante el uso de dispositivos. | 2 | Antonio Duran | Done |
+| **US24** | Acceder a tutorial interactivo de interpretación de datos | TK09 | Desarrollar tutorial interactivo paso a paso | Guía que explica los gráficos en kWh y el consumo histórico en el primer acceso al dashboard. | 2 | Yeira Huaman | Done |
+|  |  | TK10 | Habilitar reintento del tutorial | Opción "Ver tutorial" en el centro de ayuda para volver a desplegar la guía interactiva. | 1 | Yeira Huaman | Done |
+| **US25** | Probar la plataforma desde la Landing Page | TK11 | Implementar botón "Probar ahora" | Añadir el botón en la Landing Page que redirige al modo demo sin solicitar registro previo. | 1 | Joan Teves | Done |
+|  |  | TK12 | Precargar datos de prueba en el registro | Dirigir al formulario de registro con los datos de la demo precargados al convertir la sesión. | 1 | Joan Teves | Done |
+
+**Total del Sprint:** 23 Story Points (US20: 5 · US21: 5 · US22: 5 · US23: 3 · US24: 3 · US25: 2).
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+**US25 — Probar la plataforma desde la Landing Page**
+
+El botón "Probar ahora" en la Landing Page redirige al visitante al modo demo del Frontend sin solicitar registro previo, cumpliendo el escenario 1 de US25.
+
+![Landing Page con el botón "Probar ahora" en la barra de navegación](../../assets/capitulo-8/us25-landing-probar-ahora.png)
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-#### 8.3.3.6. Team Collaboration Insights
+
+**US20 — Activar modo demo sin hardware**
+
+La ruta pública `/demo` muestra un dashboard con datos de consumo simulados y el aviso "Estás explorando una demo con datos de ejemplo. Crea una cuenta para conectar tus propios dispositivos.", sin requerir sesión iniciada.
+
+![Dashboard de simulación en modo demo público](../../assets/capitulo-8/us20-demo-dashboard.png)
+
+**US21 — Validar precisión de datos del EMS**
+
+En "Validar consumo" el usuario ingresa el monto de su recibo eléctrico y el sistema lo compara contra la factura estimada por la plataforma, mostrando el porcentaje de coincidencia y el mensaje de discrepancia cuando corresponde.
+
+![Resultado de comparar el recibo ingresado contra la factura estimada](../../assets/capitulo-8/us21-validate-consumption.png)
+
+**US22 — Medir impacto de recomendaciones personalizadas**
+
+"Impacto de mis recomendaciones" compara el consumo del periodo actual contra el periodo anterior como aproximación al efecto de las recomendaciones aplicadas, mostrando el mensaje correspondiente cuando aún no hay una reducción significativa.
+
+![Comparación de consumo entre periodo anterior y actual](../../assets/capitulo-8/us22-recommendations-impact.png)
+
+**US23 — Configurar alertas en horas pico**
+
+Desde "Configuración" el usuario define el rango horario de hora pico (y un umbral de alerta opcional) usado para disparar las notificaciones de sobrecosto durante ese horario.
+
+![Editor del horario de hora pico en Configuración](../../assets/capitulo-8/us23-settings-peak-hour.png)
+
+**US24 — Acceder a tutorial interactivo de interpretación de datos**
+
+El tutorial se despliega automáticamente en el primer acceso al dashboard y puede volver a abrirse en cualquier momento desde "Tutoriales y Guías" en el centro de ayuda.
+
+![Tutorial interactivo reabierto desde el centro de ayuda](../../assets/capitulo-8/us24-tutorial-reopened.png)
+
+**US25 — Probar la plataforma desde la Landing Page (conversión de demo a cuenta real)**
+
+Al hacer clic en "Crear cuenta" desde la demo, el formulario de registro muestra un resumen de la sesión simulada (consumo semanal y ahorro potencial) antes de que el visitante complete sus datos reales.
+
+![Formulario de registro con el resumen de la sesión demo precargado](../../assets/capitulo-8/us25-register-demo-banner.png)
+
+#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+**US25 — Probar la plataforma desde la Landing Page (conversión de demo a cuenta real)**
+
+El endpoint `POST /api/v1/authentication/sign-up` registra al visitante que decide convertir su sesión de demo en una cuenta real, devolviendo el perfil creado con estado `201 Created`.
+
+![Respuesta 201 Created del endpoint sign-up con los datos del usuario registrado](../../assets/capitulo-8/us25-api-signup.png)
+
+El endpoint `POST /api/v1/authentication/sign-in` autentica al usuario recién registrado y retorna su perfil junto con el token JWT.
+
+![Respuesta 200 OK del endpoint sign-in con el perfil del usuario y el token JWT](../../assets/capitulo-8/us25-api-signin.png)
+
+**US21 — Validar precisión de datos del EMS**
+
+El endpoint `POST /api/v1/dashboard/validate-receipt` compara el monto del recibo ingresado por el usuario contra el consumo estimado por la plataforma, retornando el porcentaje de coincidencia y el mensaje de discrepancia cuando corresponde.
+
+![Respuesta del endpoint validate-receipt mostrando la discrepancia entre el recibo ingresado y el consumo estimado](../../assets/capitulo-8/us21-api-validate-receipt.png)
+
+**US22 — Medir impacto de recomendaciones personalizadas**
+
+El endpoint `GET /api/v1/reports/compare` recibe los rangos de fechas de dos periodos y retorna el consumo total y diario de cada uno junto con la diferencia porcentual entre ambos, permitiendo cuantificar el efecto de las recomendaciones aplicadas.
+
+![Respuesta del endpoint compare con el consumo de ambos periodos y la diferencia porcentual](../../assets/capitulo-8/us22-api-compare-consumption.png)
+
+**US23 — Configurar alertas en horas pico**
+
+El endpoint `GET /api/v1/reports/peak-hour-summary` informa si el usuario ya configuró su horario de hora pico.
+
+![Respuesta del endpoint peak-hour-summary indicando que el horario de hora pico aún no fue configurado](../../assets/capitulo-8/us23-api-peak-hour-summary.png)
+
+El endpoint `PUT /api/v1/settings` permite definir dicho horario (rango `peakHourStart`/`peakHourEnd`) junto con el umbral de consumo (`highConsumptionThresholdKwh`) que dispara la alerta.
+
+![Respuesta del endpoint settings tras actualizar el horario de hora pico (18:00–23:00) y el umbral de consumo](../../assets/capitulo-8/us23-api-update-settings.png)
+
+#### 8.3.3.5. Team Collaboration Insights
+
+Se presentan los analíticos de contribución de GitHub para los tres repositorios involucrados en la implementación de las To-Be User Stories (US20–US25), evidenciando la participación del equipo durante el sprint de experimentación.
+
+**Repositorio de Reporte**
+
+![Analíticos de colaboración del repositorio de Reporte: 6 integrantes con commits registrados entre abril y junio](../../assets/capitulo-8/collaboration-insights-reporte.png)
+
+**Repositorio de Backend**
+
+![Analíticos de colaboración del repositorio de Backend: 4 integrantes con commits concentrados entre mayo y julio](../../assets/capitulo-8/collaboration-insights-backend.png)
+
+**Repositorio de Frontend**
+
+![Analíticos de colaboración del repositorio de Frontend: 3 integrantes con commits concentrados en mayo](../../assets/capitulo-8/collaboration-insights-frontend.png)
 
 
 ### 8.3.4. To-Be Validation Interviews
