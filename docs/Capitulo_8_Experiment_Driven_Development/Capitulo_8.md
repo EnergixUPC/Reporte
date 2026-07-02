@@ -306,12 +306,36 @@ Las siguientes historias de usuario fueron diseñadas a partir de las hipótesis
 | 5 | US24 | Acceder a tutorial interactivo de interpretación de datos | 3 |
 | 6 | US25 | Probar la plataforma desde la Landing Page | 2 |
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+
+
 #### 8.3.3.1. To-Be Sprint Backlogs
+
+Cada una de las To-Be User Stories definidas en la sección 8.3.1 (US20–US25) fue descompuesta en work items/tasks concretos y planificada dentro del Sprint de experimentación. La estimación de cada tarea (en Story Points) suma exactamente los puntos asignados a su historia en el To-Be Product Backlog (sección 8.3.2), garantizando la trazabilidad entre la hipótesis, la historia y el trabajo ejecutado. Cada historia fue asignada a un integrante del equipo como responsable, permitiendo un desarrollo paralelo de los seis experimentos planteados.
+
+**Sprint 1 — Experimentación (To-Be)**
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Story Points) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **US20** | Activar modo demo sin hardware | TK01 | Diseñar interfaz del modo demo | Construir el dashboard de demostración con datos simulados de consumo y el mensaje "Estás explorando una demo con datos de ejemplo". | 3 | Jonatan Acuña | Done |
+|  |  | TK02 | Implementar conversión demo → cuenta real | Migrar la sesión demo a una cuenta activa y mostrar "Tu cuenta ha sido activada correctamente". | 2 | Jonatan Acuña | Done |
+| **US21** | Validar precisión de datos del EMS | TK03 | Implementar carga y comparación de recibo | Permitir subir foto o ingresar el monto del recibo y compararlo con el consumo registrado, mostrando el porcentaje de coincidencia. | 3 | Didier Meza | Done |
+|  |  | TK04 | Desarrollar alerta de discrepancia | Detectar diferencias significativas y mostrar "Detectamos una diferencia, revisa la calibración de tus dispositivos". | 2 | Didier Meza | Done |
+| **US22** | Medir impacto de recomendaciones personalizadas | TK05 | Construir sección "Impacto de mis recomendaciones" | Calcular y mostrar el porcentaje de reducción de consumo respecto al periodo anterior (comparación antes/después). | 3 | Andrés Torres | Done |
+|  |  | TK06 | Manejar escenario sin reducción significativa | Mostrar "Aún no se detecta una reducción significativa, sigue aplicando las recomendaciones" cuando no haya ahorro. | 2 | Andrés Torres | Done |
+| **US23** | Configurar alertas en horas pico | TK07 | Configurar y disparar alertas en hora pico | Permitir definir el rango horario pico y enviar la alerta de sobrecosto durante el uso de dispositivos. | 2 | Antonio Duran | Done |
+|  |  | TK08 | Generar resumen diario de consumo en hora pico | Mostrar en el resumen diario el porcentaje de consumo registrado durante las horas pico. | 1 | Antonio Duran | Done |
+| **US24** | Acceder a tutorial interactivo de interpretación de datos | TK09 | Desarrollar tutorial interactivo paso a paso | Guía que explica los gráficos en kWh y el consumo histórico en el primer acceso al dashboard. | 2 | Yeira Huaman | Done |
+|  |  | TK10 | Habilitar reintento del tutorial | Opción "Ver tutorial" en el centro de ayuda para volver a desplegar la guía interactiva. | 1 | Yeira Huaman | Done |
+| **US25** | Probar la plataforma desde la Landing Page | TK11 | Implementar botón "Probar ahora" | Añadir el botón en la Landing Page que redirige al modo demo sin solicitar registro previo. | 1 | Joan Teves | Done |
+|  |  | TK12 | Precargar datos de prueba en el registro | Dirigir al formulario de registro con los datos de la demo precargados al convertir la sesión. | 1 | Joan Teves | Done |
+
+**Total del Sprint:** 23 Story Points (US20: 5 · US21: 5 · US22: 5 · US23: 3 · US24: 3 · US25: 2).
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-#### 8.3.3.6. Team Collaboration Insights
+#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+#### 8.3.3.5. Team Collaboration Insights
 
 
 ### 8.3.4. To-Be Validation Interviews
