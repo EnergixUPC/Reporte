@@ -327,7 +327,51 @@ Cada una de las To-Be User Stories definidas en la sección 8.3.1 (US20–US25) 
 **Total del Sprint:** 23 Story Points (US20: 5 · US21: 5 · US22: 5 · US23: 3 · US24: 3 · US25: 2).
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+**US25 — Probar la plataforma desde la Landing Page**
+
+El botón "Probar ahora" en la Landing Page redirige al visitante al modo demo del Frontend sin solicitar registro previo, cumpliendo el escenario 1 de US25.
+
+![Landing Page con el botón "Probar ahora" en la barra de navegación](us25-landing-probar-ahora.png)
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+**US20 — Activar modo demo sin hardware**
+
+La ruta pública `/demo` muestra un dashboard con datos de consumo simulados y el aviso "Estás explorando una demo con datos de ejemplo. Crea una cuenta para conectar tus propios dispositivos.", sin requerir sesión iniciada.
+
+![Dashboard de simulación en modo demo público](us20-demo-dashboard.png)
+
+**US21 — Validar precisión de datos del EMS**
+
+En "Validar consumo" el usuario ingresa el monto de su recibo eléctrico y el sistema lo compara contra la factura estimada por la plataforma, mostrando el porcentaje de coincidencia y el mensaje de discrepancia cuando corresponde.
+
+![Resultado de comparar el recibo ingresado contra la factura estimada](us21-validate-consumption.png)
+
+**US22 — Medir impacto de recomendaciones personalizadas**
+
+"Impacto de mis recomendaciones" compara el consumo del periodo actual contra el periodo anterior como aproximación al efecto de las recomendaciones aplicadas, mostrando el mensaje correspondiente cuando aún no hay una reducción significativa.
+
+![Comparación de consumo entre periodo anterior y actual](us22-recommendations-impact.png)
+
+**US23 — Configurar alertas en horas pico**
+
+Desde "Configuración" el usuario define el rango horario de hora pico (y un umbral de alerta opcional) usado para disparar las notificaciones de sobrecosto durante ese horario.
+
+![Editor del horario de hora pico en Configuración](us23-settings-peak-hour.png)
+
+**US24 — Acceder a tutorial interactivo de interpretación de datos**
+
+El tutorial se despliega automáticamente en el primer acceso al dashboard y puede volver a abrirse en cualquier momento desde "Tutoriales y Guías" en el centro de ayuda.
+
+![Tutorial interactivo reabierto desde el centro de ayuda](us24-tutorial-reopened.png)
+
+**US25 — Probar la plataforma desde la Landing Page (conversión de demo a cuenta real)**
+
+Al hacer clic en "Crear cuenta" desde la demo, el formulario de registro muestra un resumen de la sesión simulada (consumo semanal y ahorro potencial) antes de que el visitante complete sus datos reales.
+
+![Formulario de registro con el resumen de la sesión demo precargado](us25-register-demo-banner.png)
+
 #### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.5. Team Collaboration Insights
 
