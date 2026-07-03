@@ -13,7 +13,7 @@ Para la gestión de los requisitos del proyecto Energix, el equipo definió cola
 
 **Product UX/UI Design:**
 
-Para el diseño de la experiencia de usuario, utilizamos UXPressia, herramienta con la que elaboramos los User Personas, Empathy Maps, Journey Maps e Impact Maps del proyecto Energix. Esto nos permitió adoptar una perspectiva centrada en el usuario y comprender mejor las necesidades de nuestros segmentos objetivo. Para el diseño visual de la aplicación, empleamos Figma como herramienta de diseño colaborativo, a través de la cual creamos los Wireframes, Mock-ups y prototipos tanto de la aplicación web como de la versión móvil, sirviendo como guía previa al desarrollo.
+Para el diseño de la experiencia de usuario, utilizamos UXPressia, herramienta con la que elaboramos los User Personas, Empathy Maps, Journey Maps e Impact Maps del proyecto Energix. Esto nos permitió adoptar una perspectiva centrada en el usuario y comprender mejor las necesidades de nuestros segmentos objetivo. Para el diseño visual de la aplicación, empleamos Figma como herramienta de diseño colaborativo, a través de la cual creamos los Wireframes, Mock-ups y prototipos de la aplicación web, sirviendo como guía previa al desarrollo. El alcance de Energix no contempla una aplicación móvil nativa en esta fase del proyecto (ver Capítulo IV, secciones 4.4 y 4.5).
 
 **Software Development:**
 
@@ -47,8 +47,6 @@ utilizaremos GitHub como plataforma para alojar nuestros repositorios.
 **URL de repositorio de Frontend:** https://github.com/EnergixUPC/Frontend
 
 **URL de repositorio de Backend:** https://github.com/EnergixUPC/Backend
-
-**URL de repositorio Mobile:** https://github.com/EnergixUPC/Movil
 
 **URL de repositorio de Reporte:** https://github.com/EnergixUPC/Reporte
 
@@ -258,6 +256,9 @@ El funcionamiento de Energix depende de la disponibilidad de conexión a interne
 
 Este acuerdo define las condiciones bajo las cuales Energix ofrece su servicio, garantizando una experiencia confiable, segura y en constante evolución para sus usuarios.
 ### 5.2.5. Implemented Native-Mobile Application Evidence
+
+**No aplica.** El alcance del producto Energix (Smart Energy Management System) comprende Landing Page, Web Application y RESTful API; no contempla el desarrollo de una aplicación móvil nativa en esta fase del proyecto.
+
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Durante el desarrollo del sprint se lograron completar los principales módulos del backend del sistema Energix, consolidando una arquitectura funcional y escalable orientada a la gestión del consumo energético en hogares.

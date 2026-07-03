@@ -247,6 +247,8 @@ Siguiendo el principio de seleccionar la "cosa más simple y útil", se ha elegi
 
 ### 8.2.8. Web and Mobile Tracking Plan.
 
+**Nota de alcance:** el plan de tracking descrito a continuación aplica únicamente a la Web Application y el Landing Page. El proyecto Energix no contempla una aplicación móvil nativa en esta fase, por lo que no se define un plan de tracking para Mobile.
+
 Para Energix, nuestro objetivo es validar las hipótesis sobre la adopción, confianza y comportamiento del usuario para optimizar el consumo energético. A medida que ejecutemos los experimentos definidos, estableceremos un plan de seguimiento exhaustivo que nos permitirá evaluar de manera efectiva los resultados.
 
 El monitoreo de las funcionalidades experimentales se llevará a cabo en dos etapas clave:
@@ -372,7 +374,11 @@ Al hacer clic en "Crear cuenta" desde la demo, el formulario de registro muestra
 
 ![Formulario de registro con el resumen de la sesión demo precargado](../../assets/capitulo-8/us25-register-demo-banner.png)
 
-#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+**No aplica.** El alcance del producto Energix (Smart Energy Management System) comprende Landing Page, Web Application y RESTful API; no contempla el desarrollo de una aplicación móvil nativa en esta fase del proyecto, por lo que no se presenta evidencia de implementación de las To-Be User Stories en Mobile.
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 **US25 — Probar la plataforma desde la Landing Page (conversión de demo a cuenta real)**
 
@@ -406,7 +412,7 @@ El endpoint `PUT /api/v1/settings` permite definir dicho horario (rango `peakHou
 
 ![Respuesta del endpoint settings tras actualizar el horario de hora pico (18:00–23:00) y el umbral de consumo](../../assets/capitulo-8/us23-api-update-settings.png)
 
-#### 8.3.3.5. Team Collaboration Insights
+#### 8.3.3.6. Team Collaboration Insights
 
 Se presentan los analíticos de contribución de GitHub para los tres repositorios involucrados en la implementación de las To-Be User Stories (US20–US25), evidenciando la participación del equipo durante el sprint de experimentación.
 

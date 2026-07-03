@@ -96,8 +96,16 @@ Esta sección detalla los lineamientos visuales para los componentes de la landi
 ![Colors-Energix.jpg](../../assets/capitulo-4/Colors-Energix.jpg)
 
 ### 4.1.3. Mobile Style Guidelines.
+
+**No aplica.** El alcance del producto Energix (Smart Energy Management System) comprende Landing Page, Web Application y RESTful API; no contempla el desarrollo de una aplicación móvil nativa en esta fase del proyecto, por lo que no se definen guías de estilo específicas para plataformas móviles.
+
 #### 4.1.3.1. iOS Mobile Style Guidelines.
+
+No aplica (ver 4.1.3).
+
 #### 4.1.3.2. Android Mobile Style Guidelines.
+
+No aplica (ver 4.1.3).
 
 ## 4.2. Information Architecture.
 
@@ -246,14 +254,36 @@ El diseño de la landing page de Energix se ha concebido para ofrecer una experi
 ![Footer.png](../../assets/capitulo-4/Footer.png)
 
 ## 4.4. Mobile Applications UX/UI Design.
+
+**No aplica.** El alcance del producto Energix (Smart Energy Management System) comprende Landing Page, Web Application y RESTful API; no contempla el desarrollo de una aplicación móvil nativa en esta fase del proyecto. Por ello no se elaboran wireframes, wireflow diagrams, mock-ups ni user flow diagrams para aplicaciones móviles.
+
 ### 4.4.1. Mobile Applications Wireframes.
+
+No aplica (ver 4.4).
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
+
+No aplica (ver 4.4).
+
 ### 4.4.3. Mobile Applications Mock-ups.
+
+No aplica (ver 4.4).
+
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
+No aplica (ver 4.4).
+
 ## 4.5. Mobile Applications Prototyping.
+
+**No aplica.** Al no contemplarse una aplicación móvil nativa en el alcance de Energix (ver 4.4), no se elaboran prototipos para Android ni iOS.
+
 ### 4.5.1. Android Mobile Applications Prototyping.
+
+No aplica (ver 4.5).
+
 ### 4.5.2. iOS Mobile Applications Prototyping.
+
+No aplica (ver 4.5).
 
 ## 4.6. Web Applications UX/UI Design.
 
