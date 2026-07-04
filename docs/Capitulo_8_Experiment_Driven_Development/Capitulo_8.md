@@ -431,129 +431,116 @@ Las entrevistas están dirigidas a los mismos segmentos objetivo: propietarios d
 
 **Preguntas para Segmento #1: Propietarios de Vivienda**
 
-*(US20 / Q1)*
-1. Al ingresar a la plataforma por primera vez y ver la opción "Probar sin
-   instalación", ¿le resulta clara su función?
-
-2. ¿Los datos simulados del modo demo le ayudan a comprender lo que la plataforma
-   podría hacer por su hogar?
-
-3. Después de explorar el modo demo, ¿se sentiría más motivado(a) a registrarse
-   con una cuenta real? ¿Por qué?
-
-*(US21 / Q2)*
-
-4. ¿Le parece útil la funcionalidad de comparar el consumo registrado por la
-   plataforma con su recibo de electricidad?
-
-5. Al ver el porcentaje de coincidencia entre ambos valores, ¿aumenta su confianza
-   en los datos que muestra el sistema?
-
-6. Si el sistema detecta una diferencia significativa, ¿el mensaje de alerta le
-   resulta claro y le indica qué hacer?
-
-*(US22 / Q3)*
-
-7. ¿Las recomendaciones de ahorro que le muestra la plataforma le parecen
-   aplicables a su situación real?
-
-8. ¿La sección "Impacto de mis recomendaciones", que compara su consumo antes y
-   después, le resulta fácil de interpretar?
-
-9. ¿Consideraría modificar sus hábitos de consumo a partir de estas
-   recomendaciones?
-
-*(US23 / Q4)*
-
-10. ¿Sabía previamente que consumir energía en horas pico le cuesta más? ¿La
-    plataforma le ayuda a entender este concepto?
-
-11. ¿Le resulta práctico recibir una alerta cuando está usando electrodomésticos
-    durante el horario pico?
-
-12. ¿Cambiaría el horario de uso de algún electrodoméstico después de recibir
-    estas alertas?
-
-*(US24 / Q5)*
-
-13. ¿El tutorial paso a paso que aparece la primera vez que ingresa al dashboard
-    le ayuda a entender los gráficos de consumo en kWh?
-
-14. Después de completar el tutorial, ¿se siente capaz de interpretar por su
-    cuenta los datos del dashboard?
-
-15. ¿Le parece útil poder volver a acceder al tutorial desde el centro de ayuda?
-
-*Percepción General de las Nuevas Funcionalidades*
-
-16. De todas las funcionalidades nuevas que le hemos presentado (demo, validación de recibo, recomendaciones, alertas pico, tutorial), ¿cuál le parece la más valiosa?
-
-17. ¿Hay alguna funcionalidad nueva que le resulte confusa o innecesaria?
+1. ¿El botón "Probar ahora" en la Landing Page facilitó que pudieras explorar la plataforma en el modo demo (con datos simulados) de forma inmediata y sin registrarte?
+2. ¿Ver el funcionamiento de la plataforma con datos simulados en la demo te convenció para registrarte posteriormente con una cuenta real?
+3. ¿Poder ingresar el monto de tu recibo físico en la sección "Validar consumo" y compararlo con el consumo estimado del sistema aumenta tu confianza en la precisión de la plataforma?
+4. ¿El gráfico comparativo de la sección "Impacto de recomendaciones" te muestra de forma clara e intuitiva el ahorro que has logrado en soles y kWh?
+5. ¿Poder configurar el "Horario de hora punta" (18:00 - 23:00) bajo Configuración y recibir alertas te motivaría a trasladar el uso de tus electrodomésticos a horarios de menor tarifa?
+6. ¿El tutorial interactivo "Introducción al sistema" (disponible en Tutoriales y Guías) fue claro y te ayudó a interpretar los gráficos de consumo en kWh sin asistencia técnica?
 
 **Preguntas para Segmento #2: Estudiantes que Alquilan**
 
-*(US20 / Q1)*
-
-1. Como estudiante, ¿el hecho de poder probar la plataforma sin instalar ningún
-   dispositivo físico le parece un factor decisivo para animarse a explorarla?
-
-2. ¿Los datos simulados le dan una idea clara de cómo la plataforma le ayudaría
-   a controlar sus gastos de luz?
-
-3. ¿Se registraría con una cuenta real después de probar el modo demo?
-
-*(US21 / Q2)*
-
-4. ¿Le resulta fácil ingresar el monto de su recibo eléctrico para compararlo
-   con los datos del sistema?
-
-5. ¿El porcentaje de coincidencia le genera confianza en la plataforma o le
-   genera dudas?
-
-6. Si comparte gastos de luz con compañeros de cuarto, ¿esta función le ayudaría
-   a dividir los costos de forma más justa?
-
-*(US22 / Q3)*
-
-7. ¿Las recomendaciones de ahorro se adaptan a su realidad como estudiante (por
-   ejemplo, uso de laptop, iluminación, ventilador)?
-
-8. ¿La comparación de consumo entre periodos le motiva a aplicar los consejos?
-
-9. ¿Qué tipo de recomendación le resultaría más útil: apagar dispositivos en
-   desuso, cambiar horarios de uso, o limitar el tiempo de ciertos aparatos?
-
-*(US23 / Q4)*
-
-10. ¿Le parece útil que la plataforma le avise cuando está consumiendo energía en
-    horarios más caros?
-
-11. ¿Podría ajustar el horario de uso de sus dispositivos (por ejemplo, cargar la
-    laptop de noche en vez de en la tarde) a partir de estas alertas?
-
-12. ¿El resumen diario de consumo en hora pico le ayuda a planificar mejor su
-    presupuesto mensual?
-
-*(US24 / Q5)*
-13. Sin el tutorial, ¿habría entendido qué significa el consumo en kWh y los
-    gráficos del dashboard?
-
-14. ¿El tutorial le parece demasiado largo, muy corto, o tiene la extensión
-    adecuada?
-
-15. ¿Preferiría un tutorial en video en lugar de la guía paso a paso actual?
-
-*(US25 / Q6)*
-
-16. ¿El botón "Probar ahora" en la página principal le resulta visible y
-    atractivo?
-
-17. ¿Le parece conveniente poder explorar la plataforma sin registrarse primero?
-
-18. ¿La información que vio en la demo le parece suficiente para decidir si se
-    registra?
+1. Como estudiante que alquila, ¿poder probar la plataforma en modo demo (con el botón "Probar ahora" de la Landing) sin instalar un dispositivo físico en tu cuarto fue decisivo para motivarte a usarla?
+2. ¿La información y los gráficos simulados de la demo te resultaron útiles y suficientes para comprender el beneficio de la aplicación antes de crear una cuenta?
+3. Si compartes gastos con compañeros de cuarto, ¿comparar tu recibo de luz en "Validar consumo" te serviría para hacer una división del cobro más transparente y justa?
+4. ¿El gráfico en la sección "Impacto de recomendaciones" te ayuda a visualizar fácilmente si tus esfuerzos de ahorro (como apagar tu laptop o luces) reducen el consumo en kWh?
+5. ¿Recibir alertas basadas en el "Horario de hora punta" te convencería de programar el uso de tus dispositivos de estudio o cocina fuera de ese rango de mayor costo?
+6. ¿El tutorial "Introducción al sistema" que se abre desde Configuración aclaró tus dudas y te permitió comprender el dashboard de forma autónoma?
 
 #### 8.3.4.2. Registro de Entrevistas.
+
+**ENTREVISTAS SEGMENTO OBJETIVO 1: PROPIETARIOS DE VIVIENDA**
+
+**ENTREVISTA 1**
+
+![TOBEVALIDATION-1-Propietario.png](../../assets/capitulo-2/TOBEVALIDATION-1-Propietario.png)
+
+
+Inicia: 0 minutos y 0 segundos
+
+Duración: - minutos y - segundos
+
+Nombre: Juan Carlos Mendoza
+
+Edad: 45 años
+
+Distrito: Surco
+
+Resumen: El participante evaluó la facilidad de ingreso a la demo interactiva mediante el botón "Probar ahora", indicando que agiliza la toma de decisiones al eliminar la barrera del registro inicial. Validó positivamente la función "Validar consumo" al notar una correlación del 96% entre el recibo físico y la estimación del sistema. Asimismo, afirmó que el gráfico de "Impacto de recomendaciones" y el "Horario de hora punta" en la sección de alertas son herramientas intuitivas que le motivarían a reordenar el uso de sus dispositivos de alto consumo para ahorrar costos. Destacó que el tutorial de "Introducción al sistema" es claro y evita la necesidad de soporte técnico.
+
+
+**ENTREVISTA 2**
+
+![TOBEVALIDATION-2-Propietario.png](../../assets/capitulo-2/TOBEVALIDATION-2-Propietario.png)
+
+Inicia:  - minutos y - segundos
+
+Duración:  - minutos y - segundos
+
+Nombre: Martha Araujo
+
+Edad:  52
+
+Distrito: Miraflores
+
+Resumen: La propietaria destacó la velocidad de acceso a la demo interactiva sin registrarse como un acierto para la experiencia de usuario. Mencionó que la comparación del recibo en "Validar consumo" le dio seguridad sobre la precisión del sistema al alinearse con la medición de Enel. Validó positivamente el gráfico de "Impacto de recomendaciones" por su claridad visual. Afirmó que la alerta en el "Horario de hora punta" le resultará muy útil para pausar electrodomésticos grandes como la lavadora y que el tutorial interactivo es directo y resuelve cualquier duda de usabilidad.
+
+
+**ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
+
+**ENTREVISTA 1**
+
+![TOBEVALIDATION-1-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-1-Estudiante.jpeg)
+
+
+Inicia: - minutos y - segundos
+
+Duración: - minutos y - segundos
+
+Nombre: Roberto Flores
+
+Edad: 23
+
+Distrito: Ate
+
+Resumen: El estudiante indicó que la demo sin hardware es excelente para personas que no pueden hacer modificaciones en sus cuartos alquilados. Comentó que la estimación y desglose de consumo por aparatos le permiten visualizar con claridad sus gastos. Validó que la función de "Validar consumo" es de gran utilidad para transparentar la división del recibo con sus compañeros de cuarto. Comentó que el gráfico de "Impacto de recomendaciones" y las alertas del "Horario de hora punta" incentivan la formación de hábitos de ahorro eficientes en sus dispositivos de estudio, y calificó el tutorial como un recurso rápido que resuelve dudas al instante.
+
+
+**ENTREVISTA 2**
+
+![TOBEVALIDATION-2-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-2-Estudiante.jpeg)
+
+
+Inicia: - minutos y - segundos
+
+Duración: - minutos y - segundos
+
+Nombre: Daniela Gómez
+
+Edad: 21
+
+Distrito: San Miguel
+
+Resumen: La participante validó la conveniencia de probar la aplicación mediante la demo sin registros. Indicó que la sección "Validar consumo" le permite contrastar de manera directa el cobro del casero con sus consumos reales, asegurando una división justa con los roomies. Afirmó que el gráfico de "Impacto de recomendaciones" ayuda a medir el ahorro semanal y que las notificaciones del "Horario de hora punta" le facilitarán programar el uso de sus dispositivos de estudio antes de las 18:00 horas. Además, valoró positivamente la brevedad y sencillez del tutorial de inducción.
+
+
+**ENTREVISTA 3**
+
+![TOBEVALIDATION-3-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-3-Estudiante.jpeg)
+
+
+Inicia: - minutos y - segundos
+
+Duración: - minutos y - segundos
+
+Nombre: Christian Torres
+
+Edad: 20
+
+Distrito: Lince
+
+Resumen: El participante valoró la demo interactiva como la mejor manera de probar el software directamente sin compromisos de instalación de hardware. Afirmó que la sección "Validar consumo" es muy útil para llevar cuentas claras del gasto de luz en el departamento y que la sección "Impacto de recomendaciones" muestra un indicador de ahorro semanal directo. Indicó que la alerta de "Horario de hora punta" le ayudará a regular el uso de aparatos pesados en ese periodo y que el tutorial de "Introducción al sistema" es sumamente directo y comprensible en pocos pasos.
+
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
