@@ -648,6 +648,16 @@ En conjunto, los resultados permiten validar las hipótesis planteadas para esta
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+| Prioridad (1,2,3,5,8) | ID | Pregunta                                                                      |
+|-----------------------| -- | ----------------------------------------------------------------------------- |
+| 1                     | Q1 | ¿La instalación del smart meter reduce la adopción del sistema?               |
+| 1                     | Q2 | ¿Los usuarios confían en los datos generados por el EMS?                      |
+| 2                     | Q3 | ¿Las recomendaciones personalizadas generan reducción de consumo energético?  |
+| 3                     | Q4 | ¿Las alertas de consumo en tiempo real modifican el uso de electrodomésticos? |
+| 5                     | Q5 | ¿Los usuarios entienden el consumo mostrado en kWh y gráficos del EMS?        |
+| 8                     | Q6 | ¿Un modo demo sin hardware incrementa la intención de uso?                    |
+
+
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
