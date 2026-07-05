@@ -449,33 +449,18 @@ Las entrevistas están dirigidas a los mismos segmentos objetivo: propietarios d
 
 #### 8.3.4.2. Registro de Entrevistas.
 
+Link del Video: https://shorturl.at/7BcSC
+
 **ENTREVISTAS SEGMENTO OBJETIVO 1: PROPIETARIOS DE VIVIENDA**
 
 **ENTREVISTA 1**
 
-![TOBEVALIDATION-1-Propietario.png](../../assets/capitulo-2/TOBEVALIDATION-1-Propietario.png)
+![TOBEVALIDATION-1-Propietario.png](../../assets/capitulo-8/TOBEVALIDATION-1-Propietario.png)
 
 
 Inicia: 0 minutos y 0 segundos
 
-Duración: - minutos y - segundos
-
-Nombre: Juan Carlos Mendoza
-
-Edad: 45 años
-
-Distrito: Surco
-
-Resumen: El participante evaluó la facilidad de ingreso a la demo interactiva mediante el botón "Probar ahora", indicando que agiliza la toma de decisiones al eliminar la barrera del registro inicial. Validó positivamente la función "Validar consumo" al notar una correlación del 96% entre el recibo físico y la estimación del sistema. Asimismo, afirmó que el gráfico de "Impacto de recomendaciones" y el "Horario de hora punta" en la sección de alertas son herramientas intuitivas que le motivarían a reordenar el uso de sus dispositivos de alto consumo para ahorrar costos. Destacó que el tutorial de "Introducción al sistema" es claro y evita la necesidad de soporte técnico.
-
-
-**ENTREVISTA 2**
-
-![TOBEVALIDATION-2-Propietario.png](../../assets/capitulo-2/TOBEVALIDATION-2-Propietario.png)
-
-Inicia:  - minutos y - segundos
-
-Duración:  - minutos y - segundos
+Duración: 7 minutos y 5 segundos
 
 Nombre: Martha Araujo
 
@@ -486,16 +471,32 @@ Distrito: Miraflores
 Resumen: La propietaria destacó la velocidad de acceso a la demo interactiva sin registrarse como un acierto para la experiencia de usuario. Mencionó que la comparación del recibo en "Validar consumo" le dio seguridad sobre la precisión del sistema al alinearse con la medición de Enel. Validó positivamente el gráfico de "Impacto de recomendaciones" por su claridad visual. Afirmó que la alerta en el "Horario de hora punta" le resultará muy útil para pausar electrodomésticos grandes como la lavadora y que el tutorial interactivo es directo y resuelve cualquier duda de usabilidad.
 
 
+**ENTREVISTA 2**
+
+![TOBEVALIDATION-2-Propietario.png](../../assets/capitulo-8/TOBEVALIDATION-2-Propietario.png)
+
+Inicia:  7 minutos y 5 segundos
+
+Duración:  3 minutos y 5 segundos
+
+Nombre: Juan Carlos Mendoza
+
+Edad: 45 años
+
+Distrito: Surco
+
+Resumen: El participante evaluó la facilidad de ingreso a la demo interactiva mediante el botón "Probar ahora", indicando que agiliza la toma de decisiones al eliminar la barrera del registro inicial. Validó positivamente la función "Validar consumo" al notar una correlación del 93% entre el recibo físico y la estimación del sistema. Asimismo, afirmó que el gráfico de "Impacto de recomendaciones" y el "Horario de hora punta" en la sección de alertas son herramientas intuitivas que le motivarían a reordenar el uso de sus dispositivos de alto consumo para ahorrar costos. Destacó que el tutorial de "Introducción al sistema" es claro y evita la necesidad de soporte técnico.
+
 **ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
 
 **ENTREVISTA 1**
 
-![TOBEVALIDATION-1-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-1-Estudiante.jpeg)
+![TOBEVALIDATION-1-Estudiante.jpeg](../../assets/capitulo-8/TOBEVALIDATION-1-Estudiante.png)
 
 
-Inicia: - minutos y - segundos
+Inicia: 0 minutos y 0 segundos
 
-Duración: - minutos y - segundos
+Duración: 2 minutos y 24 segundos
 
 Nombre: Roberto Flores
 
@@ -508,12 +509,12 @@ Resumen: El estudiante indicó que la demo sin hardware es excelente para person
 
 **ENTREVISTA 2**
 
-![TOBEVALIDATION-2-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-2-Estudiante.jpeg)
+![TOBEVALIDATION-2-Estudiante.jpeg](../../assets/capitulo-8/TOBEVALIDATION-2-Estudiante.png)
 
 
 Inicia: - minutos y - segundos
 
-Duración: - minutos y - segundos
+Duración: 5 minutos y 1 segundo
 
 Nombre: Daniela Gómez
 
@@ -526,7 +527,7 @@ Resumen: La participante validó la conveniencia de probar la aplicación median
 
 **ENTREVISTA 3**
 
-![TOBEVALIDATION-3-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-3-Estudiante.jpeg)
+![TOBEVALIDATION-3-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-3-Estudiante.png)
 
 
 Inicia: - minutos y - segundos
