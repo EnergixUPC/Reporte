@@ -440,9 +440,8 @@ Se presentan los analíticos de contribución de GitHub para los tres repositori
 ## 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
-
 El prototipo interactivo desarrollado en **Figma** refleja las interfaces y soluciones propuestas, diseñadas con base en las necesidades y expectativas de los usuarios. Este artefacto muestra cómo el equipo iteró y ajustó los elementos visuales y funcionales durante el proceso de diseño.
-
+![imagen FIgma](../../assets/capitulo-8/Figma8.5.png)
 **Enlace Figma:** [Acceder al diseño en Figma](https://tinyurl.com/FigmaEnergix)
 
 ## 8.6. To-Be Software Platform Pre-launch
