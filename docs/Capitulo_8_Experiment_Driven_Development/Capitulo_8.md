@@ -442,3 +442,11 @@ Se presentan los analíticos de contribución de GitHub para los tres repositori
 
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
+
+El siguiente video presenta EMS, la solución desarrollada por el equipo Energix para transformar la forma en que los hogares gestionan su consumo energético. A través de este video se podrá conocer las principales funcionalidades del producto: el dashboard de consumo eléctrico, el sistema de alertas en horas pico, el motor de recomendaciones personalizadas, la sección de validación de datos frente al recibo eléctrico real, y el modo demo que permite explorar la plataforma sin necesidad de instalar hardware. Todo ello refleja los experimentos validados durante el ciclo de desarrollo, confirmando el valor que EMS genera para sus usuarios.
+
+**Video About the Product - Youtube:** https://www.youtube.com/watch?v=x35kjae2CKE
+
+**Video About the Product - OneDrive:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312557_upc_edu_pe/IQBVKiLDyLuqRoNC4OPnXwQaAbi_7Zjs5w9uCaaUzZud3E0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cMHeaO
+
+![AboutTheProduct.png](../../assets/capitulo-8/AboutTheProduct.png)
