@@ -430,12 +430,221 @@ Se presentan los analíticos de contribución de GitHub para los tres repositori
 
 
 ### 8.3.4. To-Be Validation Interviews
+Las entrevistas de validación del Capítulo VIII están diseñadas para evaluar las
+nuevas funcionalidades experimentales implementadas a partir de las hipótesis definidas
+Las entrevistas están dirigidas a los mismos segmentos objetivo: propietarios de vivienda y estudiantes que alquilan
 #### 8.3.4.1. Diseño de Entrevistas.
+
+**Preguntas para Segmento #1: Propietarios de Vivienda**
+
+1. ¿El botón "Probar ahora" en la Landing Page facilitó que pudieras explorar la plataforma en el modo demo (con datos simulados) de forma inmediata y sin registrarte?
+2. ¿Ver el funcionamiento de la plataforma con datos simulados en la demo te convenció para registrarte posteriormente con una cuenta real?
+3. ¿Poder ingresar el monto de tu recibo físico en la sección "Validar consumo" y compararlo con el consumo estimado del sistema aumenta tu confianza en la precisión de la plataforma?
+4. ¿El gráfico comparativo de la sección "Impacto de recomendaciones" te muestra de forma clara e intuitiva el ahorro que has logrado en soles y kWh?
+5. ¿Poder configurar el "Horario de hora punta" (18:00 - 23:00) bajo Configuración y recibir alertas te motivaría a trasladar el uso de tus electrodomésticos a horarios de menor tarifa?
+6. ¿El tutorial interactivo "Introducción al sistema" (disponible en Tutoriales y Guías) fue claro y te ayudó a interpretar los gráficos de consumo en kWh sin asistencia técnica?
+
+**Preguntas para Segmento #2: Estudiantes que Alquilan**
+
+1. Como estudiante que alquila, ¿poder probar la plataforma en modo demo (con el botón "Probar ahora" de la Landing) sin instalar un dispositivo físico en tu cuarto fue decisivo para motivarte a usarla?
+2. ¿La información y los gráficos simulados de la demo te resultaron útiles y suficientes para comprender el beneficio de la aplicación antes de crear una cuenta?
+3. Si compartes gastos con compañeros de cuarto, ¿comparar tu recibo de luz en "Validar consumo" te serviría para hacer una división del cobro más transparente y justa?
+4. ¿El gráfico en la sección "Impacto de recomendaciones" te ayuda a visualizar fácilmente si tus esfuerzos de ahorro (como apagar tu laptop o luces) reducen el consumo en kWh?
+5. ¿Recibir alertas basadas en el "Horario de hora punta" te convencería de programar el uso de tus dispositivos de estudio o cocina fuera de ese rango de mayor costo?
+6. ¿El tutorial "Introducción al sistema" que se abre desde Configuración aclaró tus dudas y te permitió comprender el dashboard de forma autónoma?
+
 #### 8.3.4.2. Registro de Entrevistas.
+
+Link del Video: https://shorturl.at/7BcSC
+
+**ENTREVISTAS SEGMENTO OBJETIVO 1: PROPIETARIOS DE VIVIENDA**
+
+**ENTREVISTA 1**
+
+![TOBEVALIDATION-1-Propietario.png](../../assets/capitulo-8/TOBEVALIDATION-1-Propietario.png)
+
+
+Inicia: 0 minutos y 0 segundos
+
+Duración: 7 minutos y 5 segundos
+
+Nombre: Martha Araujo
+
+Edad:  52
+
+Distrito: Miraflores
+
+Resumen: La propietaria destacó la velocidad de acceso a la demo interactiva sin registrarse como un acierto para la experiencia de usuario. Mencionó que la comparación del recibo en "Validar consumo" le dio seguridad sobre la precisión del sistema al alinearse con la medición de Enel. Validó positivamente el gráfico de "Impacto de recomendaciones" por su claridad visual. Afirmó que la alerta en el "Horario de hora punta" le resultará muy útil para pausar electrodomésticos grandes como la lavadora y que el tutorial interactivo es directo y resuelve cualquier duda de usabilidad.
+
+
+**ENTREVISTA 2**
+
+![TOBEVALIDATION-2-Propietario.png](../../assets/capitulo-8/TOBEVALIDATION-2-Propietario.png)
+
+Inicia:  7 minutos y 5 segundos
+
+Duración:  3 minutos y 5 segundos
+
+Nombre: Juan Carlos Mendoza
+
+Edad: 45 años
+
+Distrito: Surco
+
+Resumen: El participante evaluó la facilidad de ingreso a la demo interactiva mediante el botón "Probar ahora", indicando que agiliza la toma de decisiones al eliminar la barrera del registro inicial. Validó positivamente la función "Validar consumo" al notar una correlación del 93% entre el recibo físico y la estimación del sistema. Asimismo, afirmó que el gráfico de "Impacto de recomendaciones" y el "Horario de hora punta" en la sección de alertas son herramientas intuitivas que le motivarían a reordenar el uso de sus dispositivos de alto consumo para ahorrar costos. Destacó que el tutorial de "Introducción al sistema" es claro y evita la necesidad de soporte técnico.
+
+**ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
+
+**ENTREVISTA 1**
+
+![TOBEVALIDATION-1-Estudiante.jpeg](../../assets/capitulo-8/TOBEVALIDATION-1-Estudiante.png)
+
+
+Inicia: 0 minutos y 0 segundos
+
+Duración: 2 minutos y 46 segundos
+
+Nombre: Roberto Flores
+
+Edad: 23
+
+Distrito: Ate
+
+Resumen: El estudiante indicó que la demo sin hardware es excelente para personas que no pueden hacer modificaciones en sus cuartos alquilados. Comentó que la estimación y desglose de consumo por aparatos le permiten visualizar con claridad sus gastos. Validó que la función de "Validar consumo" es de gran utilidad para transparentar la división del recibo con sus compañeros de cuarto. Comentó que el gráfico de "Impacto de recomendaciones" y las alertas del "Horario de hora punta" incentivan la formación de hábitos de ahorro eficientes en sus dispositivos de estudio, y calificó el tutorial como un recurso rápido que resuelve dudas al instante.
+
+
+**ENTREVISTA 2**
+
+![TOBEVALIDATION-2-Estudiante.jpeg](../../assets/capitulo-8/TOBEVALIDATION-2-Estudiante.png)
+
+
+Inicia: 2 minutos y 46 segundos
+
+Duración: 5 minutos y 1 segundo
+
+Nombre: Daniela Gómez
+
+Edad: 21
+
+Distrito: San Miguel
+
+Resumen: La participante validó la conveniencia de probar la aplicación mediante la demo sin registros. Indicó que la sección "Validar consumo" le permite contrastar de manera directa el cobro del casero con sus consumos reales, asegurando una división justa con los roomies. Afirmó que el gráfico de "Impacto de recomendaciones" ayuda a medir el ahorro semanal y que las notificaciones del "Horario de hora punta" le facilitarán programar el uso de sus dispositivos de estudio antes de las 18:00 horas. Además, valoró positivamente la brevedad y sencillez del tutorial de inducción.
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
+
+Las entrevistas de validación tuvieron como objetivo evaluar la aceptación y efectividad de las nuevas funcionalidades implementadas en la plataforma a partir de las hipótesis planteadas durante el desarrollo del proyecto. Estas entrevistas se realizaron con los dos segmentos objetivo: propietarios de vivienda y estudiantes que alquilan, quienes interactuaron con las nuevas características del sistema y compartieron su percepción sobre su utilidad, facilidad de uso y aporte a la experiencia de usuario.
+
+Las preguntas fueron diseñadas para analizar aspectos relacionados con la accesibilidad de la plataforma, la confianza en las estimaciones de consumo, la claridad de las visualizaciones, la utilidad de las alertas inteligentes y la comprensión del sistema mediante el tutorial interactivo. Los resultados obtenidos permitieron identificar el nivel de aceptación de cada funcionalidad y verificar si estas responden adecuadamente a las necesidades de los usuarios, proporcionando información valiosa para la mejora continua de la plataforma.
+
+### **Preguntas Formuladas**
+
+1. ¿El botón "Probar ahora" facilitó explorar la plataforma sin necesidad de registrarse?
+2. ¿La experiencia del modo demo motivó el registro posterior en la plataforma?
+3. ¿La funcionalidad "Validar consumo" incrementa la confianza en la precisión de las estimaciones del sistema?
+4. ¿El gráfico de "Impacto de recomendaciones" permite comprender fácilmente el ahorro obtenido?
+5. ¿Las alertas configurables del "Horario de hora punta" incentivarían cambios en los hábitos de consumo eléctrico?
+6. ¿El tutorial interactivo "Introducción al sistema" facilita el aprendizaje y comprensión de la plataforma?
+
+Estas preguntas fueron respondidas por cinco participantes pertenecientes a los segmentos objetivo: dos propietarios de vivienda y tres estudiantes que alquilan. A continuación, se presentan los resultados obtenidos.
+
+### **Análisis de Datos Demográficos**
+
+**Distribución de participantes**
+
+Las entrevistas fueron realizadas a cinco usuarios pertenecientes al público objetivo del proyecto.
+
+- **Propietarios de vivienda**: 2 participantes (40%).
+- **Estudiantes que alquilan**: 3 participantes (60%).
+
+**Distribución de edades**
+
+Las edades de los participantes oscilaron entre 20 y 52 años.
+
+- 20-23 años: 60%
+- 45-52 años: 40%
+
+Los resultados muestran que la plataforma resulta comprensible tanto para usuarios jóvenes como para propietarios con mayor experiencia en la administración de gastos del hogar.
+
+### **Evaluación de Funcionalidades**
+
+**Modo Demo ("Probar ahora")**
+
+La totalidad de los participantes valoró positivamente la posibilidad de acceder al sistema mediante el botón "Probar ahora", destacando que elimina la necesidad de crear una cuenta antes de conocer el funcionamiento de la plataforma.
+
+Los propietarios consideraron que esta característica agiliza la toma de decisiones, mientras que los estudiantes resaltaron que pueden probar el sistema sin instalar dispositivos físicos en una vivienda alquilada.
+
+**Resultado observado**: aceptación del 100%.
+
+**Registro posterior al uso del Demo**
+
+Los participantes indicaron que experimentar previamente las funcionalidades mediante datos simulados incrementa la confianza en el producto y aumenta la intención de registrarse posteriormente con una cuenta real.
+
+Esta funcionalidad reduce la incertidumbre inicial y facilita la adopción de la plataforma.
+
+**Resultado observado**: aceptación del 100%.
+
+**Función "Validar consumo"**
+
+Todos los entrevistados consideraron que comparar el recibo físico con la estimación generada por el sistema incrementa significativamente la confianza en la precisión de los resultados.
+
+Los propietarios destacaron la similitud entre la estimación del sistema y el consumo registrado por la empresa eléctrica, mientras que los estudiantes valoraron esta función como una herramienta útil para realizar una distribución más justa del recibo de electricidad entre compañeros de vivienda.
+
+**Resultado observado**: aceptación del 100%.
+
+**Impacto de recomendaciones**
+
+Los cinco participantes afirmaron que el gráfico comparativo permite visualizar de forma sencilla el ahorro conseguido tanto en consumo energético (kWh) como en costo económico (soles).
+
+Los estudiantes señalaron que el gráfico facilita el seguimiento semanal de sus hábitos de ahorro, mientras que los propietarios destacaron su utilidad para evaluar la efectividad de las recomendaciones ofrecidas por la plataforma.
+
+**Resultado observado**: aceptación del 100%.
+
+**Alertas de Horario de Hora Punta**
+
+Todos los entrevistados indicaron que recibir notificaciones durante el horario de mayor tarifa constituye un incentivo para modificar los hábitos de consumo eléctrico.
+
+Los propietarios manifestaron que reorganizarían el uso de electrodomésticos de alto consumo, como lavadoras y otros equipos eléctricos, mientras que los estudiantes mencionaron que programarían el uso de dispositivos de estudio y cocina fuera del horario punta.
+
+**Resultado observado**: aceptación del 100%.
+
+**Tutorial "Introducción al sistema"**
+
+La totalidad de los participantes calificó positivamente el tutorial interactivo, indicando que facilita la comprensión de los gráficos y del funcionamiento general de la plataforma sin requerir asistencia técnica.
+
+Los entrevistados coincidieron en que la información presentada es breve, clara y suficiente para comenzar a utilizar el sistema.
+
+**Resultado observado**: aceptación del 100%.
+
+### **Recomendaciones de los Usuarios**
+
+Durante las entrevistas también se identificaron aspectos que los participantes consideran especialmente valiosos para futuras versiones de la plataforma:
+
+- Mantener disponible el modo demo sin necesidad de registro.
+- Conservar la funcionalidad "Validar consumo", ya que incrementa la confianza en las estimaciones del sistema.
+- Continuar mostrando el ahorro mediante gráficos comparativos fáciles de interpretar.
+- Mantener las alertas configurables de Horario de Hora Punta para promover hábitos de consumo responsables.
+- Ampliar el contenido del tutorial con ejemplos adicionales sobre interpretación de gráficos y recomendaciones de ahorro energético.
+
+### **Conclusión**
+
+Los resultados de las entrevistas de validación evidencian una aceptación muy favorable de las nuevas funcionalidades implementadas en la plataforma. Tanto los propietarios de vivienda como los estudiantes que alquilan coincidieron en que el modo demo facilita la adopción inicial del sistema, mientras que la función "Validar consumo" fortalece la confianza en las estimaciones realizadas.
+
+Asimismo, el gráfico de "Impacto de recomendaciones", las alertas del Horario de Hora Punta y el tutorial interactivo fueron percibidos como herramientas útiles que mejoran la experiencia del usuario y favorecen la adopción de hábitos de consumo energético más eficientes.
+
+En conjunto, los resultados permiten validar las hipótesis planteadas para estas funcionalidades y respaldan su incorporación dentro de la versión final de la plataforma, evidenciando un alto nivel de aceptación por parte de ambos segmentos objetivo.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| Prioridad (1,2,3,5,8) | ID | Pregunta                                                                      |
+|-----------------------| -- | ----------------------------------------------------------------------------- |
+| 1                     | Q1 | ¿La instalación del smart meter reduce la adopción del sistema?               |
+| 1                     | Q2 | ¿Los usuarios confían en los datos generados por el EMS?                      |
+| 2                     | Q3 | ¿Las recomendaciones personalizadas generan reducción de consumo energético?  |
+| 3                     | Q4 | ¿Las alertas de consumo en tiempo real modifican el uso de electrodomésticos? |
+| 5                     | Q5 | ¿Los usuarios entienden el consumo mostrado en kWh y gráficos del EMS?        |
+| 8                     | Q6 | ¿Un modo demo sin hardware incrementa la intención de uso?                    |
+
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
