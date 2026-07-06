@@ -496,7 +496,7 @@ Resumen: El participante evaluó la facilidad de ingreso a la demo interactiva m
 
 Inicia: 0 minutos y 0 segundos
 
-Duración: 2 minutos y 24 segundos
+Duración: 2 minutos y 46 segundos
 
 Nombre: Roberto Flores
 
@@ -512,7 +512,7 @@ Resumen: El estudiante indicó que la demo sin hardware es excelente para person
 ![TOBEVALIDATION-2-Estudiante.jpeg](../../assets/capitulo-8/TOBEVALIDATION-2-Estudiante.png)
 
 
-Inicia: - minutos y - segundos
+Inicia: 2 minutos y 46 segundos
 
 Duración: 5 minutos y 1 segundo
 
@@ -523,25 +523,6 @@ Edad: 21
 Distrito: San Miguel
 
 Resumen: La participante validó la conveniencia de probar la aplicación mediante la demo sin registros. Indicó que la sección "Validar consumo" le permite contrastar de manera directa el cobro del casero con sus consumos reales, asegurando una división justa con los roomies. Afirmó que el gráfico de "Impacto de recomendaciones" ayuda a medir el ahorro semanal y que las notificaciones del "Horario de hora punta" le facilitarán programar el uso de sus dispositivos de estudio antes de las 18:00 horas. Además, valoró positivamente la brevedad y sencillez del tutorial de inducción.
-
-
-**ENTREVISTA 3**
-
-![TOBEVALIDATION-3-Estudiante.jpeg](../../assets/capitulo-2/TOBEVALIDATION-3-Estudiante.png)
-
-
-Inicia: - minutos y - segundos
-
-Duración: - minutos y - segundos
-
-Nombre: Christian Torres
-
-Edad: 20
-
-Distrito: Lince
-
-Resumen: El participante valoró la demo interactiva como la mejor manera de probar el software directamente sin compromisos de instalación de hardware. Afirmó que la sección "Validar consumo" es muy útil para llevar cuentas claras del gasto de luz en el departamento y que la sección "Impacto de recomendaciones" muestra un indicador de ahorro semanal directo. Indicó que la alerta de "Horario de hora punta" le ayudará a regular el uso de aparatos pesados en ese periodo y que el tutorial de "Introducción al sistema" es sumamente directo y comprensible en pocos pasos.
-
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
