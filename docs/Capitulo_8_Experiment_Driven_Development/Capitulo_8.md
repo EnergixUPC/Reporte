@@ -502,13 +502,13 @@ Resumen: El participante evaluó la facilidad de ingreso a la demo interactiva m
 
 Inicia: 0 minutos y 0 segundos
 
-Duración: 2 minutos y 46 segundos
+Duración: 6 minutos y 36 segundos
 
-Nombre: Roberto Flores
+Nombre: Cristina Torres
 
-Edad: 23
+Edad: 20
 
-Distrito: Ate
+Distrito: Lince
 
 Resumen: El estudiante indicó que la demo sin hardware es excelente para personas que no pueden hacer modificaciones en sus cuartos alquilados. Comentó que la estimación y desglose de consumo por aparatos le permiten visualizar con claridad sus gastos. Validó que la función de "Validar consumo" es de gran utilidad para transparentar la división del recibo con sus compañeros de cuarto. Comentó que el gráfico de "Impacto de recomendaciones" y las alertas del "Horario de hora punta" incentivan la formación de hábitos de ahorro eficientes en sus dispositivos de estudio, y calificó el tutorial como un recurso rápido que resuelve dudas al instante.
 
@@ -518,7 +518,7 @@ Resumen: El estudiante indicó que la demo sin hardware es excelente para person
 ![TOBEVALIDATION-2-Estudiante.jpeg](../../assets/capitulo-8/TOBEVALIDATION-2-Estudiante.png)
 
 
-Inicia: 2 minutos y 46 segundos
+Inicia: 6 minutos y 40 segundos
 
 Duración: 5 minutos y 1 segundo
 
